@@ -9,13 +9,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WaitUtil {
-	public void waitForOneElement(WebDriver driver, WebElement element,int seconds) {
+	public static void waitForOneElement(WebDriver driver, WebElement element,int seconds) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
  
-	public void waitForMultipleElement(WebDriver driver, List<WebElement> elements) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+	public static void waitForMultipleElement(WebDriver driver, List<WebElement> elements,int seconds) {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
 		wait.until(ExpectedConditions.visibilityOfAllElements(elements));
 	}
 }
