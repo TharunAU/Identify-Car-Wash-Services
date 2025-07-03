@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.testng.annotations.Test;
 
-import pageObjects.HomePage;
-import pageObjects.SearchResultPageCarWash;
+import pages.HomePage;
+import pages.SearchResultPageCarWash;
 import testBase.BaseClass;
 
 public class TC001_CarWashServices extends BaseClass{

@@ -1,9 +1,10 @@
 package testCases;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pageObjects.FreeListingPhoneNumberPage;
-import pageObjects.HomePage;
+import pages.FreeListingPhoneNumberPage;
+import pages.HomePage;
 import testBase.BaseClass;
 
 public class TC002_FreeListing extends BaseClass{
@@ -22,6 +23,13 @@ public class TC002_FreeListing extends BaseClass{
 		String Message = freelisting.getErrorMessage();
 		
 		System.out.println("The Error Message is: "+Message);
+		
+		if(Message.equalsIgnoreCase("Please Enter a Valid Mobile Number")) {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.fail();
+		}
 		
 	}
 	
