@@ -5,13 +5,13 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC001_CarWashServices">
+      <class name="testCases.TC009_MovieBookingDetails">
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="carWashServices"/>
+          <include name="MovieBookingDetails"/>
         </methods>
-      </class> <!-- testCases.TC001_CarWashServices -->
+      </class> <!-- testCases.TC009_MovieBookingDetails -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
