@@ -14,14 +14,8 @@ public class SearchResultPageHostels extends BasePage {
 	}
 
 	// locators
-	@FindBy(xpath = "(//button[starts-with(@class, 'jsx') and contains(@class, 'resfilter_item')])[2]")
-	WebElement topRatingsFilter;
-
-	@FindBy(xpath = "(//button[starts-with(@class, 'jsx') and contains(@class, 'resfilter_item')])[4]")
-	WebElement jdVerifiedFilter;
-
-	@FindBy(xpath = "(//button[starts-with(@class, 'jsx') and contains(@class, 'resfilter_item')])[6]")
-	WebElement jdTrustFilter;
+	@FindBy(xpath="//button[starts-with(@class, 'jsx') and contains(@class, 'resfilter_item')]")
+	List<WebElement> filterList;
 
 	@FindBy(xpath = "//div[contains(@class, 'resultbox_textbox')]")
 	List<WebElement> hotelSearchResults;
@@ -33,16 +27,13 @@ public class SearchResultPageHostels extends BasePage {
 	List<WebElement> hotelNameList;
 
 	// actions
-	public void clickTopRatingFilter() {
-		topRatingsFilter.click();
-	}
-
-	public void clickJdVerifiedFilter() {
-		jdVerifiedFilter.click();
-	}
-
-	public void clickJdTrustFilter() {
-		jdTrustFilter.click();
+	public void selectFilter(String filterOption) {
+		for(WebElement x:filterList) {
+			if(x.getText().contains(filterOption)) {
+				x.click();
+				break;
+			}
+		}
 	}
 
 	public List<String> getHotelResultList() {

@@ -32,7 +32,7 @@ public class SearchResultMoviePage extends BasePage {
 	public void waitUntilMovieNameToAppear() {
 		WaitUtil.waitForOneElement(driver, movieName, 10);
 	}
-	
+
 	public String getMovieName() {
 		return movieName.getText();
 	}
@@ -46,6 +46,7 @@ public class SearchResultMoviePage extends BasePage {
 			}
 			details.add("\nTheatre Name: " + theatresAvailable.get(i).getText() + "\nLocation Name: "
 					+ locationsAvailable.get(i).getText() + "\nShow Timings: " + showTimings.get(i).getText());
+			count++;
 		}
 		return details;
 	}

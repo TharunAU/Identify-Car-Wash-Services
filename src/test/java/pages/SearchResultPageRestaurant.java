@@ -14,17 +14,11 @@ public class SearchResultPageRestaurant extends BasePage{
 	}
 	
 	//locators
-	@FindBy(xpath="(//button[starts-with(@class, 'jsx') and contains(@class, 'resfilter_item')])[3]")
-	WebElement cuisineFilter;
+	@FindBy(xpath="//button[starts-with(@class, 'jsx') and contains(@class, 'resfilter_item')]")
+	List<WebElement> filterList;
 	
-	@FindBy(id="option-2")
-	WebElement southIndianDropDown;
-	
-	@FindBy(xpath="(//button[starts-with(@class, 'jsx') and contains(@class, 'resfilter_item')])[7]")
-	WebElement onlineOrderingFilter;
-	
-	@FindBy(xpath="(//button[starts-with(@class, 'jsx') and contains(@class, 'resfilter_item')])[8]")
-	WebElement openNowFilter;
+	@FindBy(xpath = "//li[starts-with(@id, 'option')]")
+	List<WebElement> cuisineOptions;
 	
 	@FindBy(xpath="//div[contains(@class, 'resultbox_textbox')]")
 	List<WebElement> restaurantSearchResults;
@@ -38,21 +32,23 @@ public class SearchResultPageRestaurant extends BasePage{
 	@FindBy(xpath="//li[starts-with(@class, 'resultbox_totalrate')]")
 	List<WebElement> ratings;
 	
-	//actions
-	public void clickCuisineFilter() {
-		cuisineFilter.click();
+	//actions	
+	public void selectFilter(String filterOption) {
+		for(WebElement x:filterList) {
+			if(x.getText().contains(filterOption)) {
+				x.click();
+				break;
+			}
+		}
 	}
 	
-	public void clickOnSouthIndianDropDown() {
-		southIndianDropDown.click();
-	}
-	
-	public void clickOnlineOrderFilter() {
-		onlineOrderingFilter.click();
-	}
-	
-	public void clickOpenNowFilter() {
-		openNowFilter.click();
+	public void setCuisine(String cuisine) {
+		for(WebElement x:cuisineOptions) {
+			if(x.getText().contains(cuisine)) {
+				x.click();
+				break;
+			}
+		}
 	}
 	
 	public List<String> getRestaurantSearchResults() {

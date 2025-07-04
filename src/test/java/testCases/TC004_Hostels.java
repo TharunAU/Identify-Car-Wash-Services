@@ -24,9 +24,9 @@ public class TC004_Hostels extends BaseClass{
 		
 		SearchResultPageHostels hostels = new SearchResultPageHostels(driver);
 		
-		hostels.clickTopRatingFilter();
-		hostels.clickJdVerifiedFilter();
-		hostels.clickJdTrustFilter();
+		hostels.selectFilter("Top Rated");
+		hostels.selectFilter("Verified");
+		hostels.selectFilter("Trust");
 		List<String> results = hostels.getHotelResultList();
 		for(String result:results) {
 			System.out.println(result);

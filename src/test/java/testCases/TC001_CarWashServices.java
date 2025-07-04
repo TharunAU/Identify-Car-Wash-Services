@@ -1,7 +1,6 @@
 package testCases;
 
 import java.util.List;
-import utilities.ExcelUtilityClass;
 
 import org.testng.annotations.Test;
 
@@ -25,8 +24,8 @@ public class TC001_CarWashServices extends BaseClass{
 		
 		SearchResultPageCarWash carWash = new SearchResultPageCarWash(driver);
 		
-		carWash.clickRating();
-		carWash.setRating();
+		carWash.selectFilter("Rating");
+		carWash.setRating("4");
 		List<String> results = carWash.getSearchResults();
 		
 		for(String values:results) {

@@ -16,11 +16,11 @@ public class SearchResultPageCarWash extends BasePage {
 	}
 
 	// locators
-	@FindBy(xpath = "(//button[starts-with(@class, 'jsx') and contains(@class, 'resfilter_item')])[7]")
-	WebElement ratings;
+	@FindBy(xpath="//button[starts-with(@class, 'jsx') and contains(@class, 'resfilter_item')]")
+	List<WebElement> filterList;
 
-	@FindBy(id = "option-2")
-	WebElement ratingOption4;
+	@FindBy(xpath = "//li[starts-with(@id, 'option')]")
+	List<WebElement> ratingOptions;
 
 	@FindBy(xpath = "//div[starts-with(@class, 'jsx') and contains(@class, 'resultbox_textbox')]")
 	List<WebElement> searchResults;
@@ -35,12 +35,22 @@ public class SearchResultPageCarWash extends BasePage {
 	List<WebElement> peopleRatings;
 
 	// actions
-	public void clickRating() {
-		ratings.click();
+	public void selectFilter(String filterOption) {
+		for(WebElement x:filterList) {
+			if(x.getText().contains(filterOption)) {
+				x.click();
+				break;
+			}
+		}
 	}
 
-	public void setRating() {
-		ratingOption4.click();
+	public void setRating(String rating) {
+		for(WebElement x:ratingOptions) {
+			if(x.getText().contains(rating)) {
+				x.click();
+				break;
+			}
+		}
 	}
 
 	public List<String> getSearchResults() {

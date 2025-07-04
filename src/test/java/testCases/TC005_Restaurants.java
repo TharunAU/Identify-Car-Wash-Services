@@ -24,10 +24,10 @@ public class TC005_Restaurants extends BaseClass{
 		
 		SearchResultPageRestaurant restaurant = new SearchResultPageRestaurant(driver);
 		
-		restaurant.clickCuisineFilter();
-		restaurant.clickOnSouthIndianDropDown();
-		restaurant.clickOnlineOrderFilter();
-		restaurant.clickOpenNowFilter();
+		restaurant.selectFilter("Cuisines");
+		restaurant.setCuisine("South");
+		restaurant.selectFilter("Online");
+		restaurant.selectFilter("Open");
 		List<String> results = restaurant.getRestaurantSearchResults();
 		for(String result:results) {
 			System.out.println(result);

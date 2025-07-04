@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 
 import pages.HomePage;
 import testBase.BaseClass;
-import utilities.DataProviders;
 
 public class TC003_GymSubMenuList extends BaseClass{
 	
@@ -16,7 +15,7 @@ public class TC003_GymSubMenuList extends BaseClass{
 		HomePage homePage = new HomePage(driver);
 		
 		homePage.clickMayBeLaterButton();
-		homePage.clickFitnessButton();
+		homePage.setSubMenu("Fitness");
 		List<String> gymSubMenuList = homePage.getGymSubMenuList();
 		for(int i=0;i<gymSubMenuList.size();i++) {
 			System.out.println((i+1)+". "+gymSubMenuList.get(i));

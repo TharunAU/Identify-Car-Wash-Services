@@ -41,8 +41,8 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//div[starts-with(@class, 'jd_floatbox')]/a[1]")
 	WebElement freeListingList;
 
-	@FindBy(xpath = "//button[contains(normalize-space(),'Fitness')]")
-	WebElement fitnessButton;
+	@FindBy(xpath = "//button[starts-with(@id,'tab')]")
+	List<WebElement> subMenu;
 
 	@FindBy(xpath = "//div[@id = 'panel4']//a")
 	List<WebElement> gymList;
@@ -62,17 +62,14 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//a[@title = 'Bus']")
 	WebElement busBookingButton;
 	
-<<<<<<< HEAD
 	@FindBy(xpath="//div[contains(@class, 'jsx-b5cc4760a1cb0f4') and contains(@class, 'dtlboxleft_headbox')]")
 	WebElement moviesSection;
 
 	// actions
-=======
 	@FindBy(xpath="//button[@id='hk_srchbtn']")
 	WebElement searchResultClose;
 	
 	//actions
->>>>>>> 4090dcccfcf35cd2b762923436ef583ff30aa7d4
 	public void clickMayBeLaterButton() {
 		WaitUtil.waitForOneElement(driver, mayBeLaterButton, 30);
 		mayBeLaterButton.click();
@@ -98,12 +95,17 @@ public class HomePage extends BasePage {
 		freeListingList.click();
 	}
 
-	public void clickFitnessButton() {
+	public void setSubMenu(String menu) {
 		for (int i = 0; i < 20; i++) {
 			try {
-				if (fitnessButton.isDisplayed()) {
-					js.executeScript("arguments[0].scrollIntoView({block: 'center'});", fitnessButton);
-					fitnessButton.click();
+				if (subMenu.get(0).isDisplayed()) {
+					js.executeScript("arguments[0].scrollIntoView({block: 'center'});", subMenu.get(0));
+					for(WebElement x:subMenu) {
+						if(x.getText().contains(menu)) {
+							x.click();
+							break;
+						}
+					}
 					break;
 				}
 			} catch (Exception e) {
@@ -148,7 +150,6 @@ public class HomePage extends BasePage {
 		searchButton.click();
 	}
 	
-<<<<<<< HEAD
 	public void clickBusBookingButton() {
 		busBookingButton.click();
 	}
@@ -157,10 +158,8 @@ public class HomePage extends BasePage {
 		moviesSection.click();
 	}
 
-=======
 	public void clickSearchResultClose() {
 		searchResultClose.click();
 	}
 	
->>>>>>> 4090dcccfcf35cd2b762923436ef583ff30aa7d4
 }
