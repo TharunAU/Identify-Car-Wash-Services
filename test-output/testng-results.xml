@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-03T15:30:21 IST" name="Suite" finished-at="2025-07-03T15:32:33 IST" duration-ms="131245">
+  <suite started-at="2025-07-04T10:37:14 IST" name="Suite" finished-at="2025-07-04T10:39:24 IST" duration-ms="129593">
     <groups>
     </groups>
-    <test started-at="2025-07-03T15:30:21 IST" name="Test" finished-at="2025-07-03T15:32:33 IST" duration-ms="131245">
+    <test started-at="2025-07-04T10:37:14 IST" name="Test" finished-at="2025-07-04T10:39:24 IST" duration-ms="129593">
       <class name="testCases.TC005_Restaurants">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_Restaurants@329dbdbf]" started-at="2025-07-03T15:31:57 IST" name="setup" finished-at="2025-07-03T15:32:03 IST" duration-ms="6694" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_Restaurants@5d9b7a8a]" started-at="2025-07-04T10:38:47 IST" name="setup" finished-at="2025-07-04T10:38:53 IST" duration-ms="6517" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,17 +23,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="restaurants()[pri:0, instance:testCases.TC005_Restaurants@329dbdbf]" started-at="2025-07-03T15:32:03 IST" name="restaurants" finished-at="2025-07-03T15:32:17 IST" duration-ms="13671" status="PASS">
+        <test-method signature="restaurants(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_Restaurants@5d9b7a8a]" started-at="2025-07-04T10:38:53 IST" name="restaurants" data-provider="TC005" finished-at="2025-07-04T10:39:06 IST" duration-ms="12242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saravanampatti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Restaurants]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- restaurants -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_Restaurants@329dbdbf]" started-at="2025-07-03T15:32:17 IST" name="tearDown" finished-at="2025-07-03T15:32:21 IST" duration-ms="3732" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_Restaurants@5d9b7a8a]" started-at="2025-07-04T10:39:06 IST" name="tearDown" finished-at="2025-07-04T10:39:11 IST" duration-ms="4856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC005_Restaurants -->
       <class name="testCases.TC003_GymSubMenuList">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_GymSubMenuList@4bd31064]" started-at="2025-07-03T15:31:02 IST" name="setup" finished-at="2025-07-03T15:31:09 IST" duration-ms="6811" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_GymSubMenuList@1cdc4c27]" started-at="2025-07-04T10:37:55 IST" name="setup" finished-at="2025-07-04T10:38:01 IST" duration-ms="6337" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,17 +61,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="gymSubMenuList()[pri:0, instance:testCases.TC003_GymSubMenuList@4bd31064]" started-at="2025-07-03T15:31:09 IST" name="gymSubMenuList" finished-at="2025-07-03T15:31:27 IST" duration-ms="18580" status="PASS">
+        <test-method signature="gymSubMenuList()[pri:0, instance:testCases.TC003_GymSubMenuList@1cdc4c27]" started-at="2025-07-04T10:38:01 IST" name="gymSubMenuList" finished-at="2025-07-04T10:38:19 IST" duration-ms="17500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gymSubMenuList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_GymSubMenuList@4bd31064]" started-at="2025-07-03T15:31:27 IST" name="tearDown" finished-at="2025-07-03T15:31:31 IST" duration-ms="4017" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_GymSubMenuList@1cdc4c27]" started-at="2025-07-04T10:38:19 IST" name="tearDown" finished-at="2025-07-04T10:38:23 IST" duration-ms="4246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC003_GymSubMenuList -->
       <class name="testCases.TC001_CarWashServices">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_CarWashServices@6736fa8d]" started-at="2025-07-03T15:30:21 IST" name="setup" finished-at="2025-07-03T15:30:30 IST" duration-ms="8317" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_CarWashServices@2dca0d64]" started-at="2025-07-04T10:37:14 IST" name="setup" finished-at="2025-07-04T10:37:21 IST" duration-ms="6982" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,17 +87,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="carWashServices()[pri:0, instance:testCases.TC001_CarWashServices@6736fa8d]" started-at="2025-07-03T15:30:30 IST" name="carWashServices" finished-at="2025-07-03T15:30:43 IST" duration-ms="13358" status="PASS">
+        <test-method signature="carWashServices(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_CarWashServices@2dca0d64]" started-at="2025-07-04T10:37:22 IST" name="carWashServices" data-provider="TC001" finished-at="2025-07-04T10:37:36 IST" duration-ms="13554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saravanampatti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Car Washing Services]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carWashServices -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_CarWashServices@6736fa8d]" started-at="2025-07-03T15:30:43 IST" name="tearDown" finished-at="2025-07-03T15:30:47 IST" duration-ms="3999" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_CarWashServices@2dca0d64]" started-at="2025-07-04T10:37:36 IST" name="tearDown" finished-at="2025-07-04T10:37:41 IST" duration-ms="4587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_CarWashServices -->
       <class name="testCases.TC006_CategorySearchResults">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_CategorySearchResults@7354b8c5]" started-at="2025-07-03T15:32:21 IST" name="setup" finished-at="2025-07-03T15:32:27 IST" duration-ms="6775" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC006_CategorySearchResults@1e8ce150]" started-at="2025-07-04T10:39:11 IST" name="setup" finished-at="2025-07-04T10:39:17 IST" duration-ms="6286" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,17 +125,72 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="categorySearchResults()[pri:0, instance:testCases.TC006_CategorySearchResults@7354b8c5]" started-at="2025-07-03T15:32:27 IST" name="categorySearchResults" finished-at="2025-07-03T15:32:30 IST" duration-ms="2414" status="PASS">
+        <test-method signature="categorySearch()[pri:1, instance:testCases.TC006_CategorySearchResults@1e8ce150]" started-at="2025-07-04T10:39:17 IST" name="categorySearch" finished-at="2025-07-04T10:39:18 IST" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categorySearch -->
+        <test-method signature="categorySearchResults(java.lang.String)[pri:2, instance:testCases.TC006_CategorySearchResults@1e8ce150]" started-at="2025-07-04T10:39:18 IST" name="categorySearchResults" data-provider="TC006" finished-at="2025-07-04T10:39:19 IST" duration-ms="1046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ac]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- categorySearchResults -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_CategorySearchResults@7354b8c5]" started-at="2025-07-03T15:32:30 IST" name="tearDown" finished-at="2025-07-03T15:32:33 IST" duration-ms="2643" status="PASS">
+        <test-method signature="categorySearchResults(java.lang.String)[pri:2, instance:testCases.TC006_CategorySearchResults@1e8ce150]" started-at="2025-07-04T10:39:19 IST" name="categorySearchResults" data-provider="TC006" finished-at="2025-07-04T10:39:19 IST" duration-ms="502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[car]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categorySearchResults -->
+        <test-method signature="categorySearchResults(java.lang.String)[pri:2, instance:testCases.TC006_CategorySearchResults@1e8ce150]" started-at="2025-07-04T10:39:19 IST" name="categorySearchResults" data-provider="TC006" finished-at="2025-07-04T10:39:20 IST" duration-ms="608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categorySearchResults -->
+        <test-method signature="categorySearchResults(java.lang.String)[pri:2, instance:testCases.TC006_CategorySearchResults@1e8ce150]" started-at="2025-07-04T10:39:20 IST" name="categorySearchResults" data-provider="TC006" finished-at="2025-07-04T10:39:20 IST" duration-ms="509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[scrap]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categorySearchResults -->
+        <test-method signature="categorySearchResults(java.lang.String)[pri:2, instance:testCases.TC006_CategorySearchResults@1e8ce150]" started-at="2025-07-04T10:39:20 IST" name="categorySearchResults" data-provider="TC006" finished-at="2025-07-04T10:39:21 IST" duration-ms="327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[computer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categorySearchResults -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC006_CategorySearchResults@1e8ce150]" started-at="2025-07-04T10:39:21 IST" name="tearDown" finished-at="2025-07-04T10:39:24 IST" duration-ms="3237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC006_CategorySearchResults -->
       <class name="testCases.TC004_Hostels">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_Hostels@e3c0e40]" started-at="2025-07-03T15:31:31 IST" name="setup" finished-at="2025-07-03T15:31:38 IST" duration-ms="6686" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_Hostels@77b14724]" started-at="2025-07-04T10:38:23 IST" name="setup" finished-at="2025-07-04T10:38:30 IST" duration-ms="6540" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,17 +206,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="hostels()[pri:0, instance:testCases.TC004_Hostels@e3c0e40]" started-at="2025-07-03T15:31:38 IST" name="hostels" finished-at="2025-07-03T15:31:51 IST" duration-ms="13068" status="PASS">
+        <test-method signature="hostels(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_Hostels@77b14724]" started-at="2025-07-04T10:38:30 IST" name="hostels" data-provider="TC004" finished-at="2025-07-04T10:38:42 IST" duration-ms="12562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saravanampatti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hostels]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hostels -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_Hostels@e3c0e40]" started-at="2025-07-03T15:31:51 IST" name="tearDown" finished-at="2025-07-03T15:31:57 IST" duration-ms="5391" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_Hostels@77b14724]" started-at="2025-07-04T10:38:42 IST" name="tearDown" finished-at="2025-07-04T10:38:47 IST" duration-ms="4570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC004_Hostels -->
       <class name="testCases.TC002_FreeListing">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_FreeListing@4d518b32]" started-at="2025-07-03T15:30:47 IST" name="setup" finished-at="2025-07-03T15:30:54 IST" duration-ms="6666" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_FreeListing@6e35bc3d]" started-at="2025-07-04T10:37:41 IST" name="setup" finished-at="2025-07-04T10:37:47 IST" duration-ms="6655" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -153,11 +244,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="freeListing()[pri:0, instance:testCases.TC002_FreeListing@4d518b32]" started-at="2025-07-03T15:30:54 IST" name="freeListing" finished-at="2025-07-03T15:30:59 IST" duration-ms="5628" status="PASS">
+        <test-method signature="freeListing(java.lang.String)[pri:0, instance:testCases.TC002_FreeListing@6e35bc3d]" started-at="2025-07-04T10:37:47 IST" name="freeListing" data-provider="TC002" finished-at="2025-07-04T10:37:52 IST" duration-ms="4440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0000000000]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- freeListing -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_FreeListing@4d518b32]" started-at="2025-07-03T15:30:59 IST" name="tearDown" finished-at="2025-07-03T15:31:02 IST" duration-ms="2683" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_FreeListing@6e35bc3d]" started-at="2025-07-04T10:37:52 IST" name="tearDown" finished-at="2025-07-04T10:37:55 IST" duration-ms="3349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

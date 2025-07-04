@@ -6,11 +6,12 @@ import org.testng.annotations.Test;
 import pages.FreeListingPhoneNumberPage;
 import pages.HomePage;
 import testBase.BaseClass;
+import utilities.DataProviders;
 
 public class TC002_FreeListing extends BaseClass{
 
-	@Test
-	public void freeListing() {
+	@Test(dataProvider = "TC002", dataProviderClass = DataProviders.class)
+	public void freeListing(String phoneNumber) {
 		
 		HomePage homePage = new HomePage(driver);
 		
@@ -18,7 +19,7 @@ public class TC002_FreeListing extends BaseClass{
 		
 		FreeListingPhoneNumberPage freelisting = new FreeListingPhoneNumberPage(driver);
 		
-		freelisting.setPhoneNumber("0000000000");
+		freelisting.setPhoneNumber(phoneNumber);
 		freelisting.clickStartNowButton();
 		String Message = freelisting.getErrorMessage();
 		

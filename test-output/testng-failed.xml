@@ -5,13 +5,14 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC001_CarWashServices">
+      <class name="testCases.TC006_CategorySearchResults">
         <methods>
+          <include name="categorySearch"/>
           <include name="tearDown"/>
+          <include name="categorySearchResults" invocation-numbers="0 1 2 3 4"/>
           <include name="setup"/>
-          <include name="carWashServices"/>
         </methods>
-      </class> <!-- testCases.TC001_CarWashServices -->
+      </class> <!-- testCases.TC006_CategorySearchResults -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

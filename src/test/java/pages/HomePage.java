@@ -56,6 +56,9 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//div[contains(@class,'sidemenu_text')]")
 	List<WebElement> searchResults;
 	
+	@FindBy(xpath="//button[@id='hk_srchbtn']")
+	WebElement searchResultClose;
+	
 	//actions
 	public void clickMayBeLaterButton() {
 		WaitUtil.waitForOneElement(driver, mayBeLaterButton, 30);
@@ -126,6 +129,10 @@ public class HomePage extends BasePage {
 			results.add(x.getText());
 		}
 		return results;
+	}
+	
+	public void clickSearchResultClose() {
+		searchResultClose.click();
 	}
 	
 }

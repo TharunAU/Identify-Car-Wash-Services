@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 import pages.HomePage;
 import testBase.BaseClass;
+import utilities.DataProviders;
 
 public class TC003_GymSubMenuList extends BaseClass{
 	
