@@ -3,13 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="testCases.TC009_MovieBookingDetails">
+=======
+      <class name="testCases.TC006_CategorySearchResults">
+>>>>>>> 4090dcccfcf35cd2b762923436ef583ff30aa7d4
         <methods>
+          <include name="categorySearch"/>
           <include name="tearDown"/>
+          <include name="categorySearchResults" invocation-numbers="0 1 2 3 4"/>
           <include name="setup"/>
+<<<<<<< HEAD
           <include name="MovieBookingDetails"/>
         </methods>
       </class> <!-- testCases.TC009_MovieBookingDetails -->
+=======
+        </methods>
+      </class> <!-- testCases.TC006_CategorySearchResults -->
+>>>>>>> 4090dcccfcf35cd2b762923436ef583ff30aa7d4
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

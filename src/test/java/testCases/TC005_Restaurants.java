@@ -7,18 +7,19 @@ import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.SearchResultPageRestaurant;
 import testBase.BaseClass;
+import utilities.DataProviders;
 
 public class TC005_Restaurants extends BaseClass{
 	
-	@Test
-	public void restaurants(){
+	@Test(dataProvider = "TC005", dataProviderClass = DataProviders.class)
+	public void restaurants(String city, String search){
 		
 		HomePage homePage = new HomePage(driver);
 		
 		homePage.clickMayBeLaterButton();
-		homePage.setLocationName("Saravanampatti");
+		homePage.setLocationName(city);
 		homePage.clickLocationFirstDropDown();
-		homePage.setSearch("Restaurants");
+		homePage.setSearch(search);
 		homePage.clickSearchFirstDropDown();
 		
 		SearchResultPageRestaurant restaurant = new SearchResultPageRestaurant(driver);

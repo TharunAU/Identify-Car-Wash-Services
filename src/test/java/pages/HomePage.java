@@ -62,10 +62,17 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//a[@title = 'Bus']")
 	WebElement busBookingButton;
 	
+<<<<<<< HEAD
 	@FindBy(xpath="//div[contains(@class, 'jsx-b5cc4760a1cb0f4') and contains(@class, 'dtlboxleft_headbox')]")
 	WebElement moviesSection;
 
 	// actions
+=======
+	@FindBy(xpath="//button[@id='hk_srchbtn']")
+	WebElement searchResultClose;
+	
+	//actions
+>>>>>>> 4090dcccfcf35cd2b762923436ef583ff30aa7d4
 	public void clickMayBeLaterButton() {
 		WaitUtil.waitForOneElement(driver, mayBeLaterButton, 30);
 		mayBeLaterButton.click();
@@ -141,6 +148,7 @@ public class HomePage extends BasePage {
 		searchButton.click();
 	}
 	
+<<<<<<< HEAD
 	public void clickBusBookingButton() {
 		busBookingButton.click();
 	}
@@ -149,4 +157,10 @@ public class HomePage extends BasePage {
 		moviesSection.click();
 	}
 
+=======
+	public void clickSearchResultClose() {
+		searchResultClose.click();
+	}
+	
+>>>>>>> 4090dcccfcf35cd2b762923436ef583ff30aa7d4
 }

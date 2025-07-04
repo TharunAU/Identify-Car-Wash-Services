@@ -1,24 +1,26 @@
 package testCases;
 
 import java.util.List;
+import utilities.ExcelUtilityClass;
 
 import org.testng.annotations.Test;
 
 import pages.HomePage;
 import pages.SearchResultPageCarWash;
 import testBase.BaseClass;
+import utilities.DataProviders;
 
 public class TC001_CarWashServices extends BaseClass{
 	
-	@Test
-	public void carWashServices() {
+	@Test(dataProvider = "TC001", dataProviderClass = DataProviders.class)
+	public void carWashServices(String city, String search) {
 		
 		HomePage homePage = new HomePage(driver);
 		
 		homePage.clickMayBeLaterButton();
-		homePage.setLocationName("Saravanampatti");
+		homePage.setLocationName(city);
 		homePage.clickLocationFirstDropDown();
-		homePage.setSearch("Car Washing Services");
+		homePage.setSearch(search);
 		homePage.clickSearchFirstDropDown();
 		
 		SearchResultPageCarWash carWash = new SearchResultPageCarWash(driver);
