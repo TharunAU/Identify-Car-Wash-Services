@@ -59,8 +59,8 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//div[contains(@class,'sidemenu_text')]")
 	List<WebElement> searchResults;
 
-	@FindBy(xpath = "//a[@title = 'Bus']")
-	WebElement busBookingButton;
+	@FindBy(xpath="//div[contains(@class, 'home_billtravel_li_img')]//following-sibling::div[1]")
+	List<WebElement> serviceMenu;
 	
 	@FindBy(xpath="//div[contains(@class, 'jsx-b5cc4760a1cb0f4') and contains(@class, 'dtlboxleft_headbox')]")
 	WebElement moviesSection;
@@ -125,6 +125,16 @@ public class HomePage extends BasePage {
 		}
 		return result;
 	}
+	
+	public void clickServiceMenu(String menu) {
+		for (WebElement x : serviceMenu) {
+			String value = x.getText();
+			if (value.contains(menu)) {
+				x.click();
+				break;
+			}
+		}
+	}
 
 	public void clickCloseButton() {
 		closeButton.click();
@@ -148,10 +158,6 @@ public class HomePage extends BasePage {
 
 	public void clickSearchButton() {
 		searchButton.click();
-	}
-	
-	public void clickBusBookingButton() {
-		busBookingButton.click();
 	}
 	
 	public void clickMoviesSection() {

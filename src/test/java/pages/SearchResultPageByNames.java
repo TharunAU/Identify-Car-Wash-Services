@@ -11,6 +11,9 @@ public class SearchResultPageByNames extends BasePage{
 	}
 	
 	//locators
+	@FindBy(xpath="//span[starts-with(@class, 'input_search_close')]")
+	WebElement closeButton;
+	
 	@FindBy(xpath="(//h3[contains(@class, 'jsx-7cbb814d75c86232') and contains(@class, 'font22')])[1]")
 	WebElement firstResultName;
 	
@@ -24,6 +27,10 @@ public class SearchResultPageByNames extends BasePage{
 	
 	public String getFirstResultLocation() {
 		return firstResultLocation.getText();
+	}
+	
+	public void clickCloseButton() {
+		closeButton.click();
 	}
 	
 }

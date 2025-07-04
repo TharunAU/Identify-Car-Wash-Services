@@ -25,6 +25,8 @@ public class TC007_SearchByNames extends BaseClass{
 		String location = names.getFirstResultLocation();
 		
 		System.out.println("\nName: "+name+"\nLocation: "+location);
+		
+		names.clickCloseButton();
 	}
 	
 }

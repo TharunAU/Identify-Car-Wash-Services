@@ -16,7 +16,8 @@ public class TC008_BusBooking extends BaseClass {
 
 		HomePage homePage = new HomePage(driver);
 
-		homePage.clickBusBookingButton();
+		homePage.clickMayBeLaterButton();
+		homePage.clickServiceMenu("Bus");
 
 		BusBookingPage busBook = new BusBookingPage(driver);
 

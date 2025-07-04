@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-04T16:05:22 IST" name="Suite" finished-at="2025-07-04T16:05:45 IST" duration-ms="22361">
+  <suite started-at="2025-07-04T17:00:14 IST" name="Suite" finished-at="2025-07-04T17:00:39 IST" duration-ms="24182">
     <groups>
     </groups>
-    <test started-at="2025-07-04T16:05:22 IST" name="Test" finished-at="2025-07-04T16:05:45 IST" duration-ms="22361">
-      <class name="testCases.TC005_Restaurants">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_Restaurants@42b3b079]" started-at="2025-07-04T16:05:22 IST" name="setup" finished-at="2025-07-04T16:05:28 IST" duration-ms="5848" status="PASS">
+    <test started-at="2025-07-04T17:00:14 IST" name="Test" finished-at="2025-07-04T17:00:39 IST" duration-ms="24182">
+      <class name="testCases.TC007_SearchByNames">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_SearchByNames@42b3b079]" started-at="2025-07-04T17:00:14 IST" name="setup" finished-at="2025-07-04T17:00:23 IST" duration-ms="9040" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,27 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="restaurants(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_Restaurants@42b3b079]" started-at="2025-07-04T16:05:29 IST" name="restaurants" data-provider="TC005" finished-at="2025-07-04T16:05:41 IST" duration-ms="12034" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Saravanampatti]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Restaurants]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="searchByNames()[pri:0, instance:testCases.TC007_SearchByNames@42b3b079]" started-at="2025-07-04T17:00:23 IST" name="searchByNames" finished-at="2025-07-04T17:00:33 IST" duration-ms="9389" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- restaurants -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_Restaurants@42b3b079]" started-at="2025-07-04T16:05:41 IST" name="tearDown" finished-at="2025-07-04T16:05:45 IST" duration-ms="3668" status="PASS">
+        </test-method> <!-- searchByNames -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_SearchByNames@42b3b079]" started-at="2025-07-04T17:00:33 IST" name="tearDown" finished-at="2025-07-04T17:00:39 IST" duration-ms="5694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC005_Restaurants -->
+      </class> <!-- testCases.TC007_SearchByNames -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
