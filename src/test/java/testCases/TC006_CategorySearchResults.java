@@ -14,6 +14,7 @@ public class TC006_CategorySearchResults extends BaseClass {
 	public void categorySearch() {
 		HomePage homePage = new HomePage(driver);
 
+		homePage.clickMayBeLaterButton();
 		homePage.clickCloseButton();
 		homePage.clickPopularCategoryButton();
 	}

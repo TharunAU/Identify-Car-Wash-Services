@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-04T17:00:14 IST" name="Suite" finished-at="2025-07-04T17:00:39 IST" duration-ms="24182">
+  <suite started-at="2025-07-07T10:50:58 IST" name="Suite" finished-at="2025-07-07T10:51:17 IST" duration-ms="19243">
     <groups>
     </groups>
-    <test started-at="2025-07-04T17:00:14 IST" name="Test" finished-at="2025-07-04T17:00:39 IST" duration-ms="24182">
-      <class name="testCases.TC007_SearchByNames">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_SearchByNames@42b3b079]" started-at="2025-07-04T17:00:14 IST" name="setup" finished-at="2025-07-04T17:00:23 IST" duration-ms="9040" status="PASS">
+    <test started-at="2025-07-07T10:50:58 IST" name="Test" finished-at="2025-07-07T10:51:17 IST" duration-ms="19243">
+      <class name="testCases.TC010_MobileRecharge">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC010_MobileRecharge@42b3b079]" started-at="2025-07-07T10:50:58 IST" name="setup" finished-at="2025-07-07T10:51:04 IST" duration-ms="6101" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchByNames()[pri:0, instance:testCases.TC007_SearchByNames@42b3b079]" started-at="2025-07-04T17:00:23 IST" name="searchByNames" finished-at="2025-07-04T17:00:33 IST" duration-ms="9389" status="PASS">
+        <test-method signature="MobileRecharge()[pri:0, instance:testCases.TC010_MobileRecharge@42b3b079]" started-at="2025-07-07T10:51:04 IST" name="MobileRecharge" finished-at="2025-07-07T10:51:13 IST" duration-ms="9720" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchByNames -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC007_SearchByNames@42b3b079]" started-at="2025-07-04T17:00:33 IST" name="tearDown" finished-at="2025-07-04T17:00:39 IST" duration-ms="5694" status="PASS">
+        </test-method> <!-- MobileRecharge -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC010_MobileRecharge@42b3b079]" started-at="2025-07-07T10:51:13 IST" name="tearDown" finished-at="2025-07-07T10:51:17 IST" duration-ms="3384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC007_SearchByNames -->
+      </class> <!-- testCases.TC010_MobileRecharge -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

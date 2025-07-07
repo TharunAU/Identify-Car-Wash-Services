@@ -14,6 +14,7 @@
 			<class name="testCases.TC007_SearchByNames" />
 			<class name="testCases.TC008_BusBooking" />
 			<class name="testCases.TC009_MovieBookingDetails" />
+			<class name="testCases.TC010_MobileRecharge" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
