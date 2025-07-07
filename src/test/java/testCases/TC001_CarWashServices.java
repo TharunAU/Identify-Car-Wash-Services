@@ -12,7 +12,7 @@ import utilities.DataProviders;
 public class TC001_CarWashServices extends BaseClass{
 	
 	@Test(dataProvider = "TC001", dataProviderClass = DataProviders.class)
-	public void carWashServices(String city, String search) {
+	public void carWashServices(String city, String search, String Filter,String Rating) {
 		
 		HomePage homePage = new HomePage(driver);
 		
@@ -24,8 +24,8 @@ public class TC001_CarWashServices extends BaseClass{
 		
 		SearchResultPageCarWash carWash = new SearchResultPageCarWash(driver);
 		
-		carWash.selectFilter("Rating");
-		carWash.setRating("4");
+		carWash.selectFilter(Filter);
+		carWash.setRating(Rating);
 		List<String> results = carWash.getSearchResults();
 		
 		for(String values:results) {
