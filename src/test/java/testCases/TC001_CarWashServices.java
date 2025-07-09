@@ -2,6 +2,7 @@ package testCases;
 
 import java.util.List;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pages.HomePage;
@@ -27,9 +28,17 @@ public class TC001_CarWashServices extends BaseClass{
 		carWash.selectFilter("Rating");
 		carWash.setRating("4");
 		List<String> results = carWash.getSearchResults();
+		String resultHeading = carWash.getHeading();
 		
 		for(String values:results) {
 			System.out.println(values);
+		}
+		
+		if(results.size()==5 && resultHeading.toLowerCase().contains("car wash")) {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.fail();
 		}
 		
 	}

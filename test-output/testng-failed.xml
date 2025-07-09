@@ -3,15 +3,15 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="windows"/>
-    <parameter name="browser" value="edge"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC007_ExploreAreasSection">
+      <class name="testCases.TC009_MovieBookingDetails">
         <methods>
           <include name="tearDown"/>
-          <include name="ExploreAreasSection"/>
           <include name="setup"/>
+          <include name="MovieBookingDetails"/>
         </methods>
-      </class> <!-- testCases.TC007_ExploreAreasSection -->
+      </class> <!-- testCases.TC009_MovieBookingDetails -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

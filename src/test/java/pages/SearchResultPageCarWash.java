@@ -16,6 +16,9 @@ public class SearchResultPageCarWash extends BasePage {
 	}
 
 	// locators
+	@FindBy(xpath="//div[@role='navigation']/following::div[1]/h1")
+	WebElement searchResultHeading;
+	
 	@FindBy(xpath="//button[starts-with(@class, 'jsx') and contains(@class, 'resfilter_item')]")
 	List<WebElement> filterList;
 
@@ -35,6 +38,10 @@ public class SearchResultPageCarWash extends BasePage {
 	List<WebElement> peopleRatings;
 
 	// actions
+	public String getHeading() {
+		return searchResultHeading.getText();
+	}
+	
 	public void selectFilter(String filterOption) {
 		for(WebElement x:filterList) {
 			if(x.getText().contains(filterOption)) {

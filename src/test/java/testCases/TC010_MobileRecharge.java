@@ -2,6 +2,7 @@ package testCases;
 
 import java.util.List;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pages.HomePage;
@@ -26,6 +27,21 @@ public class TC010_MobileRecharge extends BaseClass{
 		List<String> plans = recharge.getPlanDetails();
 		for(String x:plans) {
 			System.out.println(x);
+		}
+		List<Integer> amount = recharge.getAmountsFromData();
+		
+		boolean flag = true;
+
+		for (Integer x : amount) {
+			if (!(x<=1000)) {
+				flag = false;
+			}
+		}
+
+		if (flag) {
+			Assert.assertTrue(true);
+		} else {
+			Assert.fail();
 		}
 		
 	}

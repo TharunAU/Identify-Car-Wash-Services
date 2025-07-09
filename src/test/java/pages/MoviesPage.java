@@ -52,6 +52,10 @@ public class MoviesPage extends BasePage{
 	WebElement firstMovie;
 	
 	//actions
+	public WebElement getComedyJonourFilterCheckBox() {
+		return comedyJonourFilterCheckBox;
+	}
+	
 	public void waitUntilHeadingTagAppears() {
 		WaitUtil.waitForOneElement(driver, headingTag, 10);
 	}

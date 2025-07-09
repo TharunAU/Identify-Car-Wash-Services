@@ -74,7 +74,23 @@ public class SearchPageResultMobileRecharge extends BasePage{
 	    return details;
 	}
 
-	
+	public List<Integer> getAmountsFromData() {
+		List<String> plans = getPlanDetails();
+	    List<Integer> amounts = new ArrayList<>();
+
+	    for (String line : plans) {
+	        line = line.trim();
+	        if (line.startsWith("Amount:")) {
+	            String numberOnly = line.replaceAll("[^0-9]", "");
+	            if (!numberOnly.isEmpty()) {
+	                amounts.add(Integer.parseInt(numberOnly));
+	            }
+	        }
+	    }
+	    
+	    return amounts;
+	}
+
 	
 	
 }

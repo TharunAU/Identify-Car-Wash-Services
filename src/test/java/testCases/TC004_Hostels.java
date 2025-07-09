@@ -2,6 +2,7 @@ package testCases;
 
 import java.util.List;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pages.HomePage;
@@ -30,6 +31,20 @@ public class TC004_Hostels extends BaseClass{
 		List<String> results = hostels.getHotelResultList();
 		for(String result:results) {
 			System.out.println(result);
+		}
+		
+		boolean flag = true;
+
+		for (String x : results) {
+			if (!(x.toLowerCase().contains("coimbatore"))) {
+				flag = false;
+			}
+		}
+
+		if (flag) {
+			Assert.assertTrue(true);
+		} else {
+			Assert.fail();
 		}
 		
 	}

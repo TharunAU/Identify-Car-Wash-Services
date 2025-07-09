@@ -2,6 +2,8 @@ package testCases;
 
 import java.util.List;
 
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pages.BusBookingPage;
@@ -34,10 +36,19 @@ public class TC008_BusBooking extends BaseClass {
 		busBookResult.clickNonAcFilterCheckBox();
 		busBookResult.clickSleeperFilterCheckBox();
 		busBookResult.clickBusType();
+		WebElement nonAcFilter = busBookResult.getNonAcFilter();
+		WebElement sleeperFilter = busBookResult.getSleeperFilterCheckBox();
 		List<String> results = busBookResult.getBusDetails();
 
 		for (String x : results) {
 			System.out.println(x);
+		}
+		
+		if(nonAcFilter.isEnabled() && sleeperFilter.isEnabled()) {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.fail();
 		}
 	}
 

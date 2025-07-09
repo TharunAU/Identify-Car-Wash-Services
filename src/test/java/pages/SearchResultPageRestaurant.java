@@ -64,4 +64,22 @@ public class SearchResultPageRestaurant extends BasePage{
 		return results;
 	}
 	
+	public List<Integer> getNoOfRatings() {
+		List<String> results= getRestaurantSearchResults();
+		List<Integer> ratings = new ArrayList<>();
+		
+		for (String result : results) {
+	        for (String line : result.split("\n")) {
+	            if (line.startsWith("Number Of Ratings:")) {
+	                String digits = line.replaceAll("[^0-9]", "");
+	                if (!digits.isEmpty()) {
+	                    ratings.add(Integer.parseInt(digits));
+	                }
+	            }
+	        }
+	    }
+		
+		return ratings;
+	}
+	
 }

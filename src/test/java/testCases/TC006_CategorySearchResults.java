@@ -2,6 +2,7 @@ package testCases;
 
 import java.util.List;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pages.HomePage;
@@ -32,6 +33,13 @@ public class TC006_CategorySearchResults extends BaseClass {
 		}
 		
 		homePage.clickSearchResultClose();
+		
+		if(results.size()>=1) {
+			Assert.assertTrue(true);
+		}
+		else {
+			Assert.fail();
+		}
 
 	}
 

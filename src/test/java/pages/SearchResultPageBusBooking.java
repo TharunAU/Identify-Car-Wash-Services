@@ -31,10 +31,18 @@ public class SearchResultPageBusBooking extends BasePage {
 
 	@FindBy(xpath = "//tbody[@class = 'bgc']//span[@title = 'Departure Time']")
 	List<WebElement> busDepartureTime;
-
+	
 	// actions
 	public void clickBusType() {
 		busType.click();
+	}
+	
+	public WebElement getNonAcFilter() {
+		return nonAcFilterCheckBox;
+	}
+	
+	public WebElement getSleeperFilterCheckBox() {
+		return sleeperFilterCheckBox;
 	}
 
 	public void clickNonAcFilterCheckBox() {

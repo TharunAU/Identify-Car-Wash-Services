@@ -2,7 +2,9 @@ package testCases;
 
 import java.util.List;
 
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import pages.HomePage;
 import pages.MoviesPage;
@@ -26,6 +28,16 @@ public class TC009_MovieBookingDetails extends BaseClass{
 		movies.clickChosenFormat("2d");
 		movies.clickChosenJonour("comedy");
 		movies.clickApplyFilterButton();
+		
+		SoftAssert softAssert = new SoftAssert();
+		WebElement comedyJonourFilterCheckBox = movies.getComedyJonourFilterCheckBox();
+		if(comedyJonourFilterCheckBox.isEnabled()) {
+			softAssert.assertTrue(true);
+		}
+		else {
+			softAssert.fail();
+		}
+		
 		movies.waitUntilFilteredHeadingTagAppears();
 		movies.clickFirstMovie();
 		
@@ -38,6 +50,7 @@ public class TC009_MovieBookingDetails extends BaseClass{
 			System.out.println(x);
 		}
 		
+		softAssert.assertAll();
 	}
 	
 }
