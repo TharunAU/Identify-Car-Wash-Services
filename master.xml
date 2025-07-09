@@ -3,7 +3,7 @@
 <suite name="Suite">
 	<test thread-count="5" name="Test">
 		<parameter name="os" value="windows" />
-		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="edge" />
 		<classes>
 			<class name="testCases.TC001_CarWashServices" />
 			<class name="testCases.TC002_FreeListing" />
@@ -11,7 +11,7 @@
 			<class name="testCases.TC004_Hostels" />
 			<class name="testCases.TC005_Restaurants" /> 
 			<class name="testCases.TC006_CategorySearchResults" />
-			<class name="testCases.TC007_SearchByNames" />
+			<class name="testCases.TC007_ExploreAreasSection" />
 			<class name="testCases.TC008_BusBooking" />
 			<class name="testCases.TC009_MovieBookingDetails" />
 			<class name="testCases.TC010_MobileRecharge" />

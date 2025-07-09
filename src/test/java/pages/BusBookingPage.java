@@ -32,6 +32,7 @@ public class BusBookingPage extends BasePage{
 	
 	//actions
 	public void setDepartureCity(String departure) {
+		departureCity.clear();
 		departureCity.sendKeys(departure);
 	}
 	

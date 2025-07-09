@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -59,17 +60,20 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//div[contains(@class,'sidemenu_text')]")
 	List<WebElement> searchResults;
 
-	@FindBy(xpath="//div[contains(@class, 'home_billtravel_li_img')]//following-sibling::div[1]")
+	@FindBy(xpath = "//div[contains(@class, 'home_billtravel_li_img')]//following-sibling::div[1]")
 	List<WebElement> serviceMenu;
-	
-	@FindBy(xpath="//div[contains(@class, 'jsx-b5cc4760a1cb0f4') and contains(@class, 'dtlboxleft_headbox')]")
+
+	@FindBy(xpath = "//div[contains(@class, 'jsx-b5cc4760a1cb0f4') and contains(@class, 'dtlboxleft_headbox')]")
 	WebElement moviesSection;
 
 	// actions
-	@FindBy(xpath="//button[@id='hk_srchbtn']")
+	@FindBy(xpath = "//button[@id='hk_srchbtn']")
 	WebElement searchResultClose;
-	
-	//actions
+
+	@FindBy(xpath = "//div[starts-with(@class,'swiper-slide')]/a[contains(@title,'Explore Top Tourist Places')]")
+	List<WebElement> topTouristPlaces;
+
+	// actions
 	public void clickMayBeLaterButton() {
 		WaitUtil.waitForOneElement(driver, mayBeLaterButton, 30);
 		mayBeLaterButton.click();
@@ -100,8 +104,8 @@ public class HomePage extends BasePage {
 			try {
 				if (subMenu.get(0).isDisplayed()) {
 					js.executeScript("arguments[0].scrollIntoView({block: 'center'});", subMenu.get(0));
-					for(WebElement x:subMenu) {
-						if(x.getText().contains(menu)) {
+					for (WebElement x : subMenu) {
+						if (x.getText().contains(menu)) {
 							x.click();
 							break;
 						}
@@ -125,7 +129,7 @@ public class HomePage extends BasePage {
 		}
 		return result;
 	}
-	
+
 	public void clickServiceMenu(String menu) {
 		for (WebElement x : serviceMenu) {
 			String value = x.getText();
@@ -159,7 +163,7 @@ public class HomePage extends BasePage {
 	public void clickSearchButton() {
 		searchButton.click();
 	}
-	
+
 	public void clickMoviesSection() {
 		moviesSection.click();
 	}
@@ -168,4 +172,21 @@ public class HomePage extends BasePage {
 		searchResultClose.click();
 	}
 	
+	public void clickTopTouristPlace() {
+	    try {
+	        List<WebElement> freshList = topTouristPlaces;
+	        if (!freshList.isEmpty()) {
+	            freshList.get(0).click();
+	        } else {
+	            System.out.println("No tourist places found to click.");
+	        }
+	    } catch (StaleElementReferenceException e) {
+	        List<WebElement> retryList = topTouristPlaces;
+	        if (!retryList.isEmpty()) {
+	            retryList.get(0).click();
+	        }
+	    }
+	}
+
+
 }
