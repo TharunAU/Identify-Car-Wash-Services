@@ -1,0 +1,323 @@
+2025-07-09 16:28:58 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\master.xml
+
+2025-07-09 16:29:06 INFO  TC001_CarWashServices:18 - ------ Starting TC001_CarWashServices ------
+2025-07-09 16:29:12 INFO  TC001_CarWashServices:23 - ------ Clicked May be Later Button ------
+2025-07-09 16:29:12 INFO  TC001_CarWashServices:26 - ------ Selected Location ------
+2025-07-09 16:29:13 INFO  TC001_CarWashServices:29 - ------ Searching Car Washing Services ------
+2025-07-09 16:29:14 INFO  TC001_CarWashServices:35 - ------ Selected Rating ------
+2025-07-09 16:29:16 INFO  TC001_CarWashServices:41 - ------ Displaying Search Results ------
+2025-07-09 16:29:16 INFO  TC001_CarWashServices:41 - ------ Displaying Search Results ------
+2025-07-09 16:29:16 INFO  TC001_CarWashServices:41 - ------ Displaying Search Results ------
+2025-07-09 16:29:16 INFO  TC001_CarWashServices:41 - ------ Displaying Search Results ------
+2025-07-09 16:29:16 INFO  TC001_CarWashServices:41 - ------ Displaying Search Results ------
+2025-07-09 16:29:16 INFO  TC001_CarWashServices:46 - ------ Test Case Passed ------
+2025-07-09 16:32:54 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\master.xml
+
+2025-07-09 16:33:01 INFO  TC001_CarWashServices:18 - ------ Starting TC001_CarWashServices ------
+2025-07-09 16:33:06 INFO  TC001_CarWashServices:23 - ------ Clicked May be Later Button ------
+2025-07-09 16:33:07 INFO  TC001_CarWashServices:26 - ------ Selected Location ------
+2025-07-09 16:33:09 INFO  TC001_CarWashServices:29 - ------ Searching Car Washing Services ------
+2025-07-09 16:33:10 INFO  TC001_CarWashServices:35 - ------ Selected Rating ------
+2025-07-09 16:33:12 INFO  TC001_CarWashServices:41 - ------ Displaying Search Results ------
+2025-07-09 16:33:12 INFO  TC001_CarWashServices:41 - ------ Displaying Search Results ------
+2025-07-09 16:33:12 INFO  TC001_CarWashServices:41 - ------ Displaying Search Results ------
+2025-07-09 16:33:12 INFO  TC001_CarWashServices:41 - ------ Displaying Search Results ------
+2025-07-09 16:33:12 INFO  TC001_CarWashServices:41 - ------ Displaying Search Results ------
+2025-07-09 16:33:12 INFO  TC001_CarWashServices:46 - ------ Test Case Passed ------
+2025-07-09 16:33:22 INFO  TC002_FreeListing:16 - ------ Started TC002_FreeListing ------
+2025-07-09 16:33:24 INFO  TC002_FreeListing:21 - ------ Clicked Free Listing Option ------
+2025-07-09 16:33:24 INFO  TC002_FreeListing:26 - ------ Entered Invalid Phone Number in the Phone Number Field ------
+2025-07-09 16:33:24 INFO  TC002_FreeListing:29 - ------ Clicked Start Now Button ------
+2025-07-09 16:33:25 INFO  TC002_FreeListing:32 - ------ Retrieved the Error Message ------
+2025-07-09 16:33:25 INFO  TC002_FreeListing:38 - ------ Test Case Passed ------
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403758\AppData\Local\Temp\testng-eclipse--216496108\testng-customsuite.xml
+
+2025-07-09 17:25:37 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403758\AppData\Local\Temp\testng-eclipse--216496108\testng-customsuite.xml
+
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2025-07-09 17:25:37 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2025-07-09 17:25:37 ERROR Main:165 - C:\eclipse workspace\Identify-Car-Wash-Services\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\eclipse workspace\Identify-Car-Wash-Services\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227)
+	at java.base/java.nio.file.Files.copy(Files.java:3140)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:95)
+	at org.testng.TestNG.generateReports(TestNG.java:1160)
+	at org.testng.TestNG.run(TestNG.java:1085)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+2025-07-09 17:25:37 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@2f4854d6: 91 ms
+2025-07-09 17:25:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@7a11c4c7: 40 ms
+2025-07-09 17:25:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@61a002b1: 25 ms
+2025-07-09 17:25:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@7e094740: 176 ms
+2025-07-09 17:25:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@6970140a: 36 ms
+2025-07-09 17:25:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@724bade8: 44 ms
+2025-07-09 17:25:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2e185cd7: 18 ms
+2025-07-09 17:25:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7e1a1da6: 0 ms
+2025-07-09 17:25:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@7fb9f71f: 22 ms
+2025-07-09 17:25:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@10b892d5: 27 ms
+2025-07-09 17:25:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@790174f2: 13 ms
+2025-07-09 17:25:38 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@42257bdd: 0 ms
+2025-07-09 17:55:40 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\master.xml
+
+2025-07-09 17:55:49 INFO  TC001_CarWashServices:18 - ------ Starting TC001_CarWashServices ------
+2025-07-09 17:55:54 INFO  TC001_CarWashServices:23 - ------ Clicked May be Later Button ------
+2025-07-09 17:55:54 INFO  TC001_CarWashServices:26 - ------ Selected Location ------
+2025-07-09 17:55:55 INFO  TC001_CarWashServices:29 - ------ Searching Car Washing Services in the Search Box ------
+2025-07-09 17:55:57 INFO  TC001_CarWashServices:35 - ------ Selected Rating ------
+2025-07-09 17:56:00 INFO  TC001_CarWashServices:41 - ------ Displaying Search Results ------
+2025-07-09 17:56:00 INFO  TC001_CarWashServices:41 - ------ Displaying Search Results ------
+2025-07-09 17:56:00 INFO  TC001_CarWashServices:41 - ------ Displaying Search Results ------
+2025-07-09 17:56:00 INFO  TC001_CarWashServices:41 - ------ Displaying Search Results ------
+2025-07-09 17:56:00 INFO  TC001_CarWashServices:41 - ------ Displaying Search Results ------
+2025-07-09 17:56:00 INFO  TC001_CarWashServices:46 - ------ Test Case Passed ------
+2025-07-09 17:56:00 INFO  TC001_CarWashServices:52 - ----------------------------------------------------------------------------------------
+2025-07-09 17:56:11 INFO  TC002_FreeListing:16 - ------ Starting TC002_FreeListing ------
+2025-07-09 17:56:14 INFO  TC002_FreeListing:21 - ------ Clicked Free Listing Option ------
+2025-07-09 17:56:15 INFO  TC002_FreeListing:26 - ------ Entered Invalid Phone Number in the Phone Number Field ------
+2025-07-09 17:56:15 INFO  TC002_FreeListing:29 - ------ Clicked Start Now Button ------
+2025-07-09 17:56:15 INFO  TC002_FreeListing:32 - ------ Retrieved the Error Message ------
+2025-07-09 17:56:15 INFO  TC002_FreeListing:38 - ------ Test Case Passed ------
+2025-07-09 17:56:15 INFO  TC002_FreeListing:44 - ----------------------------------------------------------------------------------------
+2025-07-09 17:56:23 INFO  TC003_GymSubMenuList:16 - ------ Starting TC003_GymSubMenuList ------
+2025-07-09 17:56:29 INFO  TC003_GymSubMenuList:21 - ------ Clicked May Be Later Button ------
+2025-07-09 17:56:39 INFO  TC003_GymSubMenuList:24 - ------ Clicked the Fitness Menu ------
+2025-07-09 17:56:40 INFO  TC003_GymSubMenuList:30 - ------ Displayed the GYMs Sub menus ------
+2025-07-09 17:56:40 INFO  TC003_GymSubMenuList:42 - ------ Test Case Passed ------
+2025-07-09 17:56:40 INFO  TC003_GymSubMenuList:48 - ----------------------------------------------------------------------------------------
+2025-07-09 17:56:48 INFO  TC004_Hostels:18 - ------ Started TC004_Hostels ------
+2025-07-09 17:56:54 INFO  TC004_Hostels:23 - ------ Clicked May Be Later Button ------
+2025-07-09 17:56:55 INFO  TC004_Hostels:26 - ------ Selected Location ------
+2025-07-09 17:56:56 INFO  TC004_Hostels:29 - ------ Searching Hostels in the Search Box ------
+2025-07-09 17:56:58 INFO  TC004_Hostels:34 - ------ Selected Top Rated in Filters ------
+2025-07-09 17:56:59 INFO  TC004_Hostels:36 - ------ Selected Top JD Verified in Filters ------
+2025-07-09 17:56:59 INFO  TC004_Hostels:38 - ------ Selected Top JD Trust in Filters ------
+2025-07-09 17:57:00 INFO  TC004_Hostels:44 - ------ Displayed the Search Results ------
+2025-07-09 17:57:00 INFO  TC004_Hostels:56 - ------ Test Case Passed ------
+2025-07-09 17:57:00 INFO  TC004_Hostels:61 - ----------------------------------------------------------------------------------------
+2025-07-09 17:57:09 INFO  TC005_Restaurants:18 - ------ Starting TC005_Restaurants ------
+2025-07-09 17:57:15 INFO  TC005_Restaurants:23 - ------ Clicked May Be Later Button ------
+2025-07-09 17:57:16 INFO  TC005_Restaurants:26 - ------ Selected Location ------
+2025-07-09 17:57:17 INFO  TC005_Restaurants:29 - ------ Searching Restaurants in the Search Box ------
+2025-07-09 17:57:18 INFO  TC005_Restaurants:34 - ------ Selected Cuisines in the Filters ------
+2025-07-09 17:57:18 INFO  TC005_Restaurants:36 - ------ Selected South Indian in the Cuisines Filter ------
+2025-07-09 17:57:19 INFO  TC005_Restaurants:38 - ------ Selected Online Delivery in the Filters ------
+2025-07-09 17:57:21 INFO  TC005_Restaurants:40 - ------ Selected Open Now in the Filters ------
+2025-07-09 17:57:22 INFO  TC005_Restaurants:46 - ------ Displaying the Results ------
+2025-07-09 17:57:31 INFO  TC006_CategorySearchResults:21 - ------ Starting TC006_CategorySearchResults ------
+2025-07-09 17:57:37 INFO  TC006_CategorySearchResults:24 - ------ Clicked May Be Later Button ------
+2025-07-09 17:57:37 INFO  TC006_CategorySearchResults:26 - ------ Clicked Close Button for a pop up ------
+2025-07-09 17:57:37 INFO  TC006_CategorySearchResults:28 - ------ Clicked Popular Category Button ------
+2025-07-09 17:57:38 INFO  TC006_CategorySearchResults:39 - ------ Searching ac in the Seach Box ------
+2025-07-09 17:57:38 INFO  TC006_CategorySearchResults:41 - ------ Displaying the Search Results ------
+2025-07-09 17:57:38 INFO  TC006_CategorySearchResults:51 - ------ Test Case Passed ------
+2025-07-09 17:57:38 INFO  TC006_CategorySearchResults:56 - ----------------------------------------------------------------------------------------
+2025-07-09 17:57:38 INFO  TC006_CategorySearchResults:39 - ------ Searching car in the Seach Box ------
+2025-07-09 17:57:38 INFO  TC006_CategorySearchResults:41 - ------ Displaying the Search Results ------
+2025-07-09 17:57:39 INFO  TC006_CategorySearchResults:51 - ------ Test Case Passed ------
+2025-07-09 17:57:39 INFO  TC006_CategorySearchResults:56 - ----------------------------------------------------------------------------------------
+2025-07-09 17:57:39 INFO  TC006_CategorySearchResults:39 - ------ Searching service in the Seach Box ------
+2025-07-09 17:57:39 INFO  TC006_CategorySearchResults:41 - ------ Displaying the Search Results ------
+2025-07-09 17:57:40 INFO  TC006_CategorySearchResults:51 - ------ Test Case Passed ------
+2025-07-09 17:57:40 INFO  TC006_CategorySearchResults:56 - ----------------------------------------------------------------------------------------
+2025-07-09 17:57:40 INFO  TC006_CategorySearchResults:39 - ------ Searching scrap in the Seach Box ------
+2025-07-09 17:57:40 INFO  TC006_CategorySearchResults:41 - ------ Displaying the Search Results ------
+2025-07-09 17:57:40 INFO  TC006_CategorySearchResults:51 - ------ Test Case Passed ------
+2025-07-09 17:57:40 INFO  TC006_CategorySearchResults:56 - ----------------------------------------------------------------------------------------
+2025-07-09 17:57:40 INFO  TC006_CategorySearchResults:39 - ------ Searching computer in the Seach Box ------
+2025-07-09 17:57:40 INFO  TC006_CategorySearchResults:41 - ------ Displaying the Search Results ------
+2025-07-09 17:57:41 INFO  TC006_CategorySearchResults:51 - ------ Test Case Passed ------
+2025-07-09 17:57:41 INFO  TC006_CategorySearchResults:56 - ----------------------------------------------------------------------------------------
+2025-07-09 17:57:51 INFO  TC007_ExploreAreasSection:16 - ------ Starting TC007_ExploreAreasSection ------
+2025-07-09 17:57:57 INFO  TC007_ExploreAreasSection:21 - ------ Clicked May Be Later Button ------
+2025-07-09 17:57:57 INFO  TC007_ExploreAreasSection:25 - ------ Selected Location ------
+2025-07-09 17:58:01 INFO  TC007_ExploreAreasSection:27 - ------ Selected Top Tourist Place in that Location ------
+2025-07-09 17:58:13 INFO  TC007_ExploreAreasSection:44 - ------ Displayed Top Hotels ------
+2025-07-09 17:58:13 INFO  TC007_ExploreAreasSection:48 - ------ Displayed Top Restaurants ------
+2025-07-09 17:58:13 INFO  TC007_ExploreAreasSection:52 - ------ Displayed Top Coffee Shops ------
+2025-07-09 17:58:13 INFO  TC007_ExploreAreasSection:56 - ------ Displayed Top Travel Agents ------
+2025-07-09 17:58:13 INFO  TC007_ExploreAreasSection:60 - ------ Displayed Top Things To Do ------
+2025-07-09 17:58:22 INFO  TC008_BusBooking:19 - ------ Starting TC008_BusBooking ------
+2025-07-09 17:58:28 INFO  TC008_BusBooking:24 - ------ Clicked May Be Later Button ------
+2025-07-09 17:58:30 INFO  TC008_BusBooking:26 - ------ Clicked Bus Service Menu ------
+2025-07-09 17:58:31 INFO  TC008_BusBooking:31 - ------ Selected Coimbatore in the Departure City ------
+2025-07-09 17:58:31 INFO  TC008_BusBooking:33 - ------ Selected Chennai in the Destination City ------
+2025-07-09 17:58:31 INFO  TC008_BusBooking:37 - ------ Selected Date ------
+2025-07-09 17:58:34 INFO  TC008_BusBooking:39 - ------ Clicked Search Button ------
+2025-07-09 17:58:35 INFO  TC008_BusBooking:44 - ------ Clicked Bus Type ------
+2025-07-09 17:58:35 INFO  TC008_BusBooking:46 - ------ Selected Non Ac CheckBox ------
+2025-07-09 17:58:35 INFO  TC008_BusBooking:48 - ------ Selected Sleeper CheckBox ------
+2025-07-09 17:58:35 INFO  TC008_BusBooking:57 - ------ Displayed Results ------
+2025-07-09 17:58:35 INFO  TC008_BusBooking:61 - ------ Test Case Passed ------
+2025-07-09 17:58:35 INFO  TC008_BusBooking:66 - ----------------------------------------------------------------------------------------
+2025-07-09 17:58:43 INFO  TC009_MovieBookingDetails:18 - ------ Starting TC009_MovieBookingDetails ------
+2025-07-09 17:58:50 INFO  TC009_MovieBookingDetails:23 - ------ Clicked May Be Later Button ------
+2025-07-09 17:58:50 INFO  TC009_MovieBookingDetails:25 - ------ Clicked Movies Section ------
+2025-07-09 17:58:51 INFO  TC009_MovieBookingDetails:31 - ------ Selected Prefered Languages in the filter ------
+2025-07-09 17:58:51 INFO  TC009_MovieBookingDetails:33 - ------ Selected 2D in the format Filter ------
+2025-07-09 17:58:52 INFO  TC009_MovieBookingDetails:35 - ------ Selected Comedy in the Genre Filter ------
+2025-07-09 17:58:52 INFO  TC009_MovieBookingDetails:37 - ------ Clicked Apply Button ------
+2025-07-09 17:58:53 INFO  TC009_MovieBookingDetails:43 - ------ Selection of Comedy Genre is verified ------
+2025-07-09 17:58:53 INFO  TC009_MovieBookingDetails:51 - ------ First Movie in the Results is Selected ------
+2025-07-09 17:58:54 INFO  TC009_MovieBookingDetails:61 - ------ Displayed the Results ------
+2025-07-09 17:58:54 INFO  TC009_MovieBookingDetails:62 - ----------------------------------------------------------------------------------------
+2025-07-09 17:59:02 INFO  TC010_MobileRecharge:17 - ------ Starting TC010_MobileRecharge ------
+2025-07-09 17:59:08 INFO  TC010_MobileRecharge:22 - ------ Clicked May Be Later Button ------
+2025-07-09 17:59:10 INFO  TC010_MobileRecharge:24 - ------ Selected Mobile Service Menu ------
+2025-07-09 17:59:10 INFO  TC010_MobileRecharge:29 - ------ Entered Valid Mobile Number ------
+2025-07-09 17:59:11 INFO  TC010_MobileRecharge:31 - ------ Clicked New Plans Button in the Window ------
+2025-07-09 17:59:12 INFO  TC010_MobileRecharge:33 - ------ Clicked Data plan in the plans Sub Menu ------
+2025-07-09 17:59:12 INFO  TC010_MobileRecharge:39 - ------ Displyed Results ------
+2025-07-09 17:59:12 INFO  TC010_MobileRecharge:51 - ------ Test Case Passed ------
+2025-07-09 17:59:12 INFO  TC010_MobileRecharge:56 - ----------------------------------------------------------------------------------------
+2025-07-09 18:01:09 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\test-output\testng-failed.xml
+
+2025-07-09 18:01:14 INFO  TC007_ExploreAreasSection:16 - ------ Starting TC007_ExploreAreasSection ------
+2025-07-09 18:01:20 INFO  TC007_ExploreAreasSection:21 - ------ Clicked May Be Later Button ------
+2025-07-09 18:01:21 INFO  TC007_ExploreAreasSection:25 - ------ Selected Location ------
+2025-07-09 18:01:23 INFO  TC007_ExploreAreasSection:27 - ------ Selected Top Tourist Place in that Location ------
+2025-07-09 18:01:35 INFO  TC007_ExploreAreasSection:44 - ------ Displayed Top Hotels ------
+2025-07-09 18:01:35 INFO  TC007_ExploreAreasSection:48 - ------ Displayed Top Restaurants ------
+2025-07-09 18:01:35 INFO  TC007_ExploreAreasSection:52 - ------ Displayed Top Coffee Shops ------
+2025-07-09 18:01:35 INFO  TC007_ExploreAreasSection:56 - ------ Displayed Top Travel Agents ------
+2025-07-09 18:01:35 INFO  TC007_ExploreAreasSection:60 - ------ Displayed Top Things To Do ------
+2025-07-09 18:01:46 INFO  TC005_Restaurants:18 - ------ Starting TC005_Restaurants ------
+2025-07-09 18:01:51 INFO  TC005_Restaurants:23 - ------ Clicked May Be Later Button ------
+2025-07-09 18:01:51 INFO  TC005_Restaurants:26 - ------ Selected Location ------
+2025-07-09 18:01:52 INFO  TC005_Restaurants:29 - ------ Searching Restaurants in the Search Box ------
+2025-07-09 18:01:54 INFO  TC005_Restaurants:34 - ------ Selected Cuisines in the Filters ------
+2025-07-09 18:01:54 INFO  TC005_Restaurants:36 - ------ Selected South Indian in the Cuisines Filter ------
+2025-07-09 18:01:55 INFO  TC005_Restaurants:38 - ------ Selected Online Delivery in the Filters ------
+2025-07-09 18:01:56 INFO  TC005_Restaurants:40 - ------ Selected Open Now in the Filters ------
+2025-07-09 18:01:57 INFO  TC005_Restaurants:46 - ------ Displaying the Results ------
+2025-07-09 18:27:07 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\test-output\testng-failed.xml
+
+2025-07-09 18:27:12 INFO  TC007_ExploreAreasSection:16 - ------ Starting TC007_ExploreAreasSection ------
+2025-07-09 18:27:19 INFO  TC007_ExploreAreasSection:21 - ------ Clicked May Be Later Button ------
+2025-07-09 18:27:19 INFO  TC007_ExploreAreasSection:25 - ------ Selected Location ------
+2025-07-09 18:27:23 INFO  TC007_ExploreAreasSection:27 - ------ Selected Top Tourist Place in that Location ------
+2025-07-09 18:27:35 INFO  TC007_ExploreAreasSection:44 - ------ Displayed Top Hotels ------
+2025-07-09 18:27:35 INFO  TC007_ExploreAreasSection:48 - ------ Displayed Top Restaurants ------
+2025-07-09 18:27:35 INFO  TC007_ExploreAreasSection:52 - ------ Displayed Top Coffee Shops ------
+2025-07-09 18:27:35 INFO  TC007_ExploreAreasSection:56 - ------ Displayed Top Travel Agents ------
+2025-07-09 18:27:35 INFO  TC007_ExploreAreasSection:60 - ------ Displayed Top Things To Do ------
+2025-07-09 18:27:35 INFO  TC007_ExploreAreasSection:64 - ------ Test Case Failed ------
+2025-07-09 18:27:47 INFO  TC005_Restaurants:18 - ------ Starting TC005_Restaurants ------
+2025-07-09 18:27:51 INFO  TC005_Restaurants:23 - ------ Clicked May Be Later Button ------
+2025-07-09 18:27:51 INFO  TC005_Restaurants:26 - ------ Selected Location ------
+2025-07-09 18:27:52 INFO  TC005_Restaurants:29 - ------ Searching Restaurants in the Search Box ------
+2025-07-09 18:27:55 INFO  TC005_Restaurants:34 - ------ Selected Cuisines in the Filters ------
+2025-07-09 18:27:55 INFO  TC005_Restaurants:36 - ------ Selected South Indian in the Cuisines Filter ------
+2025-07-09 18:27:56 INFO  TC005_Restaurants:38 - ------ Selected Online Delivery in the Filters ------
+2025-07-09 18:27:58 INFO  TC005_Restaurants:40 - ------ Selected Open Now in the Filters ------
+2025-07-09 18:28:00 INFO  TC005_Restaurants:46 - ------ Displaying the Results ------
+2025-07-09 18:29:40 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\test-output\testng-failed.xml
+
+2025-07-09 18:29:45 INFO  TC007_ExploreAreasSection:16 - ------ Starting TC007_ExploreAreasSection ------
+2025-07-09 18:29:51 INFO  TC007_ExploreAreasSection:21 - ------ Clicked May Be Later Button ------
+2025-07-09 18:29:52 INFO  TC007_ExploreAreasSection:25 - ------ Selected Location ------
+2025-07-09 18:29:55 INFO  TC007_ExploreAreasSection:27 - ------ Selected Top Tourist Place in that Location ------
+2025-07-09 18:30:07 INFO  TC007_ExploreAreasSection:44 - ------ Displayed Top Hotels ------
+2025-07-09 18:30:07 INFO  TC007_ExploreAreasSection:48 - ------ Displayed Top Restaurants ------
+2025-07-09 18:30:07 INFO  TC007_ExploreAreasSection:52 - ------ Displayed Top Coffee Shops ------
+2025-07-09 18:30:07 INFO  TC007_ExploreAreasSection:56 - ------ Displayed Top Travel Agents ------
+2025-07-09 18:30:07 INFO  TC007_ExploreAreasSection:60 - ------ Displayed Top Things To Do ------
+2025-07-09 18:30:07 INFO  TC007_ExploreAreasSection:64 - ------ Test Case Failed ------
+2025-07-09 18:30:16 INFO  TC005_Restaurants:18 - ------ Starting TC005_Restaurants ------
+2025-07-09 18:30:21 INFO  TC005_Restaurants:23 - ------ Clicked May Be Later Button ------
+2025-07-09 18:30:22 INFO  TC005_Restaurants:26 - ------ Selected Location ------
+2025-07-09 18:30:22 INFO  TC005_Restaurants:29 - ------ Searching Restaurants in the Search Box ------
+2025-07-09 18:30:24 INFO  TC005_Restaurants:34 - ------ Selected Cuisines in the Filters ------
+2025-07-09 18:30:24 INFO  TC005_Restaurants:36 - ------ Selected South Indian in the Cuisines Filter ------
+2025-07-09 18:30:25 INFO  TC005_Restaurants:38 - ------ Selected Online Delivery in the Filters ------
+2025-07-09 18:30:26 INFO  TC005_Restaurants:40 - ------ Selected Open Now in the Filters ------
+2025-07-09 18:30:28 INFO  TC005_Restaurants:46 - ------ Displaying the Results ------
+2025-07-09 18:30:28 INFO  TC005_Restaurants:59 - ------ Test Case Passed ------
+2025-07-09 18:30:28 INFO  TC005_Restaurants:64 - ----------------------------------------------------------------------------------------
+2025-07-09 18:38:05 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\test-output\testng-failed.xml
+
+2025-07-09 18:38:11 INFO  TC007_ExploreAreasSection:16 - ------ Starting TC007_ExploreAreasSection ------
+2025-07-09 18:38:17 INFO  TC007_ExploreAreasSection:21 - ------ Clicked May Be Later Button ------
+2025-07-09 18:38:18 INFO  TC007_ExploreAreasSection:25 - ------ Selected Location ------
+2025-07-09 18:38:21 INFO  TC007_ExploreAreasSection:27 - ------ Selected Top Tourist Place in that Location ------
+2025-07-09 18:38:24 INFO  TC007_ExploreAreasSection:44 - ------ Displayed Top Hotels ------
+2025-07-09 18:38:24 INFO  TC007_ExploreAreasSection:48 - ------ Displayed Top Restaurants ------
+2025-07-09 18:38:24 INFO  TC007_ExploreAreasSection:52 - ------ Displayed Top Coffee Shops ------
+2025-07-09 18:38:24 INFO  TC007_ExploreAreasSection:56 - ------ Displayed Top Travel Agents ------
+2025-07-09 18:38:24 INFO  TC007_ExploreAreasSection:60 - ------ Displayed Top Things To Do ------
+2025-07-09 18:38:24 INFO  TC007_ExploreAreasSection:68 - ------ Test Case Passed ------
+2025-07-09 18:38:24 INFO  TC007_ExploreAreasSection:73 - ----------------------------------------------------------------------------------------

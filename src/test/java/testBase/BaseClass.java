@@ -26,15 +26,21 @@ import org.testng.annotations.Parameters;
 
 import utilities.WaitUtil;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class BaseClass {
 
 	public static WebDriver driver;
 	public static WaitUtil util;
 	public Properties properties;
+	public Logger logger;
 
 	@BeforeClass
 	@Parameters({ "os", "browser" })
 	public void setup(String os, String browser) throws IOException {
+		
+		logger = LogManager.getLogger(this.getClass());
 
 		FileReader file = new FileReader("./src//test//resources//config.properties");
 		properties = new Properties();

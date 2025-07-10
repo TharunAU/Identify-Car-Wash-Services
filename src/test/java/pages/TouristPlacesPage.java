@@ -26,28 +26,28 @@ public class TouristPlacesPage extends BasePage {
 	@FindBy(xpath = "//a[@class='redirect__a color111']//div[@class='csheading']/following-sibling::div[contains(@class,'ratingcount')]")
 	List<WebElement> hotelRatingList;
 
-	@FindBy(xpath = "//div[@id='section-7']//div[@aria-label='swiper']//a[@class='redirect__a color111']//div[@class='csheading']")
+	@FindBy(xpath = "//div[@id='section-8']//div[@aria-label='swiper']//a[@class='redirect__a color111']//div[@class='csheading']")
 	List<WebElement> restaurantNamesList;
 
-	@FindBy(xpath = "//div[@id='section-7']//div[@aria-label='swiper']//a[@class='redirect__a color111']//div[@class='csheading']/following-sibling::div[contains(@class,'ratingcount')]")
+	@FindBy(xpath = "//div[@id='section-8']//div[@aria-label='swiper']//a[@class='redirect__a color111']//div[@class='csheading']/following-sibling::div[contains(@class,'ratingcount')]")
 	List<WebElement> restaurantRatingList;
 
-	@FindBy(xpath = "//div[@id='section-8']//div[@aria-label='swiper']//a[@class='redirect__a color111']//div[@class='csheading']")
+	@FindBy(xpath = "//div[@id='section-9']//div[@aria-label='swiper']//a[@class='redirect__a color111']//div[@class='csheading']")
 	List<WebElement> coffeeShopNamesList;
 
-	@FindBy(xpath = "//div[@id='section-8']//div[@aria-label='swiper']//a[@class='redirect__a color111']//div[@class='csheading']/following-sibling::div[contains(@class,'ratingcount')]")
+	@FindBy(xpath = "//div[@id='section-9']//div[@aria-label='swiper']//a[@class='redirect__a color111']//div[@class='csheading']/following-sibling::div[contains(@class,'ratingcount')]")
 	List<WebElement> coffeeShopRatingList;
 
-	@FindBy(xpath = "//div[@id='section-9']//div[@aria-label='swiper']//a[@class='redirect__a color111']//div[@class='csheading']")
+	@FindBy(xpath = "//div[@id='section-10']//div[@aria-label='swiper']//a[@class='redirect__a color111']//div[@class='csheading']")
 	List<WebElement> travelAgentsList;
 
-	@FindBy(xpath = "//div[@id='section-9']//div[@aria-label='swiper']//a[@class='redirect__a color111']//div[@class='csheading']/following-sibling::div[contains(@class,'ratingcount')]")
+	@FindBy(xpath = "//div[@id='section-10']//div[@aria-label='swiper']//a[@class='redirect__a color111']//div[@class='csheading']/following-sibling::div[contains(@class,'ratingcount')]")
 	List<WebElement> travelAgentsRating;
 
-	@FindBy(xpath = "//div[@id='section-10']//div[@aria-label='swiper']//a[@class='redirect__a color111']//div[@class='csheading']")
+	@FindBy(xpath = "//div[@id='section-11']//div[@aria-label='swiper']//a[@class='redirect__a color111']//div[@class='csheading']")
 	List<WebElement> thingsToDoList;
 
-	@FindBy(xpath = "//div[@id='section-10']//div[@aria-label='swiper']//a[@class='redirect__a color111']//div[@class='csheading']/following-sibling::div[contains(@class,'ratingcount')]")
+	@FindBy(xpath = "//div[@id='section-11']//div[@aria-label='swiper']//a[@class='redirect__a color111']//div[@class='csheading']/following-sibling::div[contains(@class,'ratingcount')]")
 	List<WebElement> thingsToDoRating;
 
 	// actions
