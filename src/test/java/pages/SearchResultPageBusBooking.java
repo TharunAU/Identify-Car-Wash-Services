@@ -61,9 +61,9 @@ public class SearchResultPageBusBooking extends BasePage {
 				break;
 			}
 			int value = Integer.parseInt(busTicketFare.get(i).getText().split("\n")[0]);
-			results.add("Travels Name: " + busTravelsName.get(i).getText() + "\tDeparture Time: "
-					+ busDepartureTime.get(i).getText() + "\nPrice: " + value + " rupees"
-					+ "\n----------------------------------------------------------------------------------------------------------------------------------------------------------------");
+			
+			results.add( busTravelsName.get(i).getText() + " , "+ busDepartureTime.get(i).getText() + " , Rs:" + value);
+;
 			count++;
 
 		}

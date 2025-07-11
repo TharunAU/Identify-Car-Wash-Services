@@ -44,8 +44,7 @@ public class SearchResultMoviePage extends BasePage {
 			if (count == 5) {
 				break;
 			}
-			details.add("\nTheatre Name: " + theatresAvailable.get(i).getText() + "\nLocation Name: "
-					+ locationsAvailable.get(i).getText() + "\nShow Timings: " + showTimings.get(i).getText());
+			details.add( theatresAvailable.get(i).getText() + " , "+ locationsAvailable.get(i).getText() + " , " + showTimings.get(i).getText());
 			count++;
 		}
 		return details;

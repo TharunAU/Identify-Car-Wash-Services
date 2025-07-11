@@ -10,13 +10,20 @@ import pages.BusBookingPage;
 import pages.HomePage;
 import pages.SearchResultPageBusBooking;
 import testBase.BaseClass;
+import utilities.DataProviders;
+import utilities.ExcelUtilityClass;
 
 public class TC008_BusBooking extends BaseClass {
 
-	@Test
-	public void BusBooking() {
+	@Test(dataProvider = "TC008", dataProviderClass = DataProviders.class)
+	public void BusBooking(String departure,String destionation) {
 
 		logger.info("------ Starting TC008_BusBooking ------");
+		
+		String path=".\\testData\\Identify-Car-Wash-Services_TestData.xlsx";
+		int count = 1;
+		
+		ExcelUtilityClass obj = new ExcelUtilityClass(path, "TC008");
 
 		HomePage homePage = new HomePage(driver);
 
@@ -27,9 +34,9 @@ public class TC008_BusBooking extends BaseClass {
 
 		BusBookingPage busBook = new BusBookingPage(driver);
 
-		busBook.setDepartureCity("Coimbatore");
+		busBook.setDepartureCity(departure);
 		logger.info("------ Selected Coimbatore in the Departure City ------");
-		busBook.setDestinationCity("Chennai");
+		busBook.setDestinationCity(destionation);
 		logger.info("------ Selected Chennai in the Destination City ------");
 		busBook.clickDateOfJourney();
 		busBook.clickNextMonth();
@@ -52,14 +59,23 @@ public class TC008_BusBooking extends BaseClass {
 		List<String> results = busBookResult.getBusDetails();
 
 		for (String x : results) {
-			System.out.println(x);
+			obj.setCellData(x,count,2);
+			count++;
+			String[] values = x.split(" , ");
+			System.out.println("Travels Name: " + values[0] + "\tDeparture Time: "
+					+values[1]+ "\nPrice: " + values[2] + " rupees"
+					+ "\n----------------------------------------------------------------------------------------------------------------------------------------------------------------");
 		}
 		logger.info("------ Displayed Results ------");
 
 		if (nonAcFilter.isEnabled() && sleeperFilter.isEnabled()) {
+			obj.setCellData("Both Non-AC and Sleeper Check box are Enabled",1,4);
+			obj.setCellData("Pass",1,5);
 			Assert.assertTrue(true);
 			logger.info("------ Test Case Passed ------");
 		} else {
+			obj.setCellData("Both Non-AC and Sleeper Check box are Not Enabled",1,4);
+			obj.setCellData("Fail",1,5);
 			Assert.fail();
 			logger.info("------ Test Case Failed ------");
 		}

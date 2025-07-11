@@ -8,17 +8,10 @@
       <class name="testCases.TC007_ExploreAreasSection">
         <methods>
           <include name="tearDown"/>
-          <include name="ExploreAreasSection"/>
+          <include name="ExploreAreasSection" invocation-numbers="0"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC007_ExploreAreasSection -->
-      <class name="testCases.TC005_Restaurants">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="restaurants" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- testCases.TC005_Restaurants -->
     </classes>
   </test> <!-- Test(failed)(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

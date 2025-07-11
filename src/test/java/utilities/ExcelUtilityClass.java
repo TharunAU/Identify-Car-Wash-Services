@@ -61,9 +61,8 @@ package utilities;
 	        saveWorkbook();  // Write changes immediately after setting cell
 	    }
 
-	    public String[][] getSheetData(int column) {
-	        int rowCount = getRowCount();
-//	        int colCount = getColumnCount();
+	    public String[][] getSheetData(int row,int column) {
+	    	int rowCount = row;
 	        int colCount = column;
 
 	        String[][] data = new String[rowCount - 1][colCount];

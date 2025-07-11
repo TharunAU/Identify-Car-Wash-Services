@@ -70,7 +70,7 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//button[@id='hk_srchbtn']")
 	WebElement searchResultClose;
 
-	@FindBy(xpath = "//div[starts-with(@class,'swiper-slide')]/a[contains(@title,'Explore Top Tourist Places')]")
+	@FindBy(xpath = "//a[contains(@title, 'Explore Top Tourist')]//div[contains(@class, 'locality__name')]")
 	List<WebElement> topTouristPlaces;
 
 	// actions

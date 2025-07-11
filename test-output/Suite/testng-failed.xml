@@ -5,20 +5,14 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC007_ExploreAreasSection">
+      <class name="testCases.TC006_CategorySearchResults">
         <methods>
+          <include name="categorySearch"/>
           <include name="tearDown"/>
-          <include name="ExploreAreasSection"/>
+          <include name="categorySearchResults"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC007_ExploreAreasSection -->
-      <class name="testCases.TC005_Restaurants">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="restaurants" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- testCases.TC005_Restaurants -->
+      </class> <!-- testCases.TC006_CategorySearchResults -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

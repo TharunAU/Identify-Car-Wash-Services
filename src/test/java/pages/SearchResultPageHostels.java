@@ -45,7 +45,7 @@ public class SearchResultPageHostels extends BasePage {
 			if (count == 5) {
 				break;
 			}
-			result.add("\nName: " + hotelNameList.get(i).getText() + "\nLocation: " + hotelLocationList.get(i).getText());
+			result.add(hotelNameList.get(i).getText() + " , " + hotelLocationList.get(i).getText());
 			count++;
 		}
 		return result;

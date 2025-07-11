@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)(failed)(failed)(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC007_ExploreAreasSection">
+      <class name="testCases.TC006_CategorySearchResults">
         <methods>
+          <include name="categorySearch"/>
           <include name="tearDown"/>
-          <include name="ExploreAreasSection"/>
+          <include name="categorySearchResults"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC007_ExploreAreasSection -->
+      </class> <!-- testCases.TC006_CategorySearchResults -->
     </classes>
-  </test> <!-- Test(failed)(failed)(failed)(failed) -->
-</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

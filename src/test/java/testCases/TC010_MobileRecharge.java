@@ -8,14 +8,21 @@ import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.SearchPageResultMobileRecharge;
 import testBase.BaseClass;
+import utilities.DataProviders;
+import utilities.ExcelUtilityClass;
 
 public class TC010_MobileRecharge extends BaseClass {
 
-	@Test
-	public void MobileRecharge() {
+	@Test(dataProvider = "TC010", dataProviderClass = DataProviders.class)
+	public void MobileRecharge(String service,String mobileNumber,String data) {
 
 		logger.info("------ Starting TC010_MobileRecharge ------");
-
+		
+		String path=".\\testData\\Identify-Car-Wash-Services_TestData.xlsx";
+		int count = 1;
+		
+		ExcelUtilityClass obj = new ExcelUtilityClass(path, "TC010");
+		
 		HomePage homePage = new HomePage(driver);
 
 		homePage.clickMayBeLaterButton();
@@ -33,7 +40,10 @@ public class TC010_MobileRecharge extends BaseClass {
 		logger.info("------ Clicked Data plan in the plans Sub Menu ------");
 		List<String> plans = recharge.getPlanDetails();
 		for (String x : plans) {
-			System.out.println(x);
+			obj.setCellData(x,count,3);
+			count++;
+			String [] temp = x.split(" , ");
+			System.out.println(temp[0] + "\nAmount: " + temp[1] + "\n");
 		}
 		List<Integer> amount = recharge.getAmountsFromData();
 		logger.info("------ Displayed Results ------");
@@ -47,9 +57,13 @@ public class TC010_MobileRecharge extends BaseClass {
 		}
 
 		if (flag) {
+			obj.setCellData("Plans Amounts are Lesser Than 1000 Rs",1,5);
+			obj.setCellData("Pass",1,6);
 			Assert.assertTrue(true);
 			logger.info("------ Test Case Passed ------");
 		} else {
+			obj.setCellData("Plans Amounts are greater Than 1000 Rs",1,5);
+			obj.setCellData("Pass",1,6);
 			Assert.fail();
 			logger.info("------ Test Case Failed ------");
 		}

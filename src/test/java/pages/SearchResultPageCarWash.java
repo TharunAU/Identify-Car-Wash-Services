@@ -80,7 +80,7 @@ public class SearchResultPageCarWash extends BasePage {
 			int rating = Integer.parseInt(value);
 
 			if (rating > 20 && !phoneNumber.equals("Show Number")) {
-				result.add("\nCar Washing Sevices: " + name + "\nContact Number: " + phoneNumber);
+				result.add(name+" / "+phoneNumber);
 				count++;
 			}
 		}

@@ -58,7 +58,7 @@ public class SearchResultPageRestaurant extends BasePage{
 			if (count == 5) {
 				break;
 			}
-			results.add("\nHotel Name: "+hotelNames.get(i).getText()+"\nRating(5): "+ratings.get(i).getText()+"\nNumber Of Ratings: "+peopleRatings.get(i).getText());
+			results.add(hotelNames.get(i).getText()+" , "+ratings.get(i).getText()+" , "+peopleRatings.get(i).getText());
 			count++;
 		}
 		return results;

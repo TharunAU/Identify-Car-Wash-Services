@@ -67,7 +67,7 @@ public class SearchPageResultMobileRecharge extends BasePage{
 	        String text = list.getText().trim();
 	        if (!text.isEmpty()) {
 	        	String temp[] = text.split("\n");
-	            details.add(temp[0] + "\nAmount: " + temp[2] + "\n");
+	            details.add(temp[0] + " , " + temp[2]);
 	            count++;
 	        }
 	    }

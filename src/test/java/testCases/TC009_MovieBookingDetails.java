@@ -10,12 +10,19 @@ import pages.HomePage;
 import pages.MoviesPage;
 import pages.SearchResultMoviePage;
 import testBase.BaseClass;
+import utilities.DataProviders;
+import utilities.ExcelUtilityClass;
 
 public class TC009_MovieBookingDetails extends BaseClass {
 
-	@Test
-	public void MovieBookingDetails() {
+	@Test(dataProvider = "TC009", dataProviderClass = DataProviders.class)
+	public void MovieBookingDetails(String languges,String format,String genre) {
 		logger.info("------ Starting TC009_MovieBookingDetails ------");
+		
+		String path=".\\testData\\Identify-Car-Wash-Services_TestData.xlsx";
+		int count = 1;
+		
+		ExcelUtilityClass obj = new ExcelUtilityClass(path, "TC009");
 
 		HomePage homePage = new HomePage(driver);
 
@@ -27,11 +34,11 @@ public class TC009_MovieBookingDetails extends BaseClass {
 		MoviesPage movies = new MoviesPage(driver);
 
 		movies.waitUntilHeadingTagAppears();
-		movies.clickChosenLanguages("tamil,english,telugu");
+		movies.clickChosenLanguages(languges);
 		logger.info("------ Selected Prefered Languages in the filter ------");
-		movies.clickChosenFormat("2d");
+		movies.clickChosenFormat(format);
 		logger.info("------ Selected 2D in the format Filter ------");
-		movies.clickChosenJonour("comedy");
+		movies.clickChosenJonour(genre);
 		logger.info("------ Selected Comedy in the Genre Filter ------");
 		movies.clickApplyFilterButton();
 		logger.info("------ Clicked Apply Button ------");
@@ -39,9 +46,11 @@ public class TC009_MovieBookingDetails extends BaseClass {
 		SoftAssert softAssert = new SoftAssert();
 		WebElement comedyJonourFilterCheckBox = movies.getComedyJonourFilterCheckBox();
 		if (comedyJonourFilterCheckBox.isEnabled()) {
+			obj.setCellData("Languages,Format,Genre check box are Enabled ",1,5);
 			softAssert.assertTrue(true);
 			logger.info("------ Selection of Comedy Genre is verified ------");
 		} else {
+			obj.setCellData("Languages,Format,Genre check box are Not Enabled ",1,5);
 			softAssert.fail();
 			logger.info("------ Selection of Comedy Genre is not reflected ------");
 		}
@@ -56,12 +65,21 @@ public class TC009_MovieBookingDetails extends BaseClass {
 		System.out.println("Movie Name: " + movie);
 		List<String> details = movieSearch.getMovieDetails();
 		for (String x : details) {
-			System.out.println(x);
+			obj.setCellData(x,count,3);
+			count++;
+			String [] values = x.split(" , ");
+			System.out.println("\nTheatre Name: " + values[0] + "\nLocation Name: "
+					+ values[1] + "\nShow Timings: " + values[2]);
 		}
 		logger.info("------ Displayed the Results ------");
 		logger.info("----------------------------------------------------------------------------------------");
 
-		softAssert.assertAll();
+		try{
+			softAssert.assertAll();
+			obj.setCellData("Pass",1,6);
+			}catch(AssertionError e){
+				obj.setCellData("Fail",1,6);
+		}
 	}
 
 }

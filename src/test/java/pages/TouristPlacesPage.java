@@ -62,7 +62,7 @@ public class TouristPlacesPage extends BasePage {
 			if(count==5) {
 				break;
 			}
-			result.add("Hotel Name : "+hoteNameslList.get(i).getText()+"\nRating : "+hotelRatingList.get(i).getText());
+			result.add(hoteNameslList.get(i).getText()+" , "+hotelRatingList.get(i).getText());
 			count++;
 		}
 		return result;
@@ -75,7 +75,7 @@ public class TouristPlacesPage extends BasePage {
 			if(count==5) {
 				break;
 			}
-			res.add("Restaurant Name : "+restaurantNamesList.get(i).getText()+"\nRating : "+restaurantRatingList.get(i).getText());
+			res.add(restaurantNamesList.get(i).getText()+" , "+restaurantRatingList.get(i).getText());
 			count++;
 		}
 		return res;
@@ -88,7 +88,7 @@ public class TouristPlacesPage extends BasePage {
 			if(count==5) {
 				break;
 			}
-			res.add("Coffee Shop Name : "+coffeeShopNamesList.get(i).getText()+"\nRating : "+coffeeShopRatingList.get(i).getText());
+			res.add(coffeeShopNamesList.get(i).getText()+" , "+coffeeShopRatingList.get(i).getText());
 			count++;
 		}
 		return res;
@@ -101,7 +101,7 @@ public class TouristPlacesPage extends BasePage {
 			if(count==5) {
 				break;
 			}
-			res.add("Travel Agents : "+travelAgentsList.get(i).getText()+"\nRating : "+travelAgentsRating.get(i).getText());
+			res.add(travelAgentsList.get(i).getText()+" , "+travelAgentsRating.get(i).getText());
 			count++;
 		}
 		return res;
@@ -114,7 +114,7 @@ public class TouristPlacesPage extends BasePage {
 			if(count==5) {
 				break;
 			}
-			res.add("Things To Do : "+thingsToDoList.get(i).getText()+"\nRating : "+thingsToDoRating.get(i).getText());
+			res.add(thingsToDoList.get(i).getText()+" , "+thingsToDoRating.get(i).getText());
 			count++;
 		}
 		return res;

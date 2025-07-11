@@ -7,6 +7,7 @@ import pages.FreeListingPhoneNumberPage;
 import pages.HomePage;
 import testBase.BaseClass;
 import utilities.DataProviders;
+import utilities.ExcelUtilityClass;
 
 public class TC002_FreeListing extends BaseClass {
 
@@ -14,7 +15,11 @@ public class TC002_FreeListing extends BaseClass {
 	public void freeListing(String phoneNumber) {
 
 		logger.info("------ Starting TC002_FreeListing ------");
-
+		
+		String path=".\\testData\\Identify-Car-Wash-Services_TestData.xlsx";
+		
+		ExcelUtilityClass obj = new ExcelUtilityClass(path, "TC002");
+		
 		HomePage homePage = new HomePage(driver);
 
 		homePage.clickFreeListingList();
@@ -32,11 +37,15 @@ public class TC002_FreeListing extends BaseClass {
 		logger.info("------ Retrieved the Error Message ------");
 
 		System.out.println("The Error Message is: " + Message);
+		
+		obj.setCellData(Message,1,2);
 
 		if (Message.equalsIgnoreCase("Please Enter a Valid Mobile Number")) {
+			obj.setCellData("Pass",1,3);
 			Assert.assertTrue(true);
 			logger.info("------ Test Case Passed ------");
 		} else {
+			obj.setCellData("Fail",1,3);
 			Assert.fail();
 			logger.info("------ Test Case Failed ------");
 		}
