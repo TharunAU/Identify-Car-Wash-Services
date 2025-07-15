@@ -252,3 +252,35 @@
 2025-07-15 09:21:33 INFO  CucumberBase:41 - Status: PASSED
 2025-07-15 09:21:36 INFO  CucumberBase:55 - Browser closed.
 2025-07-15 09:21:36 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 13:52:49 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-15 15:28:33 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-15 15:28:43 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 15:28:43 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 15:28:45 INFO  CucumberBase:34 - ------ Starting TC001_CarWashServices ------
+2025-07-15 15:28:50 INFO  CucumberBase:41 - ------ Location set to: Saravanampatti ------
+2025-07-15 15:28:50 INFO  CucumberBase:51 - ------ Search term entered: Car Washing Sevices ------
+2025-07-15 15:28:51 INFO  CucumberBase:57 - ------ Search result heading:  ------
+2025-07-15 15:28:53 INFO  CucumberBase:68 - ------ Applied filter: Rating, Rating: 4 ------
+2025-07-15 15:28:55 INFO  CucumberBase:76 - ------ Displaying top 5 car wash services ------
+2025-07-15 15:28:58 INFO  CucumberBase:99 - ------ Test Case Passed ------
+2025-07-15 15:28:58 INFO  CucumberBase:108 - ----------------------------------------------------------------------------------------
+2025-07-15 15:28:58 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 15:28:58 INFO  CucumberBase:41 - Status: PASSED
+2025-07-15 15:29:02 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 15:29:02 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 15:29:08 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 15:29:08 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 15:29:10 INFO  CucumberBase:33 - ------ Clicked Free Listing Option ------
+2025-07-15 15:29:10 INFO  CucumberBase:56 - ------ Entered Invalid Phone Number: 1234567890 ------
+2025-07-15 15:29:11 INFO  CucumberBase:62 - ------ Clicked Start Now Button ------
+2025-07-15 15:29:11 INFO  CucumberBase:68 - ------ Retrieved Error Message: Please Enter a Valid Mobile Number ------
+2025-07-15 15:29:11 INFO  CucumberBase:79 - ------ Test Case Passed ------
+2025-07-15 15:29:11 INFO  CucumberBase:86 - ----------------------------------------------------------------------------------------
+2025-07-15 15:29:11 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 15:29:11 INFO  CucumberBase:41 - Status: PASSED
+2025-07-15 15:29:14 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 15:29:14 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------

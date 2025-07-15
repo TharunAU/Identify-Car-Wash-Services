@@ -1,5 +1,7 @@
 package stepsDefinitions;
 
+import java.util.HashMap;
+
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -11,7 +13,7 @@ import pages.FreeListingPhoneNumberPage;
 import pages.HomePage;
 import testBase.CucumberBase;
 import testRunner.TestRunner;
-import utilities.SharedData;
+import utilities.DataReader;
 
 public class TC002_steps {
 
@@ -21,7 +23,9 @@ public class TC002_steps {
     private final FreeListingPhoneNumberPage freeListingPage = new FreeListingPhoneNumberPage(driver);
 
     private final String sheetName = "TC002";
+    private final String path = System.getProperty("user.dir") + "\\testData\\Identify-Car-Wash-Services_TestData.xlsx";
     private String errorMessage;
+    private HashMap<String, String> row;
 
     @When("I Navigate to the free listing page")
     public void navigateToFreeListingPage() {
@@ -34,15 +38,17 @@ public class TC002_steps {
         int rowIndex = Integer.parseInt(rowIndexStr);
 
         try {
-            SharedData.loadTestRow(sheetName, rowIndex);
+            DataReader reader = new DataReader(path, sheetName);
+            row = reader.getRowData(rowIndex);
+            reader.close();
         } catch (Exception e) {
-            logger.error("Failed to load test data", e);
+            logger.error("Failed to load test data from row " + rowIndexStr, e);
             Assert.fail("Could not load test data: " + e.getMessage());
         }
 
-        String phoneNumber = SharedData.get("PhoneNumber");
+        String phoneNumber = row.get("PhoneNumber");
         if (phoneNumber == null || phoneNumber.isEmpty()) {
-            logger.error("PhoneNumber field is empty or missing in sheet: " + sheetName);
+            logger.error("PhoneNumber field is empty or missing for row " + rowIndexStr);
             Assert.fail("Missing test data for PhoneNumber");
         }
 

@@ -1,6 +1,6 @@
 package stepsDefinitions;
 
-import java.io.IOException;
+import java.util.HashMap;
 import java.util.List;
 
 import org.apache.logging.log4j.Logger;
@@ -14,7 +14,7 @@ import pages.HomePage;
 import pages.SearchResultPageCarWash;
 import testBase.CucumberBase;
 import testRunner.TestRunner;
-import utilities.SharedData;
+import utilities.DataReader;
 import utilities.ExcelUtilityClass;
 
 public class TC001_steps {
@@ -27,15 +27,14 @@ public class TC001_steps {
     private final String sheetName = "TC001";
     private final String path = System.getProperty("user.dir") + "\\testData\\Identify-Car-Wash-Services_TestData.xlsx";
     private final ExcelUtilityClass excel = new ExcelUtilityClass(path, sheetName);
+    private HashMap<String, String> row;
 
     @When("I set the location as {string}")
     public void setLocation(String rowIndexStr) {
         logger.info("------ Starting TC001_CarWashServices ------");
-        int rowIndex = Integer.parseInt(rowIndexStr);
+        row = loadRow(rowIndexStr);
 
-        loadTestRow(rowIndex);
-
-        String location = SharedData.get("Location");
+        String location = row.get("Location");
         homePage.clickMayBeLaterButton();
         homePage.setLocationName(location);
         homePage.clickLocationFirstDropDown();
@@ -44,10 +43,9 @@ public class TC001_steps {
 
     @And("I search for {string}")
     public void searchForService(String rowIndexStr) {
-        int rowIndex = Integer.parseInt(rowIndexStr);
-        loadTestRow(rowIndex);
+        row = loadRow(rowIndexStr);
 
-        String search = SharedData.get("Search");
+        String search = row.get("Search");
         homePage.setSearch(search);
         homePage.clickSearchFirstDropDown();
         logger.info("------ Search term entered: " + search + " ------");
@@ -61,12 +59,10 @@ public class TC001_steps {
 
     @And("I filter the services with rating more than {string}")
     public void applyFilters(String rowIndexStr) {
-        int rowIndex = Integer.parseInt(rowIndexStr);
-        loadTestRow(rowIndex);
+        row = loadRow(rowIndexStr);
 
-        String filter = SharedData.get("Filter");
-        String rating = SharedData.get("Rating");
-
+        String filter = row.get("Filter");
+        String rating = row.get("Rating");
         carWash.selectFilter(filter);
         carWash.setRating(rating);
         logger.info("------ Applied filter: " + filter + ", Rating: " + rating + " ------");
@@ -112,12 +108,17 @@ public class TC001_steps {
         logger.info("----------------------------------------------------------------------------------------");
     }
 
-    private void loadTestRow(int rowIndex) {
+    private HashMap<String, String> loadRow(String rowIndexStr) {
+        int rowIndex = Integer.parseInt(rowIndexStr);
         try {
-            SharedData.loadTestRow(sheetName, rowIndex);
-        } catch (IOException e) {
-            logger.error("Failed to load test row from Excel", e);
-            Assert.fail("Could not load test data for row " + rowIndex);
+            DataReader reader = new DataReader(path, sheetName);
+            HashMap<String, String> rowData = reader.getRowData(rowIndex);
+            reader.close();
+            return rowData;
+        } catch (Exception e) {
+            logger.error("Failed to load data from row " + rowIndexStr, e);
+            Assert.fail("Could not read data from Excel for row " + rowIndexStr);
+            return new HashMap<>();
         }
     }
 }
