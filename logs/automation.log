@@ -1,390 +1,254 @@
-2025-07-11 08:53:15 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\master.xml
+2025-07-15 08:41:01 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
 
-2025-07-11 08:53:27 INFO  TC010_MobileRecharge:19 - ------ Starting TC010_MobileRecharge ------
-2025-07-11 08:53:32 INFO  TC010_MobileRecharge:29 - ------ Clicked May Be Later Button ------
-2025-07-11 08:53:37 INFO  TC010_MobileRecharge:31 - ------ Selected Mobile Service Menu ------
-2025-07-11 08:53:37 INFO  TC010_MobileRecharge:36 - ------ Entered Valid Mobile Number ------
-2025-07-11 08:53:39 INFO  TC010_MobileRecharge:38 - ------ Clicked New Plans Button in the Window ------
-2025-07-11 08:53:39 INFO  TC010_MobileRecharge:40 - ------ Clicked Data plan in the plans Sub Menu ------
-2025-07-11 08:53:40 INFO  TC010_MobileRecharge:49 - ------ Displayed Results ------
-2025-07-11 08:53:40 INFO  TC010_MobileRecharge:63 - ------ Test Case Passed ------
-2025-07-11 08:53:40 INFO  TC010_MobileRecharge:70 - ----------------------------------------------------------------------------------------
-2025-07-11 08:55:30 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\master.xml
+2025-07-15 08:41:08 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 08:41:08 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 08:41:09 INFO  CucumberBase:34 - ------ Starting TC001_CarWashServices ------
+2025-07-15 08:41:15 INFO  CucumberBase:43 - ------ Location set to: Saravanampatti ------
+2025-07-15 08:41:15 INFO  CucumberBase:55 - ------ Search term entered: Car Washing Sevices ------
+2025-07-15 08:41:16 INFO  CucumberBase:61 - ------ Search result heading:  ------
+2025-07-15 08:41:17 INFO  CucumberBase:75 - ------ Applied filter: Rating, Rating: 4.0 ------
+2025-07-15 08:41:19 INFO  CucumberBase:83 - ------ Displaying top 5 car wash services ------
+2025-07-15 08:41:20 INFO  CucumberBase:106 - ------ Test Case Passed ------
+2025-07-15 08:41:20 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 08:41:20 INFO  CucumberBase:41 - Status: PASSED
+2025-07-15 08:41:24 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 08:41:24 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 08:41:30 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 08:41:30 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 08:41:33 INFO  CucumberBase:37 - ------ Clicked Free Listing Option ------
+2025-07-15 08:41:33 INFO  CucumberBase:55 - ------ Clicked Start Now Button ------
+2025-07-15 08:41:33 INFO  CucumberBase:61 - ------ Retrieved Error Message: Please Enter a Valid Mobile Number ------
+2025-07-15 08:41:33 INFO  CucumberBase:74 - ------ Test Case Passed ------
+2025-07-15 08:41:33 INFO  CucumberBase:81 - ----------------------------------------------------------------------------------------
+2025-07-15 08:41:33 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 08:41:33 INFO  CucumberBase:41 - Status: PASSED
+2025-07-15 08:41:36 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 08:41:36 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 08:42:21 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
 
-2025-07-11 08:55:37 INFO  TC010_MobileRecharge:19 - ------ Starting TC010_MobileRecharge ------
-2025-07-11 08:55:44 INFO  TC010_MobileRecharge:29 - ------ Clicked May Be Later Button ------
-2025-07-11 08:55:47 INFO  TC010_MobileRecharge:31 - ------ Selected Mobile Service Menu ------
-2025-07-11 08:55:47 INFO  TC010_MobileRecharge:36 - ------ Entered Valid Mobile Number ------
-2025-07-11 08:55:48 INFO  TC010_MobileRecharge:38 - ------ Clicked New Plans Button in the Window ------
-2025-07-11 08:55:48 INFO  TC010_MobileRecharge:40 - ------ Clicked Data plan in the plans Sub Menu ------
-2025-07-11 08:55:49 INFO  TC010_MobileRecharge:49 - ------ Displayed Results ------
-2025-07-11 08:55:50 INFO  TC010_MobileRecharge:63 - ------ Test Case Passed ------
-2025-07-11 08:55:50 INFO  TC010_MobileRecharge:70 - ----------------------------------------------------------------------------------------
-2025-07-11 08:59:39 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\master.xml
+2025-07-15 08:42:27 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 08:42:27 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 08:42:28 INFO  CucumberBase:34 - ------ Starting TC001_CarWashServices ------
+2025-07-15 08:42:34 INFO  CucumberBase:43 - ------ Location set to: Saravanampatti ------
+2025-07-15 08:42:35 INFO  CucumberBase:55 - ------ Search term entered: Car Washing Sevices ------
+2025-07-15 08:42:35 INFO  CucumberBase:61 - ------ Search result heading:  ------
+2025-07-15 08:42:36 INFO  CucumberBase:75 - ------ Applied filter: Rating, Rating: 4.0 ------
+2025-07-15 08:42:38 INFO  CucumberBase:83 - ------ Displaying top 5 car wash services ------
+2025-07-15 08:42:39 INFO  CucumberBase:106 - ------ Test Case Passed ------
+2025-07-15 08:42:39 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 08:42:39 INFO  CucumberBase:41 - Status: PASSED
+2025-07-15 08:42:43 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 08:42:43 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 08:42:48 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 08:42:48 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 08:42:51 INFO  CucumberBase:37 - ------ Clicked Free Listing Option ------
+2025-07-15 08:42:51 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 08:42:51 INFO  CucumberBase:41 - Status: FAILED
+2025-07-15 08:42:51 WARN  CucumberBase:47 - Screenshot captured for failed scenario.
+2025-07-15 08:42:54 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 08:42:54 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 08:47:49 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
 
-2025-07-11 09:00:40 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\master.xml
+2025-07-15 08:47:55 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 08:47:55 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 08:47:56 INFO  CucumberBase:34 - ------ Starting TC001_CarWashServices ------
+2025-07-15 08:48:02 INFO  CucumberBase:43 - ------ Location set to: Saravanampatti ------
+2025-07-15 08:48:03 INFO  CucumberBase:55 - ------ Search term entered: Car Washing Sevices ------
+2025-07-15 08:48:03 INFO  CucumberBase:61 - ------ Search result heading:  ------
+2025-07-15 08:48:05 INFO  CucumberBase:75 - ------ Applied filter: Rating, Rating: 4.0 ------
+2025-07-15 08:48:06 INFO  CucumberBase:83 - ------ Displaying top 5 car wash services ------
+2025-07-15 08:48:07 INFO  CucumberBase:106 - ------ Test Case Passed ------
+2025-07-15 08:48:07 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 08:48:07 INFO  CucumberBase:41 - Status: PASSED
+2025-07-15 08:48:11 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 08:48:11 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 08:48:16 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 08:48:16 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 08:48:17 INFO  CucumberBase:37 - ------ Clicked Free Listing Option ------
+2025-07-15 08:48:17 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 08:48:17 INFO  CucumberBase:41 - Status: FAILED
+2025-07-15 08:48:18 WARN  CucumberBase:47 - Screenshot captured for failed scenario.
+2025-07-15 08:48:20 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 08:48:20 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 08:52:03 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
 
-2025-07-11 09:00:47 INFO  TC010_MobileRecharge:19 - ------ Starting TC010_MobileRecharge ------
-2025-07-11 09:00:54 INFO  TC010_MobileRecharge:29 - ------ Clicked May Be Later Button ------
-2025-07-11 09:00:58 INFO  TC010_MobileRecharge:31 - ------ Selected Mobile Service Menu ------
-2025-07-11 09:00:58 INFO  TC010_MobileRecharge:36 - ------ Entered Valid Mobile Number ------
-2025-07-11 09:01:00 INFO  TC010_MobileRecharge:38 - ------ Clicked New Plans Button in the Window ------
-2025-07-11 09:01:00 INFO  TC010_MobileRecharge:40 - ------ Clicked Data plan in the plans Sub Menu ------
-2025-07-11 09:01:01 INFO  TC010_MobileRecharge:49 - ------ Displayed Results ------
-2025-07-11 09:01:01 INFO  TC010_MobileRecharge:63 - ------ Test Case Passed ------
-2025-07-11 09:01:01 INFO  TC010_MobileRecharge:70 - ----------------------------------------------------------------------------------------
-2025-07-11 09:03:16 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\master.xml
+2025-07-15 08:52:11 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 08:52:11 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 08:52:13 INFO  CucumberBase:34 - ------ Starting TC001_CarWashServices ------
+2025-07-15 08:52:18 INFO  CucumberBase:43 - ------ Location set to: Saravanampatti ------
+2025-07-15 08:52:19 INFO  CucumberBase:55 - ------ Search term entered: Car Washing Sevices ------
+2025-07-15 08:52:20 INFO  CucumberBase:61 - ------ Search result heading:  ------
+2025-07-15 08:52:21 INFO  CucumberBase:75 - ------ Applied filter: Rating, Rating: 4 ------
+2025-07-15 08:52:24 INFO  CucumberBase:83 - ------ Displaying top 5 car wash services ------
+2025-07-15 08:52:26 INFO  CucumberBase:106 - ------ Test Case Passed ------
+2025-07-15 08:52:26 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 08:52:26 INFO  CucumberBase:41 - Status: PASSED
+2025-07-15 08:52:31 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 08:52:31 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 08:52:38 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 08:52:38 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 08:52:41 INFO  CucumberBase:37 - ------ Clicked Free Listing Option ------
+2025-07-15 08:52:41 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 08:52:41 INFO  CucumberBase:41 - Status: FAILED
+2025-07-15 08:52:42 WARN  CucumberBase:47 - Screenshot captured for failed scenario.
+2025-07-15 08:52:45 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 08:52:45 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 08:57:55 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
 
-2025-07-11 09:03:24 INFO  TC010_MobileRecharge:19 - ------ Starting TC010_MobileRecharge ------
-2025-07-11 09:03:29 INFO  TC010_MobileRecharge:29 - ------ Clicked May Be Later Button ------
-2025-07-11 09:03:33 INFO  TC010_MobileRecharge:31 - ------ Selected Mobile Service Menu ------
-2025-07-11 09:03:33 INFO  TC010_MobileRecharge:36 - ------ Entered Valid Mobile Number ------
-2025-07-11 09:03:35 INFO  TC010_MobileRecharge:38 - ------ Clicked New Plans Button in the Window ------
-2025-07-11 09:03:36 INFO  TC010_MobileRecharge:40 - ------ Clicked Data plan in the plans Sub Menu ------
-2025-07-11 09:03:38 INFO  TC010_MobileRecharge:49 - ------ Displayed Results ------
-2025-07-11 09:03:38 INFO  TC010_MobileRecharge:63 - ------ Test Case Passed ------
-2025-07-11 09:03:38 INFO  TC010_MobileRecharge:70 - ----------------------------------------------------------------------------------------
-2025-07-11 09:03:56 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\master.xml
+2025-07-15 08:58:01 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 08:58:01 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 08:58:04 INFO  CucumberBase:37 - ------ Clicked Free Listing Option ------
+2025-07-15 08:58:04 INFO  CucumberBase:49 - ------ Entered Invalid Phone Number: 1234567890 ------
+2025-07-15 08:58:05 INFO  CucumberBase:55 - ------ Clicked Start Now Button ------
+2025-07-15 08:58:05 INFO  CucumberBase:61 - ------ Retrieved Error Message: Please Enter a Valid Mobile Number ------
+2025-07-15 08:58:05 INFO  CucumberBase:74 - ------ Test Case Passed ------
+2025-07-15 08:58:05 INFO  CucumberBase:81 - ----------------------------------------------------------------------------------------
+2025-07-15 08:58:05 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 08:58:05 INFO  CucumberBase:41 - Status: PASSED
+2025-07-15 08:58:07 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 08:58:07 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 08:58:33 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
 
-2025-07-11 09:04:05 INFO  TC001_CarWashServices:19 - ------ Starting TC001_CarWashServices ------
-2025-07-11 09:04:10 INFO  TC001_CarWashServices:29 - ------ Clicked May be Later Button ------
-2025-07-11 09:04:10 INFO  TC001_CarWashServices:32 - ------ Selected Location ------
-2025-07-11 09:04:12 INFO  TC001_CarWashServices:35 - ------ Searching Car Washing Services in the Search Box ------
-2025-07-11 09:04:16 INFO  TC001_CarWashServices:41 - ------ Selected Rating ------
-2025-07-11 09:04:18 INFO  TC001_CarWashServices:50 - ------ Displaying Search Results ------
-2025-07-11 09:04:18 INFO  TC001_CarWashServices:50 - ------ Displaying Search Results ------
-2025-07-11 09:04:18 INFO  TC001_CarWashServices:50 - ------ Displaying Search Results ------
-2025-07-11 09:04:18 INFO  TC001_CarWashServices:50 - ------ Displaying Search Results ------
-2025-07-11 09:04:18 INFO  TC001_CarWashServices:50 - ------ Displaying Search Results ------
-2025-07-11 09:04:19 INFO  TC001_CarWashServices:57 - ------ Test Case Passed ------
-2025-07-11 09:04:19 INFO  TC001_CarWashServices:65 - ----------------------------------------------------------------------------------------
-2025-07-11 09:04:34 INFO  TC002_FreeListing:17 - ------ Starting TC002_FreeListing ------
-2025-07-11 09:04:38 INFO  TC002_FreeListing:26 - ------ Clicked Free Listing Option ------
-2025-07-11 09:04:38 INFO  TC002_FreeListing:31 - ------ Entered Invalid Phone Number in the Phone Number Field ------
-2025-07-11 09:04:39 INFO  TC002_FreeListing:34 - ------ Clicked Start Now Button ------
-2025-07-11 09:04:39 INFO  TC002_FreeListing:37 - ------ Retrieved the Error Message ------
-2025-07-11 09:04:39 INFO  TC002_FreeListing:46 - ------ Test Case Passed ------
-2025-07-11 09:04:39 INFO  TC002_FreeListing:53 - ----------------------------------------------------------------------------------------
-2025-07-11 09:04:49 INFO  TC003_GymSubMenuList:18 - ------ Starting TC003_GymSubMenuList ------
-2025-07-11 09:04:55 INFO  TC003_GymSubMenuList:28 - ------ Clicked May Be Later Button ------
-2025-07-11 09:05:06 INFO  TC003_GymSubMenuList:31 - ------ Clicked the Fitness Menu ------
-2025-07-11 09:05:07 INFO  TC003_GymSubMenuList:39 - ------ Displayed the GYMs Sub menus ------
-2025-07-11 09:05:07 INFO  TC003_GymSubMenuList:53 - ------ Test Case Passed ------
-2025-07-11 09:05:07 INFO  TC003_GymSubMenuList:61 - ----------------------------------------------------------------------------------------
-2025-07-11 09:05:17 INFO  TC004_Hostels:19 - ------ Started TC004_Hostels ------
-2025-07-11 09:05:23 INFO  TC004_Hostels:29 - ------ Clicked May Be Later Button ------
-2025-07-11 09:05:24 INFO  TC004_Hostels:32 - ------ Selected Location ------
-2025-07-11 09:05:24 INFO  TC004_Hostels:35 - ------ Searching Hostels in the Search Box ------
-2025-07-11 09:05:27 INFO  TC004_Hostels:40 - ------ Selected Top Rated in Filters ------
-2025-07-11 09:05:28 INFO  TC004_Hostels:42 - ------ Selected Top JD Verified in Filters ------
-2025-07-11 09:05:29 INFO  TC004_Hostels:44 - ------ Selected Top JD Trust in Filters ------
-2025-07-11 09:05:30 INFO  TC004_Hostels:52 - ------ Displayed the Search Results ------
-2025-07-11 09:05:30 INFO  TC004_Hostels:66 - ------ Test Case Passed ------
-2025-07-11 09:05:30 INFO  TC004_Hostels:73 - ----------------------------------------------------------------------------------------
-2025-07-11 09:05:41 INFO  TC005_Restaurants:19 - ------ Starting TC005_Restaurants ------
-2025-07-11 09:05:47 INFO  TC005_Restaurants:29 - ------ Clicked May Be Later Button ------
-2025-07-11 09:05:48 INFO  TC005_Restaurants:32 - ------ Selected Location ------
-2025-07-11 09:05:51 INFO  TC005_Restaurants:35 - ------ Searching Restaurants in the Search Box ------
-2025-07-11 09:05:52 INFO  TC005_Restaurants:40 - ------ Selected Cuisines in the Filters ------
-2025-07-11 09:05:53 INFO  TC005_Restaurants:42 - ------ Selected South Indian in the Cuisines Filter ------
-2025-07-11 09:05:54 INFO  TC005_Restaurants:44 - ------ Selected Online Delivery in the Filters ------
-2025-07-11 09:05:54 INFO  TC005_Restaurants:46 - ------ Selected Open Now in the Filters ------
-2025-07-11 09:05:56 INFO  TC005_Restaurants:55 - ------ Displaying the Results ------
-2025-07-11 09:05:56 INFO  TC005_Restaurants:70 - ------ Test Case Passed ------
-2025-07-11 09:05:56 INFO  TC005_Restaurants:77 - ----------------------------------------------------------------------------------------
-2025-07-11 09:06:07 INFO  TC006_CategorySearchResults:27 - ------ Starting TC006_CategorySearchResults ------
-2025-07-11 09:06:13 INFO  TC006_CategorySearchResults:31 - ------ Clicked May Be Later Button ------
-2025-07-11 09:06:13 INFO  TC006_CategorySearchResults:33 - ------ Clicked Close Button for a pop up ------
-2025-07-11 09:06:14 INFO  TC006_CategorySearchResults:35 - ------ Clicked Popular Category Button ------
-2025-07-11 09:06:14 INFO  TC006_CategorySearchResults:45 - ------ Searching ac in the Seach Box ------
-2025-07-11 09:06:14 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 09:06:15 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 09:06:15 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 09:06:15 INFO  TC006_CategorySearchResults:45 - ------ Searching car in the Seach Box ------
-2025-07-11 09:06:15 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 09:06:15 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 09:06:15 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 09:06:15 INFO  TC006_CategorySearchResults:45 - ------ Searching service in the Seach Box ------
-2025-07-11 09:06:15 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 09:06:16 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 09:06:16 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 09:06:16 INFO  TC006_CategorySearchResults:45 - ------ Searching scrap in the Seach Box ------
-2025-07-11 09:06:16 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 09:06:17 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 09:06:17 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 09:06:17 INFO  TC006_CategorySearchResults:45 - ------ Searching computer in the Seach Box ------
-2025-07-11 09:06:17 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 09:06:17 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 09:06:17 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 09:06:29 INFO  TC007_ExploreAreasSection:19 - ------ Starting TC007_ExploreAreasSection ------
-2025-07-11 09:06:35 INFO  TC007_ExploreAreasSection:29 - ------ Clicked May Be Later Button ------
-2025-07-11 09:06:36 INFO  TC007_ExploreAreasSection:32 - ------ Selected Location ------
-2025-07-11 09:06:46 INFO  TC007_ExploreAreasSection:34 - ------ Selected Top Tourist Place in that Location ------
-2025-07-11 09:07:06 INFO  TC008_BusBooking:21 - ------ Starting TC008_BusBooking ------
-2025-07-11 09:07:12 INFO  TC008_BusBooking:31 - ------ Clicked May Be Later Button ------
-2025-07-11 09:07:16 INFO  TC008_BusBooking:33 - ------ Clicked Bus Service Menu ------
-2025-07-11 09:07:16 INFO  TC008_BusBooking:38 - ------ Selected Coimbatore in the Departure City ------
-2025-07-11 09:07:16 INFO  TC008_BusBooking:40 - ------ Selected Chennai in the Destination City ------
-2025-07-11 09:07:16 INFO  TC008_BusBooking:44 - ------ Selected Date ------
-2025-07-11 09:07:20 INFO  TC008_BusBooking:46 - ------ Clicked Search Button ------
-2025-07-11 09:07:21 INFO  TC008_BusBooking:51 - ------ Clicked Bus Type ------
-2025-07-11 09:07:21 INFO  TC008_BusBooking:53 - ------ Selected Non Ac CheckBox ------
-2025-07-11 09:07:22 INFO  TC008_BusBooking:55 - ------ Selected Sleeper CheckBox ------
-2025-07-11 09:07:22 INFO  TC008_BusBooking:69 - ------ Displayed Results ------
-2025-07-11 09:07:22 INFO  TC008_BusBooking:75 - ------ Test Case Passed ------
-2025-07-11 09:07:22 INFO  TC008_BusBooking:82 - ----------------------------------------------------------------------------------------
-2025-07-11 09:07:34 INFO  TC009_MovieBookingDetails:20 - ------ Starting TC009_MovieBookingDetails ------
-2025-07-11 09:07:40 INFO  TC009_MovieBookingDetails:30 - ------ Clicked May Be Later Button ------
-2025-07-11 09:07:40 INFO  TC009_MovieBookingDetails:32 - ------ Clicked Movies Section ------
-2025-07-11 09:07:42 INFO  TC009_MovieBookingDetails:38 - ------ Selected Prefered Languages in the filter ------
-2025-07-11 09:07:43 INFO  TC009_MovieBookingDetails:40 - ------ Selected 2D in the format Filter ------
-2025-07-11 09:07:43 INFO  TC009_MovieBookingDetails:42 - ------ Selected Comedy in the Genre Filter ------
-2025-07-11 09:07:43 INFO  TC009_MovieBookingDetails:44 - ------ Clicked Apply Button ------
-2025-07-11 09:07:44 INFO  TC009_MovieBookingDetails:51 - ------ Selection of Comedy Genre is verified ------
-2025-07-11 09:07:44 INFO  TC009_MovieBookingDetails:60 - ------ First Movie in the Results is Selected ------
-2025-07-11 09:07:45 INFO  TC009_MovieBookingDetails:74 - ------ Displayed the Results ------
-2025-07-11 09:07:45 INFO  TC009_MovieBookingDetails:75 - ----------------------------------------------------------------------------------------
-2025-07-11 09:07:56 INFO  TC010_MobileRecharge:19 - ------ Starting TC010_MobileRecharge ------
-2025-07-11 09:08:02 INFO  TC010_MobileRecharge:29 - ------ Clicked May Be Later Button ------
-2025-07-11 09:08:08 INFO  TC010_MobileRecharge:31 - ------ Selected Mobile Service Menu ------
-2025-07-11 09:08:09 INFO  TC010_MobileRecharge:36 - ------ Entered Valid Mobile Number ------
-2025-07-11 09:08:10 INFO  TC010_MobileRecharge:38 - ------ Clicked New Plans Button in the Window ------
-2025-07-11 09:08:10 INFO  TC010_MobileRecharge:40 - ------ Clicked Data plan in the plans Sub Menu ------
-2025-07-11 09:08:11 INFO  TC010_MobileRecharge:49 - ------ Displayed Results ------
-2025-07-11 09:08:11 INFO  TC010_MobileRecharge:63 - ------ Test Case Passed ------
-2025-07-11 09:08:11 INFO  TC010_MobileRecharge:70 - ----------------------------------------------------------------------------------------
-2025-07-11 09:08:38 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\test-output\testng-failed.xml
+2025-07-15 08:58:40 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 08:58:40 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 08:58:40 INFO  CucumberBase:34 - ------ Starting TC001_CarWashServices ------
+2025-07-15 08:58:47 INFO  CucumberBase:43 - ------ Location set to: Saravanampatti ------
+2025-07-15 08:58:47 INFO  CucumberBase:55 - ------ Search term entered: Car Washing Sevices ------
+2025-07-15 08:58:48 INFO  CucumberBase:61 - ------ Search result heading:  ------
+2025-07-15 08:58:49 INFO  CucumberBase:75 - ------ Applied filter: Rating, Rating: 4 ------
+2025-07-15 08:58:51 INFO  CucumberBase:83 - ------ Displaying top 5 car wash services ------
+2025-07-15 08:58:53 INFO  CucumberBase:106 - ------ Test Case Passed ------
+2025-07-15 08:58:53 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 08:58:53 INFO  CucumberBase:41 - Status: PASSED
+2025-07-15 08:58:56 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 08:58:56 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 08:59:02 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 08:59:02 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 08:59:04 INFO  CucumberBase:37 - ------ Clicked Free Listing Option ------
+2025-07-15 08:59:04 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 08:59:04 INFO  CucumberBase:41 - Status: FAILED
+2025-07-15 08:59:05 WARN  CucumberBase:47 - Screenshot captured for failed scenario.
+2025-07-15 08:59:07 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 08:59:07 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 08:59:51 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
 
-2025-07-11 09:08:52 INFO  TC007_ExploreAreasSection:19 - ------ Starting TC007_ExploreAreasSection ------
-2025-07-11 09:08:53 INFO  TC007_ExploreAreasSection:29 - ------ Clicked May Be Later Button ------
-2025-07-11 09:08:54 INFO  TC007_ExploreAreasSection:32 - ------ Selected Location ------
-2025-07-11 09:09:04 INFO  TC007_ExploreAreasSection:34 - ------ Selected Top Tourist Place in that Location ------
-2025-07-11 09:09:34 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\test-output\testng-failed.xml
+2025-07-15 08:59:58 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 08:59:58 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 09:00:01 INFO  CucumberBase:37 - ------ Clicked Free Listing Option ------
+2025-07-15 09:00:01 INFO  CucumberBase:49 - ------ Entered Invalid Phone Number: 1234567890 ------
+2025-07-15 09:00:01 INFO  CucumberBase:55 - ------ Clicked Start Now Button ------
+2025-07-15 09:00:01 INFO  CucumberBase:61 - ------ Retrieved Error Message: Please Enter a Valid Mobile Number ------
+2025-07-15 09:00:01 INFO  CucumberBase:74 - ------ Test Case Passed ------
+2025-07-15 09:00:01 INFO  CucumberBase:81 - ----------------------------------------------------------------------------------------
+2025-07-15 09:00:01 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 09:00:01 INFO  CucumberBase:41 - Status: PASSED
+2025-07-15 09:00:04 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 09:00:04 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 09:00:47 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
 
-2025-07-11 09:09:45 INFO  TC007_ExploreAreasSection:19 - ------ Starting TC007_ExploreAreasSection ------
-2025-07-11 09:09:48 INFO  TC007_ExploreAreasSection:29 - ------ Clicked May Be Later Button ------
-2025-07-11 09:09:48 INFO  TC007_ExploreAreasSection:32 - ------ Selected Location ------
-2025-07-11 09:09:59 INFO  TC007_ExploreAreasSection:34 - ------ Selected Top Tourist Place in that Location ------
-2025-07-11 09:35:05 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\test-output\testng-failed.xml
+2025-07-15 09:00:54 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 09:00:54 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 09:00:54 INFO  CucumberBase:34 - ------ Starting TC001_CarWashServices ------
+2025-07-15 09:01:01 INFO  CucumberBase:43 - ------ Location set to: Saravanampatti ------
+2025-07-15 09:01:01 INFO  CucumberBase:55 - ------ Search term entered: Car Washing Sevices ------
+2025-07-15 09:01:01 INFO  CucumberBase:61 - ------ Search result heading:  ------
+2025-07-15 09:01:03 INFO  CucumberBase:75 - ------ Applied filter: Rating, Rating: 4 ------
+2025-07-15 09:01:04 INFO  CucumberBase:83 - ------ Displaying top 5 car wash services ------
+2025-07-15 09:01:06 INFO  CucumberBase:106 - ------ Test Case Passed ------
+2025-07-15 09:01:06 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 09:01:06 INFO  CucumberBase:41 - Status: PASSED
+2025-07-15 09:01:09 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 09:01:09 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 09:01:14 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 09:01:14 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 09:01:17 INFO  CucumberBase:37 - ------ Clicked Free Listing Option ------
+2025-07-15 09:01:27 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 09:01:27 INFO  CucumberBase:41 - Status: FAILED
+2025-07-15 09:01:27 WARN  CucumberBase:47 - Screenshot captured for failed scenario.
+2025-07-15 09:01:30 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 09:01:30 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 09:01:32 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
 
-2025-07-11 09:35:13 INFO  TC007_ExploreAreasSection:19 - ------ Starting TC007_ExploreAreasSection ------
-2025-07-11 09:35:18 INFO  TC007_ExploreAreasSection:29 - ------ Clicked May Be Later Button ------
-2025-07-11 09:35:19 INFO  TC007_ExploreAreasSection:32 - ------ Selected Location ------
-2025-07-11 09:35:23 INFO  TC007_ExploreAreasSection:34 - ------ Selected Top Tourist Place in that Location ------
-2025-07-11 09:35:26 INFO  TC007_ExploreAreasSection:61 - ------ Displayed Top Hotels ------
-2025-07-11 09:35:27 INFO  TC007_ExploreAreasSection:71 - ------ Displayed Top Restaurants ------
-2025-07-11 09:35:27 INFO  TC007_ExploreAreasSection:81 - ------ Displayed Top Coffee Shops ------
-2025-07-11 09:35:27 INFO  TC007_ExploreAreasSection:91 - ------ Displayed Top Travel Agents ------
-2025-07-11 09:35:27 INFO  TC007_ExploreAreasSection:103 - ------ Displayed Top Things To Do ------
-2025-07-11 09:35:27 INFO  TC007_ExploreAreasSection:118 - ------ Test Case Passed ------
-2025-07-11 09:35:27 INFO  TC007_ExploreAreasSection:125 - ----------------------------------------------------------------------------------------
-2025-07-11 10:01:27 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\master.xml
+2025-07-15 09:01:39 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 09:01:39 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 09:01:40 INFO  CucumberBase:34 - ------ Starting TC001_CarWashServices ------
+2025-07-15 09:01:46 INFO  CucumberBase:43 - ------ Location set to: Saravanampatti ------
+2025-07-15 09:01:47 INFO  CucumberBase:55 - ------ Search term entered: Car Washing Sevices ------
+2025-07-15 09:01:47 INFO  CucumberBase:61 - ------ Search result heading:  ------
+2025-07-15 09:01:48 INFO  CucumberBase:75 - ------ Applied filter: Rating, Rating: 4 ------
+2025-07-15 09:01:50 INFO  CucumberBase:83 - ------ Displaying top 5 car wash services ------
+2025-07-15 09:01:51 INFO  CucumberBase:106 - ------ Test Case Passed ------
+2025-07-15 09:01:51 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 09:01:51 INFO  CucumberBase:41 - Status: PASSED
+2025-07-15 09:01:55 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 09:01:55 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 09:02:00 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 09:02:00 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 09:02:01 INFO  CucumberBase:37 - ------ Clicked Free Listing Option ------
+2025-07-15 09:02:01 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 09:02:01 INFO  CucumberBase:41 - Status: FAILED
+2025-07-15 09:02:02 WARN  CucumberBase:47 - Screenshot captured for failed scenario.
+2025-07-15 09:02:04 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 09:02:04 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 09:06:07 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
 
-2025-07-11 10:02:38 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\master.xml
+2025-07-15 09:06:13 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 09:06:13 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 09:06:14 INFO  CucumberBase:34 - ------ Starting TC001_CarWashServices ------
+2025-07-15 09:06:20 INFO  CucumberBase:43 - ------ Location set to: Saravanampatti ------
+2025-07-15 09:06:21 INFO  CucumberBase:55 - ------ Search term entered: Car Washing Sevices ------
+2025-07-15 09:06:21 INFO  CucumberBase:61 - ------ Search result heading:  ------
+2025-07-15 09:06:24 INFO  CucumberBase:75 - ------ Applied filter: Rating, Rating: 4 ------
+2025-07-15 09:06:26 INFO  CucumberBase:83 - ------ Displaying top 5 car wash services ------
+2025-07-15 09:06:27 INFO  CucumberBase:106 - ------ Test Case Passed ------
+2025-07-15 09:06:27 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 09:06:27 INFO  CucumberBase:41 - Status: PASSED
+2025-07-15 09:06:32 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 09:06:32 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 09:06:38 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 09:06:38 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 09:06:41 INFO  CucumberBase:37 - ------ Clicked Free Listing Option ------
+2025-07-15 09:06:41 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 09:06:41 INFO  CucumberBase:41 - Status: FAILED
+2025-07-15 09:06:41 WARN  CucumberBase:47 - Screenshot captured for failed scenario.
+2025-07-15 09:06:44 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 09:06:44 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 09:20:54 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
 
-2025-07-11 10:06:45 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\master.xml
-
-2025-07-11 10:12:56 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\master.xml
-
-2025-07-11 10:15:07 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\master.xml
-
-2025-07-11 10:16:06 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\master.xml
-
-2025-07-11 10:18:40 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\master.xml
-
-2025-07-11 10:20:54 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\master.xml
-
-2025-07-11 10:20:59 INFO  TC006_CategorySearchResults:27 - ------ Starting TC006_CategorySearchResults ------
-2025-07-11 10:21:05 INFO  TC006_CategorySearchResults:31 - ------ Clicked May Be Later Button ------
-2025-07-11 10:21:06 INFO  TC006_CategorySearchResults:33 - ------ Clicked Close Button for a pop up ------
-2025-07-11 10:21:06 INFO  TC006_CategorySearchResults:35 - ------ Clicked Popular Category Button ------
-2025-07-11 10:21:06 INFO  TC006_CategorySearchResults:45 - ------ Searching ac in the Seach Box ------
-2025-07-11 10:21:06 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 10:21:08 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 10:21:08 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 10:21:08 INFO  TC006_CategorySearchResults:45 - ------ Searching car in the Seach Box ------
-2025-07-11 10:21:08 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 10:21:09 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 10:21:09 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 10:21:09 INFO  TC006_CategorySearchResults:45 - ------ Searching service in the Seach Box ------
-2025-07-11 10:21:09 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 10:21:10 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 10:21:10 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 10:21:10 INFO  TC006_CategorySearchResults:45 - ------ Searching scrap in the Seach Box ------
-2025-07-11 10:21:10 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 10:21:11 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 10:21:11 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 10:21:11 INFO  TC006_CategorySearchResults:45 - ------ Searching computer in the Seach Box ------
-2025-07-11 10:21:11 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 10:21:11 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 10:21:11 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 10:34:51 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\master.xml
-
-2025-07-11 10:34:57 INFO  TC006_CategorySearchResults:27 - ------ Starting TC006_CategorySearchResults ------
-2025-07-11 10:35:03 INFO  TC006_CategorySearchResults:31 - ------ Clicked May Be Later Button ------
-2025-07-11 10:35:03 INFO  TC006_CategorySearchResults:33 - ------ Clicked Close Button for a pop up ------
-2025-07-11 10:35:03 INFO  TC006_CategorySearchResults:35 - ------ Clicked Popular Category Button ------
-2025-07-11 10:35:04 INFO  TC006_CategorySearchResults:45 - ------ Searching ac in the Seach Box ------
-2025-07-11 10:35:04 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 10:35:05 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 10:35:05 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 10:35:06 INFO  TC006_CategorySearchResults:45 - ------ Searching car in the Seach Box ------
-2025-07-11 10:35:06 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 10:35:06 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 10:35:06 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 10:35:07 INFO  TC006_CategorySearchResults:45 - ------ Searching service in the Seach Box ------
-2025-07-11 10:35:07 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 10:35:08 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 10:35:08 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 10:35:08 INFO  TC006_CategorySearchResults:45 - ------ Searching scrap in the Seach Box ------
-2025-07-11 10:35:08 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 10:35:08 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 10:35:08 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 10:35:09 INFO  TC006_CategorySearchResults:45 - ------ Searching computer in the Seach Box ------
-2025-07-11 10:35:09 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 10:35:09 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 10:35:09 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 10:35:19 INFO  TC010_MobileRecharge:19 - ------ Starting TC010_MobileRecharge ------
-2025-07-11 10:35:25 INFO  TC010_MobileRecharge:29 - ------ Clicked May Be Later Button ------
-2025-07-11 10:35:28 INFO  TC010_MobileRecharge:31 - ------ Selected Mobile Service Menu ------
-2025-07-11 10:35:28 INFO  TC010_MobileRecharge:36 - ------ Entered Valid Mobile Number ------
-2025-07-11 10:35:29 INFO  TC010_MobileRecharge:38 - ------ Clicked New Plans Button in the Window ------
-2025-07-11 10:35:30 INFO  TC010_MobileRecharge:40 - ------ Clicked Data plan in the plans Sub Menu ------
-2025-07-11 10:35:31 INFO  TC010_MobileRecharge:49 - ------ Displayed Results ------
-2025-07-11 10:35:31 INFO  TC010_MobileRecharge:63 - ------ Test Case Passed ------
-2025-07-11 10:35:31 INFO  TC010_MobileRecharge:70 - ----------------------------------------------------------------------------------------
-2025-07-11 10:38:33 INFO  Utils:112 - [TestNG] Running:
-  C:\ECLIPSE IDE\seleniumJavaWorkBench\Identify-Car-Wash-Services\master.xml
-
-2025-07-11 10:38:39 INFO  TC001_CarWashServices:19 - ------ Starting TC001_CarWashServices ------
-2025-07-11 10:38:44 INFO  TC001_CarWashServices:29 - ------ Clicked May be Later Button ------
-2025-07-11 10:38:44 INFO  TC001_CarWashServices:32 - ------ Selected Location ------
-2025-07-11 10:38:46 INFO  TC001_CarWashServices:35 - ------ Searching Car Washing Services in the Search Box ------
-2025-07-11 10:38:48 INFO  TC001_CarWashServices:41 - ------ Selected Rating ------
-2025-07-11 10:38:51 INFO  TC001_CarWashServices:50 - ------ Displaying Search Results ------
-2025-07-11 10:38:51 INFO  TC001_CarWashServices:50 - ------ Displaying Search Results ------
-2025-07-11 10:38:51 INFO  TC001_CarWashServices:50 - ------ Displaying Search Results ------
-2025-07-11 10:38:51 INFO  TC001_CarWashServices:50 - ------ Displaying Search Results ------
-2025-07-11 10:38:51 INFO  TC001_CarWashServices:50 - ------ Displaying Search Results ------
-2025-07-11 10:38:51 INFO  TC001_CarWashServices:57 - ------ Test Case Passed ------
-2025-07-11 10:38:51 INFO  TC001_CarWashServices:65 - ----------------------------------------------------------------------------------------
-2025-07-11 10:39:00 INFO  TC002_FreeListing:17 - ------ Starting TC002_FreeListing ------
-2025-07-11 10:39:04 INFO  TC002_FreeListing:26 - ------ Clicked Free Listing Option ------
-2025-07-11 10:39:04 INFO  TC002_FreeListing:31 - ------ Entered Invalid Phone Number in the Phone Number Field ------
-2025-07-11 10:39:04 INFO  TC002_FreeListing:34 - ------ Clicked Start Now Button ------
-2025-07-11 10:39:04 INFO  TC002_FreeListing:37 - ------ Retrieved the Error Message ------
-2025-07-11 10:39:05 INFO  TC002_FreeListing:46 - ------ Test Case Passed ------
-2025-07-11 10:39:05 INFO  TC002_FreeListing:53 - ----------------------------------------------------------------------------------------
-2025-07-11 10:39:12 INFO  TC003_GymSubMenuList:18 - ------ Starting TC003_GymSubMenuList ------
-2025-07-11 10:39:18 INFO  TC003_GymSubMenuList:28 - ------ Clicked May Be Later Button ------
-2025-07-11 10:39:29 INFO  TC003_GymSubMenuList:31 - ------ Clicked the Fitness Menu ------
-2025-07-11 10:39:29 INFO  TC003_GymSubMenuList:39 - ------ Displayed the GYMs Sub menus ------
-2025-07-11 10:39:29 INFO  TC003_GymSubMenuList:53 - ------ Test Case Passed ------
-2025-07-11 10:39:29 INFO  TC003_GymSubMenuList:61 - ----------------------------------------------------------------------------------------
-2025-07-11 10:39:37 INFO  TC004_Hostels:19 - ------ Started TC004_Hostels ------
-2025-07-11 10:39:43 INFO  TC004_Hostels:29 - ------ Clicked May Be Later Button ------
-2025-07-11 10:39:43 INFO  TC004_Hostels:32 - ------ Selected Location ------
-2025-07-11 10:39:44 INFO  TC004_Hostels:35 - ------ Searching Hostels in the Search Box ------
-2025-07-11 10:39:45 INFO  TC004_Hostels:40 - ------ Selected Top Rated in Filters ------
-2025-07-11 10:39:47 INFO  TC004_Hostels:42 - ------ Selected Top JD Verified in Filters ------
-2025-07-11 10:39:48 INFO  TC004_Hostels:44 - ------ Selected Top JD Trust in Filters ------
-2025-07-11 10:39:49 INFO  TC004_Hostels:52 - ------ Displayed the Search Results ------
-2025-07-11 10:39:49 INFO  TC004_Hostels:66 - ------ Test Case Passed ------
-2025-07-11 10:39:49 INFO  TC004_Hostels:73 - ----------------------------------------------------------------------------------------
-2025-07-11 10:39:57 INFO  TC005_Restaurants:19 - ------ Starting TC005_Restaurants ------
-2025-07-11 10:40:04 INFO  TC005_Restaurants:29 - ------ Clicked May Be Later Button ------
-2025-07-11 10:40:05 INFO  TC005_Restaurants:32 - ------ Selected Location ------
-2025-07-11 10:40:06 INFO  TC005_Restaurants:35 - ------ Searching Restaurants in the Search Box ------
-2025-07-11 10:40:07 INFO  TC005_Restaurants:40 - ------ Selected Cuisines in the Filters ------
-2025-07-11 10:40:07 INFO  TC005_Restaurants:42 - ------ Selected South Indian in the Cuisines Filter ------
-2025-07-11 10:40:09 INFO  TC005_Restaurants:44 - ------ Selected Online Delivery in the Filters ------
-2025-07-11 10:40:09 INFO  TC005_Restaurants:46 - ------ Selected Open Now in the Filters ------
-2025-07-11 10:40:11 INFO  TC005_Restaurants:55 - ------ Displaying the Results ------
-2025-07-11 10:40:11 INFO  TC005_Restaurants:70 - ------ Test Case Passed ------
-2025-07-11 10:40:11 INFO  TC005_Restaurants:77 - ----------------------------------------------------------------------------------------
-2025-07-11 10:40:19 INFO  TC006_CategorySearchResults:27 - ------ Starting TC006_CategorySearchResults ------
-2025-07-11 10:40:25 INFO  TC006_CategorySearchResults:31 - ------ Clicked May Be Later Button ------
-2025-07-11 10:40:25 INFO  TC006_CategorySearchResults:33 - ------ Clicked Close Button for a pop up ------
-2025-07-11 10:40:25 INFO  TC006_CategorySearchResults:35 - ------ Clicked Popular Category Button ------
-2025-07-11 10:40:26 INFO  TC006_CategorySearchResults:45 - ------ Searching ac in the Seach Box ------
-2025-07-11 10:40:26 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 10:40:27 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 10:40:27 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 10:40:27 INFO  TC006_CategorySearchResults:45 - ------ Searching car in the Seach Box ------
-2025-07-11 10:40:27 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 10:40:27 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 10:40:27 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 10:40:28 INFO  TC006_CategorySearchResults:45 - ------ Searching service in the Seach Box ------
-2025-07-11 10:40:28 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 10:40:28 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 10:40:28 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 10:40:29 INFO  TC006_CategorySearchResults:45 - ------ Searching scrap in the Seach Box ------
-2025-07-11 10:40:29 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 10:40:29 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 10:40:29 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 10:40:29 INFO  TC006_CategorySearchResults:45 - ------ Searching computer in the Seach Box ------
-2025-07-11 10:40:29 INFO  TC006_CategorySearchResults:47 - ------ Displaying the Search Results ------
-2025-07-11 10:40:30 INFO  TC006_CategorySearchResults:62 - ------ Test Case Passed ------
-2025-07-11 10:40:30 INFO  TC006_CategorySearchResults:69 - ----------------------------------------------------------------------------------------
-2025-07-11 10:40:40 INFO  TC007_ExploreAreasSection:19 - ------ Starting TC007_ExploreAreasSection ------
-2025-07-11 10:40:46 INFO  TC007_ExploreAreasSection:29 - ------ Clicked May Be Later Button ------
-2025-07-11 10:40:47 INFO  TC007_ExploreAreasSection:32 - ------ Selected Location ------
-2025-07-11 10:40:50 INFO  TC007_ExploreAreasSection:34 - ------ Selected Top Tourist Place in that Location ------
-2025-07-11 10:40:54 INFO  TC007_ExploreAreasSection:61 - ------ Displayed Top Hotels ------
-2025-07-11 10:40:54 INFO  TC007_ExploreAreasSection:71 - ------ Displayed Top Restaurants ------
-2025-07-11 10:40:54 INFO  TC007_ExploreAreasSection:81 - ------ Displayed Top Coffee Shops ------
-2025-07-11 10:40:54 INFO  TC007_ExploreAreasSection:91 - ------ Displayed Top Travel Agents ------
-2025-07-11 10:40:54 INFO  TC007_ExploreAreasSection:103 - ------ Displayed Top Things To Do ------
-2025-07-11 10:40:54 INFO  TC007_ExploreAreasSection:118 - ------ Test Case Passed ------
-2025-07-11 10:40:54 INFO  TC007_ExploreAreasSection:125 - ----------------------------------------------------------------------------------------
-2025-07-11 10:41:02 INFO  TC008_BusBooking:21 - ------ Starting TC008_BusBooking ------
-2025-07-11 10:41:08 INFO  TC008_BusBooking:31 - ------ Clicked May Be Later Button ------
-2025-07-11 10:41:10 INFO  TC008_BusBooking:33 - ------ Clicked Bus Service Menu ------
-2025-07-11 10:41:11 INFO  TC008_BusBooking:38 - ------ Selected Coimbatore in the Departure City ------
-2025-07-11 10:41:11 INFO  TC008_BusBooking:40 - ------ Selected Chennai in the Destination City ------
-2025-07-11 10:41:12 INFO  TC008_BusBooking:44 - ------ Selected Date ------
-2025-07-11 10:41:15 INFO  TC008_BusBooking:46 - ------ Clicked Search Button ------
-2025-07-11 10:41:15 INFO  TC008_BusBooking:51 - ------ Clicked Bus Type ------
-2025-07-11 10:41:15 INFO  TC008_BusBooking:53 - ------ Selected Non Ac CheckBox ------
-2025-07-11 10:41:15 INFO  TC008_BusBooking:55 - ------ Selected Sleeper CheckBox ------
-2025-07-11 10:41:16 INFO  TC008_BusBooking:69 - ------ Displayed Results ------
-2025-07-11 10:41:16 INFO  TC008_BusBooking:75 - ------ Test Case Passed ------
-2025-07-11 10:41:16 INFO  TC008_BusBooking:82 - ----------------------------------------------------------------------------------------
-2025-07-11 10:41:24 INFO  TC009_MovieBookingDetails:20 - ------ Starting TC009_MovieBookingDetails ------
-2025-07-11 10:41:30 INFO  TC009_MovieBookingDetails:30 - ------ Clicked May Be Later Button ------
-2025-07-11 10:41:31 INFO  TC009_MovieBookingDetails:32 - ------ Clicked Movies Section ------
-2025-07-11 10:41:33 INFO  TC009_MovieBookingDetails:38 - ------ Selected Prefered Languages in the filter ------
-2025-07-11 10:41:34 INFO  TC009_MovieBookingDetails:40 - ------ Selected 2D in the format Filter ------
-2025-07-11 10:41:34 INFO  TC009_MovieBookingDetails:42 - ------ Selected Comedy in the Genre Filter ------
-2025-07-11 10:41:35 INFO  TC009_MovieBookingDetails:44 - ------ Clicked Apply Button ------
-2025-07-11 10:41:35 INFO  TC009_MovieBookingDetails:51 - ------ Selection of Comedy Genre is verified ------
-2025-07-11 10:41:35 INFO  TC009_MovieBookingDetails:60 - ------ First Movie in the Results is Selected ------
-2025-07-11 10:41:37 INFO  TC009_MovieBookingDetails:74 - ------ Displayed the Results ------
-2025-07-11 10:41:37 INFO  TC009_MovieBookingDetails:75 - ----------------------------------------------------------------------------------------
-2025-07-11 10:41:45 INFO  TC010_MobileRecharge:19 - ------ Starting TC010_MobileRecharge ------
-2025-07-11 10:41:51 INFO  TC010_MobileRecharge:29 - ------ Clicked May Be Later Button ------
-2025-07-11 10:41:54 INFO  TC010_MobileRecharge:31 - ------ Selected Mobile Service Menu ------
-2025-07-11 10:41:55 INFO  TC010_MobileRecharge:36 - ------ Entered Valid Mobile Number ------
-2025-07-11 10:41:56 INFO  TC010_MobileRecharge:38 - ------ Clicked New Plans Button in the Window ------
-2025-07-11 10:41:57 INFO  TC010_MobileRecharge:40 - ------ Clicked Data plan in the plans Sub Menu ------
-2025-07-11 10:41:58 INFO  TC010_MobileRecharge:49 - ------ Displayed Results ------
-2025-07-11 10:41:58 INFO  TC010_MobileRecharge:63 - ------ Test Case Passed ------
-2025-07-11 10:41:58 INFO  TC010_MobileRecharge:70 - ----------------------------------------------------------------------------------------
+2025-07-15 09:21:04 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 09:21:04 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 09:21:06 INFO  CucumberBase:33 - ------ Starting TC001_CarWashServices ------
+2025-07-15 09:21:11 INFO  CucumberBase:42 - ------ Location set to: Saravanampatti ------
+2025-07-15 09:21:11 INFO  CucumberBase:53 - ------ Search term entered: Car Washing Sevices ------
+2025-07-15 09:21:12 INFO  CucumberBase:59 - ------ Search result heading:  ------
+2025-07-15 09:21:14 INFO  CucumberBase:72 - ------ Applied filter: Rating, Rating: 4 ------
+2025-07-15 09:21:16 INFO  CucumberBase:80 - ------ Displaying top 5 car wash services ------
+2025-07-15 09:21:18 INFO  CucumberBase:103 - ------ Test Case Passed ------
+2025-07-15 09:21:18 INFO  CucumberBase:112 - ----------------------------------------------------------------------------------------
+2025-07-15 09:21:18 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-15 09:21:18 INFO  CucumberBase:41 - Status: PASSED
+2025-07-15 09:21:22 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 09:21:22 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-15 09:21:29 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-15 09:21:29 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 09:21:32 INFO  CucumberBase:29 - ------ Clicked Free Listing Option ------
+2025-07-15 09:21:32 INFO  CucumberBase:50 - ------ Entered Invalid Phone Number: 1234567890 ------
+2025-07-15 09:21:32 INFO  CucumberBase:56 - ------ Clicked Start Now Button ------
+2025-07-15 09:21:33 INFO  CucumberBase:62 - ------ Retrieved Error Message: Please Enter a Valid Mobile Number ------
+2025-07-15 09:21:33 INFO  CucumberBase:73 - ------ Test Case Passed ------
+2025-07-15 09:21:33 INFO  CucumberBase:80 - ----------------------------------------------------------------------------------------
+2025-07-15 09:21:33 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-15 09:21:33 INFO  CucumberBase:41 - Status: PASSED
+2025-07-15 09:21:36 INFO  CucumberBase:55 - Browser closed.
+2025-07-15 09:21:36 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
