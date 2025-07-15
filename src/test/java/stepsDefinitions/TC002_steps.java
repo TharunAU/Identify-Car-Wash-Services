@@ -14,6 +14,7 @@ import pages.HomePage;
 import testBase.CucumberBase;
 import testRunner.TestRunner;
 import utilities.DataReader;
+import utilities.ExcelUtilityClass;
 
 public class TC002_steps {
 
@@ -24,8 +25,10 @@ public class TC002_steps {
 
     private final String sheetName = "TC002";
     private final String path = System.getProperty("user.dir") + "\\testData\\Identify-Car-Wash-Services_TestData.xlsx";
+    private final ExcelUtilityClass excel = new ExcelUtilityClass(path, sheetName);
     private String errorMessage;
     private HashMap<String, String> row;
+    private int rowIndex;
 
     @When("I Navigate to the free listing page")
     public void navigateToFreeListingPage() {
@@ -35,7 +38,7 @@ public class TC002_steps {
 
     @And("I fill the phone number field with an invalid phone number {string} from Excel")
     public void fillInvalidPhoneNumber(String rowIndexStr) {
-        int rowIndex = Integer.parseInt(rowIndexStr);
+        rowIndex = Integer.parseInt(rowIndexStr);
 
         try {
             DataReader reader = new DataReader(path, sheetName);
@@ -71,14 +74,17 @@ public class TC002_steps {
     @And("I capture and display the error message")
     public void displayErrorMessage() {
         System.out.println("The Error Message is: " + errorMessage);
+        excel.setCellData(errorMessage, rowIndex, 2); // ✅ Log error message to column 2 of the current row
     }
 
     @And("I am checking the error message")
     public void validateErrorMessage() {
         if ("Please Enter a Valid Mobile Number".equalsIgnoreCase(errorMessage)) {
+            excel.setCellData("Pass", rowIndex, 3); // ✅ Log result in column 3
             logger.info("------ Test Case Passed ------");
             Assert.assertTrue(true);
         } else {
+            excel.setCellData("Fail", rowIndex, 3); // ✅ Log failure in column 3
             logger.error("------ Test Case Failed ------");
             Assert.fail("Unexpected error message received");
         }

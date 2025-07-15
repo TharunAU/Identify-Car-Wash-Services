@@ -28,6 +28,7 @@ public class TC001_steps {
     private final String path = System.getProperty("user.dir") + "\\testData\\Identify-Car-Wash-Services_TestData.xlsx";
     private final ExcelUtilityClass excel = new ExcelUtilityClass(path, sheetName);
     private HashMap<String, String> row;
+    private int rowIndex;
 
     @When("I set the location as {string}")
     public void setLocation(String rowIndexStr) {
@@ -79,7 +80,7 @@ public class TC001_steps {
         for (String value : results) {
             String[] values = value.split(" / ");
             System.out.println("\nCar Washing Service: " + values[0] + "\nContact Number: " + values[1]);
-            excel.setCellData(value, count, 4);
+            excel.setCellData(value, rowIndex, 4);  // ✅ Write to corresponding row
             count++;
         }
 
@@ -94,13 +95,13 @@ public class TC001_steps {
         boolean isValid = results.size() == 5 && heading.toLowerCase().contains("car wash");
 
         if (isValid) {
-            excel.setCellData("Pass", 1, 7);
-            excel.setCellData("The search result contains 'Car Washing Services' and 'Saravanampatti, Coimbatore'", 1, 6);
+            excel.setCellData("Pass", rowIndex, 7);  // ✅ Use rowIndex from feature
+            excel.setCellData("The search result contains 'Car Washing Services' and 'Saravanampatti, Coimbatore'", rowIndex, 6);
             logger.info("------ Test Case Passed ------");
             Assert.assertTrue(true);
         } else {
-            excel.setCellData("Fail", 1, 7);
-            excel.setCellData("The search result does NOT contain expected terms", 1, 6);
+            excel.setCellData("Fail", rowIndex, 7);  // ✅ Use rowIndex from feature
+            excel.setCellData("The search result does NOT contain expected terms", rowIndex, 6);
             logger.error("------ Test Case Failed ------");
             Assert.fail();
         }
@@ -109,7 +110,7 @@ public class TC001_steps {
     }
 
     private HashMap<String, String> loadRow(String rowIndexStr) {
-        int rowIndex = Integer.parseInt(rowIndexStr);
+        rowIndex = Integer.parseInt(rowIndexStr);  // ✅ Save for later use
         try {
             DataReader reader = new DataReader(path, sheetName);
             HashMap<String, String> rowData = reader.getRowData(rowIndex);
