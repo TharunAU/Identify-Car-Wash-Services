@@ -80,8 +80,8 @@ public class TC001_steps {
         for (String value : results) {
             String[] values = value.split(" / ");
             System.out.println("\nCar Washing Service: " + values[0] + "\nContact Number: " + values[1]);
-            excel.setCellData(value, rowIndex, 4);  // ✅ Write to corresponding row
-            count++;
+            excel.setCellData(value, rowIndex, 4);  
+            count = count + 1;
         }
 
         System.out.println("----------------------------------------------------------------------------------------------------");

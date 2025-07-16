@@ -39,13 +39,10 @@ public class SearchResultMoviePage extends BasePage {
 
 	public List<String> getMovieDetails() {
 		List<String> details = new ArrayList<>();
-		int count = 0;
-		for (int i = 0; i < theatresAvailable.size(); i++) {
-			if (count == 5) {
-				break;
-			}
+		//int count = 0;
+		for (int i = 0; i < Math.min(theatresAvailable.size(),5); i++) {
 			details.add( theatresAvailable.get(i).getText() + " , "+ locationsAvailable.get(i).getText() + " , " + showTimings.get(i).getText());
-			count++;
+			//count++;
 		}
 		return details;
 	}

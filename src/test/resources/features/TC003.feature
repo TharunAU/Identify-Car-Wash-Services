@@ -1,6 +1,6 @@
 Feature: Verify Gym/Fitness Submenu Options
 
-@ts
+@TC003
 Scenario Outline: Discover submenus of Gym in Fitness Category
   When I scroll down to Popular Categories
   And I choose the "<row_index>" category

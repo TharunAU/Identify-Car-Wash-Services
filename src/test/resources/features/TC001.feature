@@ -1,5 +1,6 @@
 Feature: Car Wash Services Automation Workflows (Data-Driven via Apache POI)
  
+ @TC001
   Scenario Outline: Display top 5 car washing services near me with high ratings and votes
     When I set the location as "<row_index>"
     And I search for "<row_index>"

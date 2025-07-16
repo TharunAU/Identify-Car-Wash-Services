@@ -34,7 +34,7 @@ public class TC009_steps {
 
     private HashMap<String, String> row;
     private int rowIndex;
-    private int resultCounter = 1; // for writing theater results per row
+    private int resultCounter = 0; // for writing theater results per row
 
     @When("I scroll down to \"Latest Movies & Reviews\"")
     public void scrollToMoviesSection() {
@@ -108,10 +108,10 @@ public class TC009_steps {
         movieSearch.waitUntilMovieNameToAppear();
         String movieName = movieSearch.getMovieName();
         System.out.println("Movie Name: " + movieName);
-        excel.setCellData("Movie: " + movieName, rowIndex, 2);
+       // excel.setCellData("Movie: " + movieName, rowIndex, 2);
     }
 
-    @And("I should capture the top 5 theater names and their show timings")
+    @And("I should capture the top 6 theater names and their show timings")
     public void captureTopTheaters() {
         List<String> details = movieSearch.getMovieDetails();
 

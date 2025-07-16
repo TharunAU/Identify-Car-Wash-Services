@@ -1,123 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-16T09:59:13 IST" name="CucumberSuite" finished-at="2025-07-16T10:02:05 IST" duration-ms="171620">
+  <suite started-at="2025-07-16T15:43:34 IST" name="CucumberSuite" finished-at="2025-07-16T15:43:55 IST" duration-ms="21806">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71529963]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@512535ff]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-07-16T09:59:13 IST" name="CarWashSearchTest" finished-at="2025-07-16T10:02:05 IST" duration-ms="171620">
+    <test started-at="2025-07-16T15:43:34 IST" name="CarWashSearchTest" finished-at="2025-07-16T15:43:55 IST" duration-ms="21806">
       <class name="testRunner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@71529963]" started-at="2025-07-16T09:59:13 IST" name="setUpClass" finished-at="2025-07-16T09:59:14 IST" duration-ms="485" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@512535ff]" started-at="2025-07-16T15:43:34 IST" name="setUpClass" finished-at="2025-07-16T15:43:34 IST" duration-ms="505" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4b2a01d4]]>
+                <![CDATA[org.testng.TestRunner@5396eeb1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71529963]" started-at="2025-07-16T09:59:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T09:59:36 IST" duration-ms="22695" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Display top 5 car washing services near me with high ratings and votes"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Car Wash Services Automation Workflows (Data-Driven via Apache POI)"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71529963]" started-at="2025-07-16T09:59:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T09:59:48 IST" duration-ms="11552" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Register for Free Listing with invalid phone number and capturing the error message"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Car Wash"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71529963]" started-at="2025-07-16T09:59:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T10:00:14 IST" duration-ms="25943" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Discover submenus of Gym in Fitness Category"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Verify Gym/Fitness Submenu Options"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71529963]" started-at="2025-07-16T10:00:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T10:00:36 IST" duration-ms="22414" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Display top 5 hostels near me which are top rated and JD Verified"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Find Top 5 Hostels to Stay"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71529963]" started-at="2025-07-16T10:00:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T10:01:00 IST" duration-ms="23546" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Top 5 Restaurants"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71529963]" started-at="2025-07-16T10:01:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T10:01:20 IST" duration-ms="20789" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Find categories listed under search terms from JSON"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Popular Categories Search"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71529963]" started-at="2025-07-16T10:01:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T10:01:42 IST" duration-ms="21327" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@512535ff]" started-at="2025-07-16T15:43:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T15:43:55 IST" duration-ms="21212" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -133,23 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@71529963]" started-at="2025-07-16T10:01:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T10:02:05 IST" duration-ms="22775" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Display the top 5 mobile data plans using XML input"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Display Mobile Recharge Plans from XML"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@71529963]" started-at="2025-07-16T10:02:05 IST" name="tearDownClass" finished-at="2025-07-16T10:02:05 IST" duration-ms="42" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@512535ff]" started-at="2025-07-16T15:43:55 IST" name="tearDownClass" finished-at="2025-07-16T15:43:55 IST" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

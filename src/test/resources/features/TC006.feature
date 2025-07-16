@@ -1,6 +1,6 @@
 Feature: Popular Categories Search
 
-  @CategorySearchJSON
+  @TC006
   Scenario: Find categories listed under search terms from JSON
     When I click on "Popular Categories"
     And I search for each term in the "search_terms" list from JSON

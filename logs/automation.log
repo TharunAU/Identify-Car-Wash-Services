@@ -526,3 +526,861 @@ Session ID: 451fa82315a1fbf5c96d91ddd5fd6519
 2025-07-16 10:02:01 INFO  CucumberBase:41 - Status: PASSED
 2025-07-16 10:02:05 INFO  CucumberBase:55 - Browser closed.
 2025-07-16 10:02:05 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 12:24:47 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml] otherwise TestNG may fail or not work as expected.
+2025-07-16 12:24:47 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-16 12:24:57 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:24:57 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 12:24:57 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:24:57 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 12:24:58 INFO  CucumberBase:35 - ------ Starting TC001_CarWashServices ------
+2025-07-16 12:24:58 INFO  CucumberBase:35 - ------ Starting TC001_CarWashServices ------
+2025-07-16 12:25:03 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 12:25:03 INFO  CucumberBase:41 - Status: FAILED
+2025-07-16 12:25:04 WARN  CucumberBase:47 - Screenshot captured for failed scenario.
+2025-07-16 12:25:04 INFO  CucumberBase:42 - ------ Location set to: Saravanampatti ------
+2025-07-16 12:25:11 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 12:25:11 INFO  CucumberBase:41 - Status: FAILED
+2025-07-16 12:25:11 ERROR CucumberBase:49 - Failed to capture screenshot: Error communicating with the remote browser. It may have died.
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ade05b4949a301e66d0ad4b75ed710f9, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403758\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49995/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ade05b4949a301e66d0ad4b75ed710f9
+2025-07-16 12:25:11 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 12:25:11 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 12:26:08 WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml] otherwise TestNG may fail or not work as expected.
+2025-07-16 12:26:08 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-16 12:26:16 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:26:16 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-16 12:26:16 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:26:16 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 12:26:17 INFO  CucumberBase:36 - ------ Clicked Free Listing Option ------
+2025-07-16 12:26:18 INFO  CucumberBase:35 - ------ Starting TC001_CarWashServices ------
+2025-07-16 12:26:18 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-16 12:26:18 INFO  CucumberBase:41 - Status: FAILED
+2025-07-16 12:26:18 ERROR CucumberBase:49 - Failed to capture screenshot: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2734b05ce987e4e98f700a7572785dae, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403758\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50564}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50564/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2734b05ce987e4e98f700a7572785dae
+2025-07-16 12:26:18 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 12:26:18 INFO  CucumberBase:41 - Status: FAILED
+2025-07-16 12:26:18 ERROR CucumberBase:49 - Failed to capture screenshot: Error communicating with the remote browser. It may have died.
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2734b05ce987e4e98f700a7572785dae, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403758\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50564}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50564/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2734b05ce987e4e98f700a7572785dae
+2025-07-16 12:26:48 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-16 12:26:56 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:26:56 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 12:26:56 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:26:56 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-16 12:26:56 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-16 12:26:56 INFO  CucumberBase:41 - Status: FAILED
+2025-07-16 12:26:56 ERROR CucumberBase:49 - Failed to capture screenshot: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [df6d66bd572268a4837235eff7d51298, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403758\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50870}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50870/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df6d66bd572268a4837235eff7d51298
+2025-07-16 12:26:57 INFO  CucumberBase:35 - ------ Starting TC001_CarWashServices ------
+2025-07-16 12:26:57 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 12:26:57 INFO  CucumberBase:41 - Status: FAILED
+2025-07-16 12:26:57 ERROR CucumberBase:49 - Failed to capture screenshot: Error communicating with the remote browser. It may have died.
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [df6d66bd572268a4837235eff7d51298, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403758\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50870}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50870/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df6d66bd572268a4837235eff7d51298
+2025-07-16 12:26:59 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 12:26:59 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 12:28:10 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-16 12:33:25 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-16 12:33:32 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:33:32 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 12:33:32 INFO  CucumberBase:35 - ------ Starting TC001_CarWashServices ------
+2025-07-16 12:33:39 INFO  CucumberBase:42 - ------ Location set to: Saravanampatti ------
+2025-07-16 12:33:39 INFO  CucumberBase:52 - ------ Search term entered: Car Washing Sevices ------
+2025-07-16 12:33:39 INFO  CucumberBase:58 - ------ Search result heading:  ------
+2025-07-16 12:33:41 INFO  CucumberBase:69 - ------ Applied filter: Rating, Rating: 4 ------
+2025-07-16 12:33:42 INFO  CucumberBase:77 - ------ Displaying top 5 car wash services ------
+2025-07-16 12:33:44 INFO  CucumberBase:100 - ------ Test Case Passed ------
+2025-07-16 12:33:44 INFO  CucumberBase:109 - ----------------------------------------------------------------------------------------
+2025-07-16 12:33:44 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 12:33:44 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 12:33:49 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 12:33:49 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 12:33:55 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:33:55 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-16 12:33:57 INFO  CucumberBase:36 - ------ Clicked Free Listing Option ------
+2025-07-16 12:33:57 INFO  CucumberBase:60 - ------ Entered Invalid Phone Number: 1234567890 ------
+2025-07-16 12:33:57 INFO  CucumberBase:66 - ------ Clicked Start Now Button ------
+2025-07-16 12:33:58 INFO  CucumberBase:72 - ------ Retrieved Error Message: Please Enter a Valid Mobile Number ------
+2025-07-16 12:33:58 INFO  CucumberBase:85 - ------ Test Case Passed ------
+2025-07-16 12:33:58 INFO  CucumberBase:93 - ----------------------------------------------------------------------------------------
+2025-07-16 12:33:58 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-16 12:33:58 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 12:34:01 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 12:34:01 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 12:34:06 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:34:06 INFO  CucumberBase:31 - Starting Scenario: Discover submenus of Gym in Fitness Category
+2025-07-16 12:34:06 INFO  CucumberBase:34 - ------ Starting TC003_GymSubMenuList ------
+2025-07-16 12:34:12 INFO  CucumberBase:36 - ------ Clicked May Be Later Button ------
+2025-07-16 12:34:12 INFO  CucumberBase:37 - ------ Scrolled to section : Popular Categories ------
+2025-07-16 12:34:23 INFO  CucumberBase:56 - ------ Clicked the category: Fitness ------
+2025-07-16 12:34:23 INFO  CucumberBase:63 - ------ Retrieved 6 subtypes ------
+2025-07-16 12:34:23 INFO  CucumberBase:71 - ------ Displaying Gym/Fitness submenus ------
+2025-07-16 12:34:23 INFO  CucumberBase:90 - ------ Test Case Passed ------
+2025-07-16 12:34:23 INFO  CucumberBase:99 - --------------------------------------------------------------------------------
+2025-07-16 12:34:23 INFO  CucumberBase:40 - Ending Scenario: Discover submenus of Gym in Fitness Category
+2025-07-16 12:34:23 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 12:34:27 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 12:34:27 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 12:34:31 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:34:31 INFO  CucumberBase:31 - Starting Scenario: Display top 5 hostels near me which are top rated and JD Verified
+2025-07-16 12:34:31 INFO  CucumberBase:36 - ------ Starting TC004_Hostels ------
+2025-07-16 12:34:39 INFO  CucumberBase:55 - ------ Searching hostels in Saravanampatti ------
+2025-07-16 12:34:43 INFO  CucumberBase:66 - ------ Hostel search results retrieved ------
+2025-07-16 12:34:43 INFO  CucumberBase:71 - ------ Filters applied: Top Rated, JD Verified, Trusted ------
+2025-07-16 12:34:43 INFO  CucumberBase:79 - ------ Displaying Top 5 Hostels ------
+2025-07-16 12:34:43 INFO  CucumberBase:106 - ------ Test Case Passed ------
+2025-07-16 12:34:43 INFO  CucumberBase:116 - --------------------------------------------------------------------------------------------
+2025-07-16 12:34:43 INFO  CucumberBase:40 - Ending Scenario: Display top 5 hostels near me which are top rated and JD Verified
+2025-07-16 12:34:43 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 12:34:47 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 12:34:47 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 12:34:53 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:34:53 INFO  CucumberBase:31 - Starting Scenario: Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery
+2025-07-16 12:34:59 INFO  CucumberBase:50 - ------ Clicked May Be Later Button ------
+2025-07-16 12:34:59 INFO  CucumberBase:53 - ------ Set location: Saravanampatti ------
+2025-07-16 12:35:00 INFO  CucumberBase:57 - ------ Searching for: Restaurants ------
+2025-07-16 12:35:00 INFO  CucumberBase:62 - ------ Restaurant listing page loaded ------
+2025-07-16 12:35:03 INFO  CucumberBase:71 - ------ Applied filters: Cuisines, Cuisine, Delivery, Open Now ------
+2025-07-16 12:35:05 INFO  CucumberBase:79 - ------ Displaying top 5 restaurants ------
+2025-07-16 12:35:06 INFO  CucumberBase:95 - ------ Test Case Passed ------
+2025-07-16 12:35:06 INFO  CucumberBase:104 - ----------------------------------------------------------------------------------------
+2025-07-16 12:35:06 INFO  CucumberBase:40 - Ending Scenario: Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery
+2025-07-16 12:35:06 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 12:35:09 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 12:35:09 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 12:35:15 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:35:15 INFO  CucumberBase:31 - Starting Scenario: Find categories listed under search terms from JSON
+2025-07-16 12:35:15 INFO  CucumberBase:34 - ------ Starting TC006_CategorySearchResults ------
+2025-07-16 12:35:21 INFO  CucumberBase:36 - ------ Clicked May Be Later Button ------
+2025-07-16 12:35:21 INFO  CucumberBase:38 - ------ Closed pop-up ------
+2025-07-16 12:35:21 INFO  CucumberBase:40 - ------ Clicked Popular Category Button ------
+2025-07-16 12:35:21 INFO  CucumberBase:45 - ------ Fetching search terms from JSON ------
+2025-07-16 12:35:21 INFO  CucumberBase:52 - ------ Searching: ac ------
+2025-07-16 12:35:22 INFO  CucumberBase:65 - ------ Search Passed for: ac ------
+2025-07-16 12:35:22 INFO  CucumberBase:52 - ------ Searching: car ------
+2025-07-16 12:35:23 INFO  CucumberBase:65 - ------ Search Passed for: car ------
+2025-07-16 12:35:23 INFO  CucumberBase:52 - ------ Searching: service ------
+2025-07-16 12:35:23 INFO  CucumberBase:65 - ------ Search Passed for: service ------
+2025-07-16 12:35:23 INFO  CucumberBase:52 - ------ Searching: scrap ------
+2025-07-16 12:35:23 INFO  CucumberBase:65 - ------ Search Passed for: scrap ------
+2025-07-16 12:35:23 INFO  CucumberBase:52 - ------ Searching: computer ------
+2025-07-16 12:35:24 INFO  CucumberBase:65 - ------ Search Passed for: computer ------
+2025-07-16 12:35:24 INFO  CucumberBase:78 - ------ Category Search Results were validated per term ------
+2025-07-16 12:35:24 INFO  CucumberBase:83 - ------ Search results displayed and logged to Excel ------
+2025-07-16 12:35:24 INFO  CucumberBase:40 - Ending Scenario: Find categories listed under search terms from JSON
+2025-07-16 12:35:24 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 12:35:27 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 12:35:27 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 12:35:32 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:35:32 INFO  CucumberBase:31 - Starting Scenario: Display details of top tourist spots using Excel row data
+2025-07-16 12:35:45 INFO  CucumberBase:40 - Ending Scenario: Display details of top tourist spots using Excel row data
+2025-07-16 12:35:45 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 12:35:48 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 12:35:48 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 12:35:54 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:35:54 INFO  CucumberBase:31 - Starting Scenario: Display top 5 bus travel options between cities with filter types from Excel "1"
+2025-07-16 12:36:09 INFO  CucumberBase:40 - Ending Scenario: Display top 5 bus travel options between cities with filter types from Excel "1"
+2025-07-16 12:36:09 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 12:36:12 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 12:36:12 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 12:36:18 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:36:18 INFO  CucumberBase:31 - Starting Scenario: Display the top 5 theaters showing the top movie with filters from Excel
+2025-07-16 12:36:18 INFO  CucumberBase:40 - Ending Scenario: Display the top 5 theaters showing the top movie with filters from Excel
+2025-07-16 12:36:18 INFO  CucumberBase:41 - Status: AMBIGUOUS
+2025-07-16 12:36:20 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 12:36:20 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 12:36:25 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:36:25 INFO  CucumberBase:31 - Starting Scenario: Display the top 5 mobile data plans using XML input
+2025-07-16 12:36:25 INFO  CucumberBase:40 - Ending Scenario: Display the top 5 mobile data plans using XML input
+2025-07-16 12:36:25 INFO  CucumberBase:41 - Status: AMBIGUOUS
+2025-07-16 12:36:28 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 12:36:28 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 12:36:34 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 12:36:34 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 12:36:34 INFO  CucumberBase:35 - ------ Starting TC001_CarWashServices ------
+2025-07-16 12:36:41 INFO  CucumberBase:42 - ------ Location set to: Saravanampatti ------
+2025-07-16 12:36:41 INFO  CucumberBase:52 - ------ Search term entered: Car Washing Sevices ------
+2025-07-16 12:36:42 INFO  CucumberBase:58 - ------ Search result heading:  ------
+2025-07-16 12:36:43 INFO  CucumberBase:69 - ------ Applied filter: Rating, Rating: 4 ------
+2025-07-16 12:36:44 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 12:36:44 INFO  CucumberBase:41 - Status: FAILED
+2025-07-16 12:36:44 ERROR CucumberBase:49 - Failed to capture screenshot: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ff681a2c350e900ab2c53998f195e33, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.69, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\2403758\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53398}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53398/devtoo..., se:cdpVersion: 137.0.7151.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ff681a2c350e900ab2c53998f195e33
+2025-07-16 13:39:12 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-16 13:39:19 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 13:39:19 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 13:39:20 INFO  CucumberBase:35 - ------ Starting TC001_CarWashServices ------
+2025-07-16 13:39:26 INFO  CucumberBase:42 - ------ Location set to: Saravanampatti ------
+2025-07-16 13:39:27 INFO  CucumberBase:52 - ------ Search term entered: Car Washing Sevices ------
+2025-07-16 13:39:27 INFO  CucumberBase:58 - ------ Search result heading:  ------
+2025-07-16 13:39:28 INFO  CucumberBase:69 - ------ Applied filter: Rating, Rating: 4 ------
+2025-07-16 13:39:31 INFO  CucumberBase:77 - ------ Displaying top 5 car wash services ------
+2025-07-16 13:39:33 INFO  CucumberBase:100 - ------ Test Case Passed ------
+2025-07-16 13:39:33 INFO  CucumberBase:109 - ----------------------------------------------------------------------------------------
+2025-07-16 13:39:33 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 13:39:33 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 13:39:37 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 13:39:37 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 13:39:43 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 13:39:43 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-16 13:39:46 INFO  CucumberBase:36 - ------ Clicked Free Listing Option ------
+2025-07-16 13:39:46 INFO  CucumberBase:60 - ------ Entered Invalid Phone Number: 1234567890 ------
+2025-07-16 13:39:46 INFO  CucumberBase:66 - ------ Clicked Start Now Button ------
+2025-07-16 13:39:47 INFO  CucumberBase:72 - ------ Retrieved Error Message: Please Enter a Valid Mobile Number ------
+2025-07-16 13:39:47 INFO  CucumberBase:85 - ------ Test Case Passed ------
+2025-07-16 13:39:47 INFO  CucumberBase:93 - ----------------------------------------------------------------------------------------
+2025-07-16 13:39:47 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-16 13:39:47 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 13:39:50 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 13:39:50 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 13:39:57 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 13:39:57 INFO  CucumberBase:31 - Starting Scenario: Discover submenus of Gym in Fitness Category
+2025-07-16 13:39:57 INFO  CucumberBase:34 - ------ Starting TC003_GymSubMenuList ------
+2025-07-16 13:40:03 INFO  CucumberBase:36 - ------ Clicked May Be Later Button ------
+2025-07-16 13:40:03 INFO  CucumberBase:37 - ------ Scrolled to section : Popular Categories ------
+2025-07-16 13:40:14 INFO  CucumberBase:56 - ------ Clicked the category: Fitness ------
+2025-07-16 13:40:15 INFO  CucumberBase:63 - ------ Retrieved 6 subtypes ------
+2025-07-16 13:40:15 INFO  CucumberBase:71 - ------ Displaying Gym/Fitness submenus ------
+2025-07-16 13:40:15 INFO  CucumberBase:90 - ------ Test Case Passed ------
+2025-07-16 13:40:15 INFO  CucumberBase:99 - --------------------------------------------------------------------------------
+2025-07-16 13:40:15 INFO  CucumberBase:40 - Ending Scenario: Discover submenus of Gym in Fitness Category
+2025-07-16 13:40:15 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 13:40:18 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 13:40:18 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 13:40:25 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 13:40:25 INFO  CucumberBase:31 - Starting Scenario: Display top 5 hostels near me which are top rated and JD Verified
+2025-07-16 13:40:25 INFO  CucumberBase:36 - ------ Starting TC004_Hostels ------
+2025-07-16 13:40:33 INFO  CucumberBase:55 - ------ Searching hostels in Saravanampatti ------
+2025-07-16 13:40:38 INFO  CucumberBase:66 - ------ Hostel search results retrieved ------
+2025-07-16 13:40:38 INFO  CucumberBase:71 - ------ Filters applied: Top Rated, JD Verified, Trusted ------
+2025-07-16 13:40:38 INFO  CucumberBase:79 - ------ Displaying Top 5 Hostels ------
+2025-07-16 13:40:38 INFO  CucumberBase:106 - ------ Test Case Passed ------
+2025-07-16 13:40:38 INFO  CucumberBase:116 - --------------------------------------------------------------------------------------------
+2025-07-16 13:40:38 INFO  CucumberBase:40 - Ending Scenario: Display top 5 hostels near me which are top rated and JD Verified
+2025-07-16 13:40:38 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 13:40:41 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 13:40:41 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 13:40:47 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 13:40:47 INFO  CucumberBase:31 - Starting Scenario: Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery
+2025-07-16 13:40:54 INFO  CucumberBase:50 - ------ Clicked May Be Later Button ------
+2025-07-16 13:40:55 INFO  CucumberBase:53 - ------ Set location: Saravanampatti ------
+2025-07-16 13:40:56 INFO  CucumberBase:57 - ------ Searching for: Restaurants ------
+2025-07-16 13:40:56 INFO  CucumberBase:62 - ------ Restaurant listing page loaded ------
+2025-07-16 13:41:00 INFO  CucumberBase:71 - ------ Applied filters: Cuisines, Cuisine, Delivery, Open Now ------
+2025-07-16 13:41:02 INFO  CucumberBase:79 - ------ Displaying top 5 restaurants ------
+2025-07-16 13:41:02 INFO  CucumberBase:95 - ------ Test Case Passed ------
+2025-07-16 13:41:02 INFO  CucumberBase:104 - ----------------------------------------------------------------------------------------
+2025-07-16 13:41:02 INFO  CucumberBase:40 - Ending Scenario: Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery
+2025-07-16 13:41:02 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 13:41:06 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 13:41:06 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 13:41:12 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 13:41:12 INFO  CucumberBase:31 - Starting Scenario: Find categories listed under search terms from JSON
+2025-07-16 13:41:12 INFO  CucumberBase:34 - ------ Starting TC006_CategorySearchResults ------
+2025-07-16 13:41:18 INFO  CucumberBase:36 - ------ Clicked May Be Later Button ------
+2025-07-16 13:41:19 INFO  CucumberBase:38 - ------ Closed pop-up ------
+2025-07-16 13:41:19 INFO  CucumberBase:40 - ------ Clicked Popular Category Button ------
+2025-07-16 13:41:19 INFO  CucumberBase:45 - ------ Fetching search terms from JSON ------
+2025-07-16 13:41:19 INFO  CucumberBase:52 - ------ Searching: ac ------
+2025-07-16 13:41:20 INFO  CucumberBase:65 - ------ Search Passed for: ac ------
+2025-07-16 13:41:20 INFO  CucumberBase:52 - ------ Searching: car ------
+2025-07-16 13:41:21 INFO  CucumberBase:65 - ------ Search Passed for: car ------
+2025-07-16 13:41:21 INFO  CucumberBase:52 - ------ Searching: service ------
+2025-07-16 13:41:22 INFO  CucumberBase:65 - ------ Search Passed for: service ------
+2025-07-16 13:41:22 INFO  CucumberBase:52 - ------ Searching: scrap ------
+2025-07-16 13:41:23 INFO  CucumberBase:65 - ------ Search Passed for: scrap ------
+2025-07-16 13:41:23 INFO  CucumberBase:52 - ------ Searching: computer ------
+2025-07-16 13:41:24 INFO  CucumberBase:65 - ------ Search Passed for: computer ------
+2025-07-16 13:41:24 INFO  CucumberBase:78 - ------ Category Search Results were validated per term ------
+2025-07-16 13:41:24 INFO  CucumberBase:83 - ------ Search results displayed and logged to Excel ------
+2025-07-16 13:41:24 INFO  CucumberBase:40 - Ending Scenario: Find categories listed under search terms from JSON
+2025-07-16 13:41:24 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 13:41:28 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 13:41:28 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 13:41:34 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 13:41:34 INFO  CucumberBase:31 - Starting Scenario: Display details of top tourist spots using Excel row data
+2025-07-16 13:41:49 INFO  CucumberBase:40 - Ending Scenario: Display details of top tourist spots using Excel row data
+2025-07-16 13:41:49 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 13:41:52 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 13:41:52 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 13:41:59 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 13:41:59 INFO  CucumberBase:31 - Starting Scenario: Extract top 5 bus services based on filters using Excel row "1"
+2025-07-16 13:42:15 INFO  CucumberBase:40 - Ending Scenario: Extract top 5 bus services based on filters using Excel row "1"
+2025-07-16 13:42:15 INFO  CucumberBase:41 - Status: FAILED
+2025-07-16 13:42:15 WARN  CucumberBase:47 - Screenshot captured for failed scenario.
+2025-07-16 13:42:18 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 13:42:18 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 13:42:24 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 13:42:24 INFO  CucumberBase:31 - Starting Scenario: Display the top 5 theaters showing the top movie with filters from Excel
+2025-07-16 13:42:30 INFO  CucumberBase:42 - ------ Clicked May Be Later Button ------
+2025-07-16 13:42:30 INFO  CucumberBase:48 - ------ Clicked Movies Section ------
+2025-07-16 13:42:31 INFO  CucumberBase:54 - ------ Movies Page Heading Detected ------
+2025-07-16 13:42:32 INFO  CucumberBase:74 - ------ Selected Languages: tamil,english,telugu ------
+2025-07-16 13:42:32 INFO  CucumberBase:77 - ------ Selected Format: 2d ------
+2025-07-16 13:42:33 INFO  CucumberBase:80 - ------ Selected Genre: Movie: Jurassic World Rebirth (English Movie) ------
+2025-07-16 13:42:33 INFO  CucumberBase:83 - ------ Applied Movie Filters ------
+2025-07-16 13:42:34 INFO  CucumberBase:92 - ------ Verified Genre Checkbox Enabled ------
+2025-07-16 13:42:34 INFO  CucumberBase:101 - ------ First Filtered Movie Selected ------
+2025-07-16 13:42:35 INFO  CucumberBase:128 - ------ Successfully logged top theaters ------
+2025-07-16 13:42:35 INFO  CucumberBase:134 - ----------------------------------------------------------------------------------------
+2025-07-16 13:42:35 INFO  CucumberBase:40 - Ending Scenario: Display the top 5 theaters showing the top movie with filters from Excel
+2025-07-16 13:42:35 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 13:42:39 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 13:42:39 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 13:42:47 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 13:42:47 INFO  CucumberBase:31 - Starting Scenario: Display the top 5 mobile data plans using XML input
+2025-07-16 13:42:53 INFO  CucumberBase:35 - ------ Clicked May Be Later Button ------
+2025-07-16 13:42:57 INFO  CucumberBase:54 - ------ Selected Service Menu: Mobile ------
+2025-07-16 13:42:57 INFO  CucumberBase:59 - ------ Navigated to Mobile Recharge Page ------
+2025-07-16 13:42:57 INFO  CucumberBase:66 - ------ Entered Mobile Number: 8122537244 ------
+2025-07-16 13:42:58 INFO  CucumberBase:68 - ------ Clicked New Plans Button ------
+2025-07-16 13:42:58 INFO  CucumberBase:75 - ------ Selected Plan Type: Data ------
+2025-07-16 13:42:59 INFO  CucumberBase:90 - ------ Displayed Available Recharge Plans ------
+2025-07-16 13:42:59 INFO  CucumberBase:101 - ------ Test Case Passed ------
+2025-07-16 13:42:59 INFO  CucumberBase:110 - ----------------------------------------------------------------------------------------
+2025-07-16 13:42:59 INFO  CucumberBase:40 - Ending Scenario: Display the top 5 mobile data plans using XML input
+2025-07-16 13:42:59 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 13:43:03 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 13:43:03 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 13:43:08 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 13:43:08 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 13:43:08 INFO  CucumberBase:35 - ------ Starting TC001_CarWashServices ------
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 13:45:12 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403758\AppData\Local\Temp\testng-eclipse-1827621324\testng-customsuite.xml
+
+2025-07-16 13:45:12 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2025-07-16 13:45:18 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 13:45:18 INFO  CucumberBase:31 - Starting Scenario: Extract top 5 bus services based on filters using Excel row "1"
+2025-07-16 13:45:36 INFO  CucumberBase:40 - Ending Scenario: Extract top 5 bus services based on filters using Excel row "1"
+2025-07-16 13:45:36 INFO  CucumberBase:41 - Status: FAILED
+2025-07-16 13:45:36 WARN  CucumberBase:47 - Screenshot captured for failed scenario.
+2025-07-16 13:45:39 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 13:45:39 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 13:45:39 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@1c8f6c66: 128 ms
+2025-07-16 13:45:39 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@4a070cf0: 35 ms
+2025-07-16 13:45:39 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@59498d94: 15 ms
+2025-07-16 13:45:39 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@ee21292: 12 ms
+2025-07-16 13:45:39 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@dd3f8aa: 12 ms
+2025-07-16 13:45:39 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3d615b2e: 0 ms
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2025-07-16 14:24:54 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\2403758\AppData\Local\Temp\testng-eclipse-301690217\testng-customsuite.xml
+
+2025-07-16 14:24:54 INFO  Utils:112 - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2025-07-16 14:25:00 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 14:25:00 INFO  CucumberBase:31 - Starting Scenario: Display top 5 hostels near me which are top rated and JD Verified
+2025-07-16 14:25:00 INFO  CucumberBase:36 - ------ Starting TC004_Hostels ------
+2025-07-16 14:25:08 INFO  CucumberBase:55 - ------ Searching hostels in Saravanampatti ------
+2025-07-16 14:25:14 INFO  CucumberBase:66 - ------ Hostel search results retrieved ------
+2025-07-16 14:25:14 INFO  CucumberBase:71 - ------ Filters applied: Top Rated, JD Verified, Trusted ------
+2025-07-16 14:25:14 INFO  CucumberBase:79 - ------ Displaying Top 5 Hostels ------
+2025-07-16 14:25:15 INFO  CucumberBase:106 - ------ Test Case Passed ------
+2025-07-16 14:25:15 INFO  CucumberBase:116 - --------------------------------------------------------------------------------------------
+2025-07-16 14:25:15 INFO  CucumberBase:40 - Ending Scenario: Display top 5 hostels near me which are top rated and JD Verified
+2025-07-16 14:25:15 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 14:25:19 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 14:25:19 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 14:25:19 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.jq.Main@785ed99c: 89 ms
+2025-07-16 14:25:19 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.FailedReporter@29bbc63c: 1 ms
+2025-07-16 14:25:19 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.XMLReporter@3f5dfe69: 11 ms
+2025-07-16 14:25:19 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2f0ccb34: 5 ms
+2025-07-16 14:25:19 INFO  Utils:112 - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@64279ab: 7 ms
+2025-07-16 14:25:19 INFO  Utils:112 - [TestNG] Time taken by org.testng.internal.ExitCodeListener@794240e2: 0 ms
+2025-07-16 14:28:00 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-16 14:28:06 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 14:28:06 INFO  CucumberBase:31 - Starting Scenario: Display top 5 hostels near me which are top rated and JD Verified
+2025-07-16 14:28:06 INFO  CucumberBase:36 - ------ Starting TC004_Hostels ------
+2025-07-16 14:28:13 INFO  CucumberBase:55 - ------ Searching hostels in Saravanampatti ------
+2025-07-16 14:28:18 INFO  CucumberBase:66 - ------ Hostel search results retrieved ------
+2025-07-16 14:28:18 INFO  CucumberBase:71 - ------ Filters applied: Top Rated, JD Verified, Trusted ------
+2025-07-16 14:28:18 INFO  CucumberBase:79 - ------ Displaying Top 5 Hostels ------
+2025-07-16 14:28:19 INFO  CucumberBase:107 - ------ Test Case Passed ------
+2025-07-16 14:28:19 INFO  CucumberBase:117 - --------------------------------------------------------------------------------------------
+2025-07-16 14:28:19 INFO  CucumberBase:40 - Ending Scenario: Display top 5 hostels near me which are top rated and JD Verified
+2025-07-16 14:28:19 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 14:28:23 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 14:28:23 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:07:27 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-16 15:07:34 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:07:34 INFO  CucumberBase:31 - Starting Scenario: Display top 5 hostels near me which are top rated and JD Verified
+2025-07-16 15:07:34 INFO  CucumberBase:36 - ------ Starting TC004_Hostels ------
+2025-07-16 15:07:42 INFO  CucumberBase:55 - ------ Searching hostels in Saravanampatti ------
+2025-07-16 15:07:46 INFO  CucumberBase:66 - ------ Hostel search results retrieved ------
+2025-07-16 15:07:46 INFO  CucumberBase:71 - ------ Filters applied: Top Rated, JD Verified, Trusted ------
+2025-07-16 15:07:46 INFO  CucumberBase:79 - ------ Displaying Top 5 Hostels ------
+2025-07-16 15:07:46 INFO  CucumberBase:107 - ------ Test Case Passed ------
+2025-07-16 15:07:46 INFO  CucumberBase:117 - --------------------------------------------------------------------------------------------
+2025-07-16 15:07:46 INFO  CucumberBase:40 - Ending Scenario: Display top 5 hostels near me which are top rated and JD Verified
+2025-07-16 15:07:46 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:07:57 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-16 15:08:06 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:08:06 INFO  CucumberBase:31 - Starting Scenario: Display top 5 hostels near me which are top rated and JD Verified
+2025-07-16 15:08:06 INFO  CucumberBase:36 - ------ Starting TC004_Hostels ------
+2025-07-16 15:08:48 INFO  CucumberBase:40 - Ending Scenario: Display top 5 hostels near me which are top rated and JD Verified
+2025-07-16 15:08:48 INFO  CucumberBase:41 - Status: FAILED
+2025-07-16 15:08:49 WARN  CucumberBase:47 - Screenshot captured for failed scenario.
+2025-07-16 15:08:51 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:08:51 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:09:37 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-16 15:09:43 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:09:43 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 15:09:44 INFO  CucumberBase:35 - ------ Starting TC001_CarWashServices ------
+2025-07-16 15:09:50 INFO  CucumberBase:42 - ------ Location set to: Saravanampatti ------
+2025-07-16 15:09:51 INFO  CucumberBase:52 - ------ Search term entered: Car Washing Sevices ------
+2025-07-16 15:09:51 INFO  CucumberBase:58 - ------ Search result heading:  ------
+2025-07-16 15:09:53 INFO  CucumberBase:69 - ------ Applied filter: Rating, Rating: 4 ------
+2025-07-16 15:09:54 INFO  CucumberBase:77 - ------ Displaying top 5 car wash services ------
+2025-07-16 15:09:55 INFO  CucumberBase:100 - ------ Test Case Passed ------
+2025-07-16 15:09:55 INFO  CucumberBase:109 - ----------------------------------------------------------------------------------------
+2025-07-16 15:09:55 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 15:09:55 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:09:59 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:09:59 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:10:05 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:10:05 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-16 15:10:07 INFO  CucumberBase:36 - ------ Clicked Free Listing Option ------
+2025-07-16 15:13:07 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-16 15:13:14 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:13:14 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 15:13:15 INFO  CucumberBase:35 - ------ Starting TC001_CarWashServices ------
+2025-07-16 15:13:21 INFO  CucumberBase:42 - ------ Location set to: Saravanampatti ------
+2025-07-16 15:13:21 INFO  CucumberBase:52 - ------ Search term entered: Car Washing Sevices ------
+2025-07-16 15:13:21 INFO  CucumberBase:58 - ------ Search result heading:  ------
+2025-07-16 15:13:23 INFO  CucumberBase:69 - ------ Applied filter: Rating, Rating: 4 ------
+2025-07-16 15:13:24 INFO  CucumberBase:77 - ------ Displaying top 5 car wash services ------
+2025-07-16 15:13:26 INFO  CucumberBase:100 - ------ Test Case Passed ------
+2025-07-16 15:13:26 INFO  CucumberBase:109 - ----------------------------------------------------------------------------------------
+2025-07-16 15:13:26 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 15:13:26 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:13:29 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:13:29 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:13:34 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:13:34 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-16 15:13:36 INFO  CucumberBase:36 - ------ Clicked Free Listing Option ------
+2025-07-16 15:13:37 INFO  CucumberBase:60 - ------ Entered Invalid Phone Number: 1234567890 ------
+2025-07-16 15:13:37 INFO  CucumberBase:66 - ------ Clicked Start Now Button ------
+2025-07-16 15:13:37 INFO  CucumberBase:72 - ------ Retrieved Error Message: Please Enter a Valid Mobile Number ------
+2025-07-16 15:13:37 INFO  CucumberBase:85 - ------ Test Case Passed ------
+2025-07-16 15:13:37 INFO  CucumberBase:93 - ----------------------------------------------------------------------------------------
+2025-07-16 15:13:37 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-16 15:13:37 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:13:40 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:13:40 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:13:45 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:13:45 INFO  CucumberBase:31 - Starting Scenario: Discover submenus of Gym in Fitness Category
+2025-07-16 15:13:45 INFO  CucumberBase:34 - ------ Starting TC003_GymSubMenuList ------
+2025-07-16 15:13:52 INFO  CucumberBase:36 - ------ Clicked May Be Later Button ------
+2025-07-16 15:13:52 INFO  CucumberBase:37 - ------ Scrolled to section : Popular Categories ------
+2025-07-16 15:14:02 INFO  CucumberBase:56 - ------ Clicked the category: Fitness ------
+2025-07-16 15:14:03 INFO  CucumberBase:63 - ------ Retrieved 6 subtypes ------
+2025-07-16 15:14:03 INFO  CucumberBase:71 - ------ Displaying Gym/Fitness submenus ------
+2025-07-16 15:14:03 INFO  CucumberBase:90 - ------ Test Case Passed ------
+2025-07-16 15:14:03 INFO  CucumberBase:99 - --------------------------------------------------------------------------------
+2025-07-16 15:14:03 INFO  CucumberBase:40 - Ending Scenario: Discover submenus of Gym in Fitness Category
+2025-07-16 15:14:03 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:14:06 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:14:06 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:14:11 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:14:11 INFO  CucumberBase:31 - Starting Scenario: Display top 5 hostels near me which are top rated and JD Verified
+2025-07-16 15:14:11 INFO  CucumberBase:36 - ------ Starting TC004_Hostels ------
+2025-07-16 15:14:18 INFO  CucumberBase:55 - ------ Searching hostels in Saravanampatti ------
+2025-07-16 15:14:22 INFO  CucumberBase:66 - ------ Hostel search results retrieved ------
+2025-07-16 15:14:22 INFO  CucumberBase:71 - ------ Filters applied: Top Rated, JD Verified, Trusted ------
+2025-07-16 15:14:22 INFO  CucumberBase:79 - ------ Displaying Top 5 Hostels ------
+2025-07-16 15:14:23 INFO  CucumberBase:107 - ------ Test Case Passed ------
+2025-07-16 15:14:23 INFO  CucumberBase:117 - --------------------------------------------------------------------------------------------
+2025-07-16 15:14:23 INFO  CucumberBase:40 - Ending Scenario: Display top 5 hostels near me which are top rated and JD Verified
+2025-07-16 15:14:23 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:14:26 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:14:26 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:14:31 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:14:31 INFO  CucumberBase:31 - Starting Scenario: Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery
+2025-07-16 15:14:38 INFO  CucumberBase:50 - ------ Clicked May Be Later Button ------
+2025-07-16 15:14:38 INFO  CucumberBase:53 - ------ Set location: Saravanampatti ------
+2025-07-16 15:14:39 INFO  CucumberBase:57 - ------ Searching for: Restaurants ------
+2025-07-16 15:14:39 INFO  CucumberBase:62 - ------ Restaurant listing page loaded ------
+2025-07-16 15:14:42 INFO  CucumberBase:71 - ------ Applied filters: Cuisines, Cuisine, Delivery, Open Now ------
+2025-07-16 15:14:44 INFO  CucumberBase:79 - ------ Displaying top 5 restaurants ------
+2025-07-16 15:14:44 INFO  CucumberBase:97 - ------ Test Case Passed ------
+2025-07-16 15:14:44 INFO  CucumberBase:106 - ----------------------------------------------------------------------------------------
+2025-07-16 15:14:44 INFO  CucumberBase:40 - Ending Scenario: Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery
+2025-07-16 15:14:44 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:14:48 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:14:48 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:14:53 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:14:53 INFO  CucumberBase:31 - Starting Scenario: Find categories listed under search terms from JSON
+2025-07-16 15:14:53 INFO  CucumberBase:34 - ------ Starting TC006_CategorySearchResults ------
+2025-07-16 15:14:59 INFO  CucumberBase:36 - ------ Clicked May Be Later Button ------
+2025-07-16 15:14:59 INFO  CucumberBase:38 - ------ Closed pop-up ------
+2025-07-16 15:14:59 INFO  CucumberBase:40 - ------ Clicked Popular Category Button ------
+2025-07-16 15:14:59 INFO  CucumberBase:45 - ------ Fetching search terms from JSON ------
+2025-07-16 15:14:59 INFO  CucumberBase:53 - ------ Searching: ac ------
+2025-07-16 15:15:00 INFO  CucumberBase:67 - ------ Search Passed for: ac ------
+2025-07-16 15:15:00 INFO  CucumberBase:53 - ------ Searching: car ------
+2025-07-16 15:15:01 INFO  CucumberBase:67 - ------ Search Passed for: car ------
+2025-07-16 15:15:01 INFO  CucumberBase:53 - ------ Searching: service ------
+2025-07-16 15:15:01 INFO  CucumberBase:67 - ------ Search Passed for: service ------
+2025-07-16 15:15:01 INFO  CucumberBase:53 - ------ Searching: scrap ------
+2025-07-16 15:15:01 INFO  CucumberBase:67 - ------ Search Passed for: scrap ------
+2025-07-16 15:15:01 INFO  CucumberBase:53 - ------ Searching: computer ------
+2025-07-16 15:15:02 INFO  CucumberBase:67 - ------ Search Passed for: computer ------
+2025-07-16 15:15:02 INFO  CucumberBase:80 - ------ Category Search Results were validated per term ------
+2025-07-16 15:15:02 INFO  CucumberBase:85 - ------ Search results displayed and logged to Excel ------
+2025-07-16 15:15:02 INFO  CucumberBase:40 - Ending Scenario: Find categories listed under search terms from JSON
+2025-07-16 15:15:02 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:15:07 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:15:07 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:15:13 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:15:13 INFO  CucumberBase:31 - Starting Scenario: Display details of top tourist spots using Excel row data
+2025-07-16 15:15:25 INFO  CucumberBase:40 - Ending Scenario: Display details of top tourist spots using Excel row data
+2025-07-16 15:15:25 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:15:29 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:15:29 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:15:34 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:15:34 INFO  CucumberBase:31 - Starting Scenario: Show top 5 filtered buses between cities and validate travel options per Excel row
+2025-07-16 15:15:51 INFO  CucumberBase:40 - Ending Scenario: Show top 5 filtered buses between cities and validate travel options per Excel row
+2025-07-16 15:15:51 INFO  CucumberBase:41 - Status: FAILED
+2025-07-16 15:15:51 WARN  CucumberBase:47 - Screenshot captured for failed scenario.
+2025-07-16 15:15:54 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:15:54 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:15:59 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:15:59 INFO  CucumberBase:31 - Starting Scenario: Show top 5 filtered buses between cities and validate travel options per Excel row
+2025-07-16 15:16:16 INFO  CucumberBase:40 - Ending Scenario: Show top 5 filtered buses between cities and validate travel options per Excel row
+2025-07-16 15:16:16 INFO  CucumberBase:41 - Status: FAILED
+2025-07-16 15:16:16 WARN  CucumberBase:47 - Screenshot captured for failed scenario.
+2025-07-16 15:16:19 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:16:19 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:16:24 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:16:24 INFO  CucumberBase:31 - Starting Scenario: Show top 5 filtered buses between cities and validate travel options per Excel row
+2025-07-16 15:16:41 INFO  CucumberBase:40 - Ending Scenario: Show top 5 filtered buses between cities and validate travel options per Excel row
+2025-07-16 15:16:41 INFO  CucumberBase:41 - Status: FAILED
+2025-07-16 15:16:41 WARN  CucumberBase:47 - Screenshot captured for failed scenario.
+2025-07-16 15:16:44 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:16:44 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:16:49 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:16:49 INFO  CucumberBase:31 - Starting Scenario: Display the top 5 theaters showing the top movie with filters from Excel
+2025-07-16 15:16:55 INFO  CucumberBase:42 - ------ Clicked May Be Later Button ------
+2025-07-16 15:16:56 INFO  CucumberBase:48 - ------ Clicked Movies Section ------
+2025-07-16 15:16:56 INFO  CucumberBase:54 - ------ Movies Page Heading Detected ------
+2025-07-16 15:16:57 INFO  CucumberBase:74 - ------ Selected Languages: tamil,english,telugu ------
+2025-07-16 15:16:57 INFO  CucumberBase:77 - ------ Selected Format: 2d ------
+2025-07-16 15:16:57 INFO  CucumberBase:80 - ------ Selected Genre: comedy ------
+2025-07-16 15:16:58 INFO  CucumberBase:83 - ------ Applied Movie Filters ------
+2025-07-16 15:16:58 INFO  CucumberBase:92 - ------ Verified Genre Checkbox Enabled ------
+2025-07-16 15:16:58 INFO  CucumberBase:101 - ------ First Filtered Movie Selected ------
+2025-07-16 15:17:00 INFO  CucumberBase:128 - ------ Successfully logged top theaters ------
+2025-07-16 15:17:00 INFO  CucumberBase:134 - ----------------------------------------------------------------------------------------
+2025-07-16 15:17:00 INFO  CucumberBase:40 - Ending Scenario: Display the top 5 theaters showing the top movie with filters from Excel
+2025-07-16 15:17:00 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:17:03 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:17:03 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:17:12 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:17:12 INFO  CucumberBase:31 - Starting Scenario: Display the top 5 mobile data plans using XML input
+2025-07-16 15:17:17 INFO  CucumberBase:35 - ------ Clicked May Be Later Button ------
+2025-07-16 15:17:21 INFO  CucumberBase:54 - ------ Selected Service Menu: Mobile ------
+2025-07-16 15:17:21 INFO  CucumberBase:59 - ------ Navigated to Mobile Recharge Page ------
+2025-07-16 15:17:22 INFO  CucumberBase:66 - ------ Entered Mobile Number: 8122537244 ------
+2025-07-16 15:17:23 INFO  CucumberBase:68 - ------ Clicked New Plans Button ------
+2025-07-16 15:17:23 INFO  CucumberBase:75 - ------ Selected Plan Type: Data ------
+2025-07-16 15:17:24 INFO  CucumberBase:89 - ------ Displayed Available Recharge Plans ------
+2025-07-16 15:17:24 INFO  CucumberBase:100 - ------ Test Case Passed ------
+2025-07-16 15:17:24 INFO  CucumberBase:109 - ----------------------------------------------------------------------------------------
+2025-07-16 15:17:24 INFO  CucumberBase:40 - Ending Scenario: Display the top 5 mobile data plans using XML input
+2025-07-16 15:17:24 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:17:28 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:17:28 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:21:28 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-16 15:21:33 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:21:33 INFO  CucumberBase:31 - Starting Scenario: Show top 5 filtered buses between cities and validate travel options per Excel row
+2025-07-16 15:21:49 INFO  CucumberBase:40 - Ending Scenario: Show top 5 filtered buses between cities and validate travel options per Excel row
+2025-07-16 15:21:49 INFO  CucumberBase:41 - Status: FAILED
+2025-07-16 15:21:49 WARN  CucumberBase:47 - Screenshot captured for failed scenario.
+2025-07-16 15:21:53 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:21:53 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:36:42 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-16 15:36:48 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:36:48 INFO  CucumberBase:31 - Starting Scenario: Show top 5 filtered buses between cities and validate travel options per Excel row
+2025-07-16 15:37:01 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-16 15:37:07 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:37:07 INFO  CucumberBase:31 - Starting Scenario: Show top 5 filtered buses between cities and validate travel options per Excel row
+2025-07-16 15:37:22 INFO  CucumberBase:40 - Ending Scenario: Show top 5 filtered buses between cities and validate travel options per Excel row
+2025-07-16 15:37:22 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:37:26 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:37:26 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:37:39 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-16 15:37:46 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:37:46 INFO  CucumberBase:31 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 15:37:47 INFO  CucumberBase:35 - ------ Starting TC001_CarWashServices ------
+2025-07-16 15:37:53 INFO  CucumberBase:42 - ------ Location set to: Saravanampatti ------
+2025-07-16 15:37:53 INFO  CucumberBase:52 - ------ Search term entered: Car Washing Sevices ------
+2025-07-16 15:37:54 INFO  CucumberBase:58 - ------ Search result heading:  ------
+2025-07-16 15:37:55 INFO  CucumberBase:69 - ------ Applied filter: Rating, Rating: 4 ------
+2025-07-16 15:37:57 INFO  CucumberBase:77 - ------ Displaying top 5 car wash services ------
+2025-07-16 15:37:59 INFO  CucumberBase:100 - ------ Test Case Passed ------
+2025-07-16 15:37:59 INFO  CucumberBase:109 - ----------------------------------------------------------------------------------------
+2025-07-16 15:37:59 INFO  CucumberBase:40 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-16 15:37:59 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:38:03 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:38:03 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:38:08 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:38:08 INFO  CucumberBase:31 - Starting Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-16 15:38:11 INFO  CucumberBase:36 - ------ Clicked Free Listing Option ------
+2025-07-16 15:38:12 INFO  CucumberBase:60 - ------ Entered Invalid Phone Number: 1234567890 ------
+2025-07-16 15:38:12 INFO  CucumberBase:66 - ------ Clicked Start Now Button ------
+2025-07-16 15:38:12 INFO  CucumberBase:72 - ------ Retrieved Error Message: Please Enter a Valid Mobile Number ------
+2025-07-16 15:38:12 INFO  CucumberBase:85 - ------ Test Case Passed ------
+2025-07-16 15:38:12 INFO  CucumberBase:93 - ----------------------------------------------------------------------------------------
+2025-07-16 15:38:12 INFO  CucumberBase:40 - Ending Scenario: Register for Free Listing with invalid phone number and capturing the error message
+2025-07-16 15:38:12 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:38:15 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:38:15 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:38:21 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:38:21 INFO  CucumberBase:31 - Starting Scenario: Discover submenus of Gym in Fitness Category
+2025-07-16 15:38:21 INFO  CucumberBase:34 - ------ Starting TC003_GymSubMenuList ------
+2025-07-16 15:38:27 INFO  CucumberBase:36 - ------ Clicked May Be Later Button ------
+2025-07-16 15:38:27 INFO  CucumberBase:37 - ------ Scrolled to section : Popular Categories ------
+2025-07-16 15:38:38 INFO  CucumberBase:56 - ------ Clicked the category: Fitness ------
+2025-07-16 15:38:38 INFO  CucumberBase:63 - ------ Retrieved 6 subtypes ------
+2025-07-16 15:38:38 INFO  CucumberBase:70 - ------ Displaying Gym/Fitness submenus ------
+2025-07-16 15:38:39 INFO  CucumberBase:88 - ------ Test Case Passed ------
+2025-07-16 15:38:39 INFO  CucumberBase:97 - --------------------------------------------------------------------------------
+2025-07-16 15:38:39 INFO  CucumberBase:40 - Ending Scenario: Discover submenus of Gym in Fitness Category
+2025-07-16 15:38:39 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:38:42 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:38:42 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:38:47 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:38:47 INFO  CucumberBase:31 - Starting Scenario: Display top 5 hostels near me which are top rated and JD Verified
+2025-07-16 15:38:47 INFO  CucumberBase:36 - ------ Starting TC004_Hostels ------
+2025-07-16 15:38:55 INFO  CucumberBase:55 - ------ Searching hostels in Saravanampatti ------
+2025-07-16 15:38:59 INFO  CucumberBase:66 - ------ Hostel search results retrieved ------
+2025-07-16 15:38:59 INFO  CucumberBase:71 - ------ Filters applied: Top Rated, JD Verified, Trusted ------
+2025-07-16 15:38:59 INFO  CucumberBase:79 - ------ Displaying Top 5 Hostels ------
+2025-07-16 15:38:59 INFO  CucumberBase:107 - ------ Test Case Passed ------
+2025-07-16 15:38:59 INFO  CucumberBase:117 - --------------------------------------------------------------------------------------------
+2025-07-16 15:38:59 INFO  CucumberBase:40 - Ending Scenario: Display top 5 hostels near me which are top rated and JD Verified
+2025-07-16 15:38:59 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:39:03 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:39:03 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:39:09 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:39:09 INFO  CucumberBase:31 - Starting Scenario: Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery
+2025-07-16 15:39:15 INFO  CucumberBase:50 - ------ Clicked May Be Later Button ------
+2025-07-16 15:39:16 INFO  CucumberBase:53 - ------ Set location: Saravanampatti ------
+2025-07-16 15:39:17 INFO  CucumberBase:57 - ------ Searching for: Restaurants ------
+2025-07-16 15:39:17 INFO  CucumberBase:62 - ------ Restaurant listing page loaded ------
+2025-07-16 15:39:20 INFO  CucumberBase:71 - ------ Applied filters: Cuisines, Cuisine, Delivery, Open Now ------
+2025-07-16 15:39:22 INFO  CucumberBase:79 - ------ Displaying top 5 restaurants ------
+2025-07-16 15:39:22 INFO  CucumberBase:97 - ------ Test Case Passed ------
+2025-07-16 15:39:22 INFO  CucumberBase:106 - ----------------------------------------------------------------------------------------
+2025-07-16 15:39:22 INFO  CucumberBase:40 - Ending Scenario: Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery
+2025-07-16 15:39:22 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:39:26 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:39:26 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:39:31 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:39:31 INFO  CucumberBase:31 - Starting Scenario: Find categories listed under search terms from JSON
+2025-07-16 15:39:31 INFO  CucumberBase:34 - ------ Starting TC006_CategorySearchResults ------
+2025-07-16 15:39:37 INFO  CucumberBase:36 - ------ Clicked May Be Later Button ------
+2025-07-16 15:39:37 INFO  CucumberBase:38 - ------ Closed pop-up ------
+2025-07-16 15:39:37 INFO  CucumberBase:40 - ------ Clicked Popular Category Button ------
+2025-07-16 15:39:37 INFO  CucumberBase:45 - ------ Fetching search terms from JSON ------
+2025-07-16 15:39:37 INFO  CucumberBase:53 - ------ Searching: ac ------
+2025-07-16 15:39:38 INFO  CucumberBase:67 - ------ Search Passed for: ac ------
+2025-07-16 15:39:38 INFO  CucumberBase:53 - ------ Searching: car ------
+2025-07-16 15:39:38 INFO  CucumberBase:67 - ------ Search Passed for: car ------
+2025-07-16 15:39:38 INFO  CucumberBase:53 - ------ Searching: service ------
+2025-07-16 15:39:39 INFO  CucumberBase:67 - ------ Search Passed for: service ------
+2025-07-16 15:39:39 INFO  CucumberBase:53 - ------ Searching: scrap ------
+2025-07-16 15:39:39 INFO  CucumberBase:67 - ------ Search Passed for: scrap ------
+2025-07-16 15:39:39 INFO  CucumberBase:53 - ------ Searching: computer ------
+2025-07-16 15:39:40 INFO  CucumberBase:67 - ------ Search Passed for: computer ------
+2025-07-16 15:39:40 INFO  CucumberBase:80 - ------ Category Search Results were validated per term ------
+2025-07-16 15:39:40 INFO  CucumberBase:85 - ------ Search results displayed and logged to Excel ------
+2025-07-16 15:39:40 INFO  CucumberBase:40 - Ending Scenario: Find categories listed under search terms from JSON
+2025-07-16 15:39:40 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:39:44 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:39:44 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:39:50 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:39:50 INFO  CucumberBase:31 - Starting Scenario: Display details of top tourist spots using Excel row data
+2025-07-16 15:40:04 INFO  CucumberBase:40 - Ending Scenario: Display details of top tourist spots using Excel row data
+2025-07-16 15:40:04 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:40:08 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:40:08 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:40:13 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:40:13 INFO  CucumberBase:31 - Starting Scenario: Show top 5 filtered buses between cities and validate travel options per Excel row
+2025-07-16 15:40:29 INFO  CucumberBase:40 - Ending Scenario: Show top 5 filtered buses between cities and validate travel options per Excel row
+2025-07-16 15:40:29 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:40:32 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:40:32 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:40:38 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:40:38 INFO  CucumberBase:31 - Starting Scenario: Display the top 5 theaters showing the top movie with filters from Excel
+2025-07-16 15:40:44 INFO  CucumberBase:42 - ------ Clicked May Be Later Button ------
+2025-07-16 15:40:44 INFO  CucumberBase:48 - ------ Clicked Movies Section ------
+2025-07-16 15:40:45 INFO  CucumberBase:54 - ------ Movies Page Heading Detected ------
+2025-07-16 15:40:45 INFO  CucumberBase:74 - ------ Selected Languages: tamil,english,telugu ------
+2025-07-16 15:40:46 INFO  CucumberBase:77 - ------ Selected Format: 2d ------
+2025-07-16 15:40:47 INFO  CucumberBase:80 - ------ Selected Genre: comedy ------
+2025-07-16 15:40:47 INFO  CucumberBase:83 - ------ Applied Movie Filters ------
+2025-07-16 15:40:47 INFO  CucumberBase:92 - ------ Verified Genre Checkbox Enabled ------
+2025-07-16 15:40:47 INFO  CucumberBase:101 - ------ First Filtered Movie Selected ------
+2025-07-16 15:40:49 INFO  CucumberBase:128 - ------ Successfully logged top theaters ------
+2025-07-16 15:40:49 INFO  CucumberBase:134 - ----------------------------------------------------------------------------------------
+2025-07-16 15:40:49 INFO  CucumberBase:40 - Ending Scenario: Display the top 5 theaters showing the top movie with filters from Excel
+2025-07-16 15:40:49 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:40:53 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:40:53 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:40:58 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:40:58 INFO  CucumberBase:31 - Starting Scenario: Display the top 5 mobile data plans using XML input
+2025-07-16 15:41:04 INFO  CucumberBase:35 - ------ Clicked May Be Later Button ------
+2025-07-16 15:41:07 INFO  CucumberBase:54 - ------ Selected Service Menu: Mobile ------
+2025-07-16 15:41:07 INFO  CucumberBase:59 - ------ Navigated to Mobile Recharge Page ------
+2025-07-16 15:41:08 INFO  CucumberBase:66 - ------ Entered Mobile Number: 8122537244 ------
+2025-07-16 15:41:09 INFO  CucumberBase:68 - ------ Clicked New Plans Button ------
+2025-07-16 15:41:09 INFO  CucumberBase:75 - ------ Selected Plan Type: Data ------
+2025-07-16 15:41:10 INFO  CucumberBase:89 - ------ Displayed Available Recharge Plans ------
+2025-07-16 15:41:10 INFO  CucumberBase:100 - ------ Test Case Passed ------
+2025-07-16 15:41:10 INFO  CucumberBase:109 - ----------------------------------------------------------------------------------------
+2025-07-16 15:41:10 INFO  CucumberBase:40 - Ending Scenario: Display the top 5 mobile data plans using XML input
+2025-07-16 15:41:10 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:41:14 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:41:14 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------
+2025-07-16 15:43:34 INFO  Utils:112 - [TestNG] Running:
+  C:\eclipse workspace\Identify-Car-Wash-Services\cucumber.xml
+
+2025-07-16 15:43:40 INFO  CucumberBase:30 - ----------------------------------------------------------------------------------------
+2025-07-16 15:43:40 INFO  CucumberBase:31 - Starting Scenario: Display the top 5 theaters showing the top movie with filters from Excel
+2025-07-16 15:43:46 INFO  CucumberBase:42 - ------ Clicked May Be Later Button ------
+2025-07-16 15:43:47 INFO  CucumberBase:48 - ------ Clicked Movies Section ------
+2025-07-16 15:43:47 INFO  CucumberBase:54 - ------ Movies Page Heading Detected ------
+2025-07-16 15:43:47 INFO  CucumberBase:74 - ------ Selected Languages: tamil,english,telugu ------
+2025-07-16 15:43:48 INFO  CucumberBase:77 - ------ Selected Format: 2d ------
+2025-07-16 15:43:48 INFO  CucumberBase:80 - ------ Selected Genre: comedy ------
+2025-07-16 15:43:49 INFO  CucumberBase:83 - ------ Applied Movie Filters ------
+2025-07-16 15:43:49 INFO  CucumberBase:92 - ------ Verified Genre Checkbox Enabled ------
+2025-07-16 15:43:50 INFO  CucumberBase:101 - ------ First Filtered Movie Selected ------
+2025-07-16 15:43:51 INFO  CucumberBase:128 - ------ Successfully logged top theaters ------
+2025-07-16 15:43:51 INFO  CucumberBase:134 - ----------------------------------------------------------------------------------------
+2025-07-16 15:43:51 INFO  CucumberBase:40 - Ending Scenario: Display the top 5 theaters showing the top movie with filters from Excel
+2025-07-16 15:43:51 INFO  CucumberBase:41 - Status: PASSED
+2025-07-16 15:43:55 INFO  CucumberBase:55 - Browser closed.
+2025-07-16 15:43:55 INFO  CucumberBase:56 - ----------------------------------------------------------------------------------------

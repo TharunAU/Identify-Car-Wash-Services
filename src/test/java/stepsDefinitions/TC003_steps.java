@@ -66,7 +66,6 @@ public class TC003_steps {
     @And("I should capture and display them")
     public void displayAndValidateSubMenus() {
         int writeRow = rowIndex;
-        int writeCol = 1;
 
         logger.info("------ Displaying Gym/Fitness submenus ------");
         System.out.println("--------------------------------------------------------------------------------");
@@ -74,8 +73,7 @@ public class TC003_steps {
         for (int i = 0; i < gymSubMenuList.size(); i++) {
             String value = gymSubMenuList.get(i);
             System.out.println((i + 1) + ". " + value);
-            excel.setCellData(value, writeRow, writeCol);
-            writeCol++;
+            excel.setCellData(value, writeRow++, 1);
         }
 
         System.out.println("--------------------------------------------------------------------------------");
@@ -85,13 +83,13 @@ public class TC003_steps {
         );
 
         if (isValid) {
-            excel.setCellData("The Search result contains gym/fitness", rowIndex, writeCol++);
-            excel.setCellData("Pass", rowIndex, writeCol);
+            excel.setCellData("The Search result contains gym/fitness", rowIndex, 3);
+            excel.setCellData("Pass", rowIndex, 4);
             logger.info("------ Test Case Passed ------");
             Assert.assertTrue(true);
         } else {
-            excel.setCellData("The Search result does NOT contain gym/fitness", rowIndex, writeCol++);
-            excel.setCellData("Fail", rowIndex, writeCol);
+            excel.setCellData("The Search result does NOT contain gym/fitness", rowIndex, 3);
+            excel.setCellData("Fail", rowIndex, 4);
             logger.error("------ Test Case Failed ------");
             Assert.fail("Results do not match gym/fitness");
         }

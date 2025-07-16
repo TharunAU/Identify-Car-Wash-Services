@@ -1,5 +1,6 @@
 Feature: Car Wash
  
+ @TC002
   Scenario Outline: Register for Free Listing with invalid phone number and capturing the error message
     When I Navigate to the free listing page
     And I fill the phone number field with an invalid phone number "<phone_Number>" from Excel

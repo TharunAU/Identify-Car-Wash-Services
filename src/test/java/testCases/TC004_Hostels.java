@@ -48,6 +48,7 @@ public class TC004_Hostels extends BaseClass {
 			obj.setCellData(result,count,5);
 			String [] value = result.split(" , ");
 			System.out.println("\nName: " + value[0] + "\nLocation: " + value[1]);
+			count++;
 		}
 		logger.info("------ Displayed the Search Results ------");
 

@@ -1,5 +1,6 @@
 Feature: Find Top 5 Hostels to Stay
-@tsf
+
+@TC004
 Scenario Outline: Display top 5 hostels near me which are top rated and JD Verified
   When I search for Hostels using "<row_index>"
   Then I should see a list of hostels

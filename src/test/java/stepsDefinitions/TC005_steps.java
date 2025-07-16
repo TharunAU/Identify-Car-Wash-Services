@@ -78,11 +78,13 @@ public class TC005_steps {
 
         logger.info("------ Displaying top 5 restaurants ------");
         System.out.println("----------------------------------------------------------------------------------------------------");
-
+        
+        int count = rowIndex;
         for (String result : results) {
-            excel.setCellData(result, rowIndex, 6); // ✅ Log result to Excel based on rowIndex
+            excel.setCellData(result, count, 6); // ✅ Log result to Excel based on rowIndex
             String[] value = result.split(" , ");
             System.out.println("\nHotel Name: " + value[0] + "\nRating(5): " + value[1] + "\nNumber Of Ratings: " + value[2]);
+            count++;
         }
 
         System.out.println("----------------------------------------------------------------------------------------------------");

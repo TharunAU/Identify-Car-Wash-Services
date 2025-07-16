@@ -28,7 +28,6 @@ public class TC010_steps {
     private final SearchPageResultMobileRecharge rechargePage = new SearchPageResultMobileRecharge(driver);
     private HashMap<String, String> xmlRow;
     private List<String> planResults;
-    private int rowIndex = 1; // You can extend this if handling multiple <Service> entries
 
     @When("I scroll down to \"Mobile Recharge Options\"")
     public void scrollToRechargeOptions() {
@@ -79,11 +78,10 @@ public class TC010_steps {
     @Then("I should see the available recharge plans")
     public void showAvailablePlans() {
         planResults = rechargePage.getPlanDetails();
-        int writeCol = 3;
+        int rowCount = 1;
 
         for (String plan : planResults) {
-            excel.setCellData(plan, rowIndex, writeCol); // write horizontally across columns
-            writeCol++;
+            excel.setCellData(plan, rowCount++, 3); // write horizontally across columns
             String[] details = plan.split(" , ");
             System.out.println(details[0] + "\nAmount: " + details[1] + "\n");
         }
@@ -97,13 +95,13 @@ public class TC010_steps {
         boolean withinLimit = amounts.stream().allMatch(amount -> amount <= 1000);
 
         if (withinLimit) {
-            excel.setCellData("Plans Amounts are Lesser Than 1000 Rs", rowIndex, 10);
-            excel.setCellData("Pass", rowIndex, 11);
+            excel.setCellData("Plans Amounts are Lesser Than 1000 Rs", 1, 5);
+            excel.setCellData("Pass", 1, 6);
             logger.info("------ Test Case Passed ------");
             Assert.assertTrue(true);
         } else {
-            excel.setCellData("Plans Amounts are Greater Than 1000 Rs", rowIndex, 10);
-            excel.setCellData("Fail", rowIndex, 11);
+            excel.setCellData("Plans Amounts are Greater Than 1000 Rs", 1, 10);
+            excel.setCellData("Fail", 1, 11);
             logger.info("------ Test Case Failed ------");
             Assert.fail("One or more plans exceed ₹1000");
         }

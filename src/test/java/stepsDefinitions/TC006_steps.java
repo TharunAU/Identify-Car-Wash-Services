@@ -44,7 +44,8 @@ public class TC006_steps {
     public void searchEachTermFromJson() {
         logger.info("------ Fetching search terms from JSON ------");
         searchTerms = reader.getJsonSearchTerms(jsonPath, "search_terms");
-
+        
+        int count = 1;
         for (int i = 0; i < searchTerms.size(); i++) {
             String search = searchTerms.get(i);
             int rowIndex = i + 1; // 💡 Excel row index (assuming header is row 0)
@@ -55,7 +56,8 @@ public class TC006_steps {
 
             String resultString = String.join("   ", results);
             System.out.println("\n" + search.toUpperCase() + " Search Result:\n" + resultString);
-            excel.setCellData(resultString, rowIndex, 1);
+            excel.setCellData(resultString, count, 1);
+            count++;
 
             homePage.clickSearchResultClose();
 

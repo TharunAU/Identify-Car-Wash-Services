@@ -83,7 +83,8 @@ public class TC004_steps {
             String value = results.get(i);
             String[] data = value.split(" , ");
             System.out.println("\nHostel Name: " + data[0] + "\nLocation: " + data[1]);
-            excel.setCellData(value, rowIndex, 5 + i); // write across columns starting at 5
+            excel.setCellData(value, count, 5); // write across columns starting at 5
+            count++;
         }
 
         System.out.println("--------------------------------------------------------------------------------------------");
@@ -116,17 +117,17 @@ public class TC004_steps {
         logger.info("--------------------------------------------------------------------------------------------");
     }
 
-    private HashMap<String, String> loadRow(String rowIndexStr) {
-        int index = Integer.parseInt(rowIndexStr);
-        try {
-            DataReader reader = new DataReader(path, sheetName);
-            HashMap<String, String> rowData = reader.getRowData(index);
-            reader.close();
-            return rowData;
-        } catch (Exception e) {
-            logger.error("Failed to load data from row " + rowIndexStr, e);
-            Assert.fail("Could not read data from Excel for row " + rowIndexStr);
-            return new HashMap<>();
-        }
-    }
+//    private HashMap<String, String> loadRow(String rowIndexStr) {
+//        int index = Integer.parseInt(rowIndexStr);
+//        try {
+//            DataReader reader = new DataReader(path, sheetName);
+//            HashMap<String, String> rowData = reader.getRowData(index);
+//            reader.close();
+//            return rowData;
+//        } catch (Exception e) {
+//            logger.error("Failed to load data from row " + rowIndexStr, e);
+//            Assert.fail("Could not read data from Excel for row " + rowIndexStr);
+//            return new HashMap<>();
+//        }
+//    }
 }
