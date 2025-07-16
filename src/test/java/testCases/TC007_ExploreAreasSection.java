@@ -1,7 +1,6 @@
 package testCases;
 
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -38,68 +37,67 @@ public class TC007_ExploreAreasSection extends BaseClass {
 		// Hotels
 		List<String> hotels = tourist.getHotelDetails();
 		// Restaurant
-		List<String> restaurant = tourist.getRestaurantDetails();
+		List<String> restaurants = tourist.getRestaurantDetails();
 		// Coffee Shops
-		List<String> coffee = tourist.getCoffeeShop();
+		List<String> coffeeShops = tourist.getCoffeeShop();
 		// Restaurant
-		List<String> travelAgent = tourist.getTravelAgentDetails();
+		List<String> travelAgents = tourist.getTravelAgentDetails();
 		// Coffee Shops
-		List<String> thingsToDo = tourist.getThingsToDo();
+		List<String> thingsToDos = tourist.getThingsToDo();
 
 		System.out.println("\nTop Hotels in " + location + "\n");
 
-		AtomicInteger counter = new AtomicInteger(0);
-
-		hotels.forEach(hotel ->{
-			int count = counter.incrementAndGet();
-			obj.setCellData(hotel,count,1);
+		int counter =1;
+		for(String hotel:hotels) {
+			obj.setCellData(hotel,counter,1);
 			String [] value = hotel.split(" , ");
 			System.out.println("Hotel Name : "+value[0]+"\nRating : "+value[1]);
-
-		});
+			counter++;
+		}
 		
 		logger.info("------ Displayed Top Hotels ------");
-		counter.set(0);
-		System.out.println("\nTop Restaurants in " + location + "\n");
-		restaurant.forEach(restaurants ->{
-			int count = counter.incrementAndGet();
-			obj.setCellData(restaurants,count ,2);
-			String [] value = restaurants.split(" , ");
-			System.out.println("Restaurant Name  : "+value[0]+"\nRating : "+value[1]);
 
-		});
+		System.out.println("\nTop Restaurants in " + location + "\n");
+		counter=1;
+		for(String restaurant :restaurants) {
+			obj.setCellData(restaurant,counter ,2);
+			String [] value = restaurant.split(" , ");
+			System.out.println("Restaurant Name  : "+value[0]+"\nRating : "+value[1]);
+			counter++;
+		}
 		logger.info("------ Displayed Top Restaurants ------");
-		counter.set(0);
+
 		System.out.println("\nTop Coffee Shops in " + location + "\n");
-		coffee.forEach(coffeeShop ->{
-			int count = counter.incrementAndGet();
-			obj.setCellData(coffeeShop,count,3);
+		counter=1;
+		for(String coffeeShop:coffeeShops) {
+			obj.setCellData(coffeeShop,counter,3);
 			String [] value = coffeeShop.split(" , ");
 			System.out.println("Coffee Shop Name : "+value[0]+"\nRating : "+value[1]);
-
-		});
-		logger.info("------ Displayed Top Coffee Shops ------");
-		counter.set(0);
-		System.out.println("\nTop Travel Agents in " + location + "\n");
-		travelAgent.forEach(travelAgents ->{
-			int count = counter.incrementAndGet();
-			obj.setCellData(travelAgents,count,4);
-			String [] value = travelAgents.split(" , ");
-			System.out.println("Travel Agents : "+value[0]+"\nRating : "+value[1]);
-
-		});
-		logger.info("------ Displayed Top Travel Agents ------");
+			counter++;
+		}
 		
-		counter.set(0);
+		logger.info("------ Displayed Top Coffee Shops ------");
+		System.out.println("\nTop Travel Agents in " + location + "\n");
+		counter=1;
+		for(String travelAgent:travelAgents) {
+			obj.setCellData(travelAgent,counter,4);
+			String [] value = travelAgent.split(" , ");
+			System.out.println("Travel Agents : "+value[0]+"\nRating : "+value[1]);
+			counter++;
+		}
+		
+		logger.info("------ Displayed Top Travel Agents ------");
+	
 		System.out.println("\nTop Things to do in " + location + "\n");
-		thingsToDo.forEach(thingsToDoValue ->{
-			int count = counter.incrementAndGet();
-			obj.setCellData(thingsToDoValue,count,5);
-			String [] value = thingsToDoValue.split(" , ");
-			System.out.println("Things To Do : "+value[0]+"\nRating : "+value[1]);
-			System.out.println(count);
 
-		});
+		counter=1;
+		for(String thingsToDo:thingsToDos) {
+			obj.setCellData(thingsToDo,counter,5);
+			String [] value = thingsToDo.split(" , ");
+			System.out.println("Things To Do : "+value[0]+"\nRating : "+value[1]);
+			counter++;
+		}
+		
 		logger.info("------ Displayed Top Things To Do ------");
 		
 		for(int i=0; i<5;i++) {
@@ -107,8 +105,8 @@ public class TC007_ExploreAreasSection extends BaseClass {
 		}
 		
 
-		if (hotels.isEmpty() || restaurant.isEmpty() || coffee.isEmpty() || travelAgent.isEmpty()
-				|| thingsToDo.isEmpty()) {
+		if (hotels.isEmpty() || restaurants.isEmpty() || coffeeShops.isEmpty() || travelAgents.isEmpty()
+				|| thingsToDos.isEmpty()) {
 			logger.info("------ Test Case Failed ------");
 			Assert.fail();
 			obj.setCellData("All the fields does Not have 5 Results",1,7);

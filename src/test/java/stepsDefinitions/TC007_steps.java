@@ -1,7 +1,6 @@
 package stepsDefinitions;
 
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
 
 import org.testng.Assert;
 import io.cucumber.java.en.*;
@@ -19,7 +18,7 @@ public class TC007_steps {
     TouristPlacesPage tourist;
     ExcelUtilityClass excel;
     String location;
-    AtomicInteger counter = new AtomicInteger();
+    int counter;
     String path = ".\\testData\\Identify-Car-Wash-Services_TestData.xlsx";
 
     @When("I scroll down to {string} from Excel")
@@ -72,21 +71,20 @@ public class TC007_steps {
     }
 
     private boolean captureAndValidate(List<String> dataList, int columnIndex, String label) {
-        counter.set(0);
 
         if (dataList.isEmpty()) {
             excel.setCellData(label + " results not available", 1, columnIndex);
             return false;
         }
-
         System.out.println("\nTop " + label + "s in " + location + "\n");
 
-        dataList.forEach(entry -> {
-            int count = counter.incrementAndGet();
-            excel.setCellData(entry, count, columnIndex);
-            String[] value = entry.split(" , ");
-            System.out.println(label + " Name : " + value[0] + "\nRating : " + value[1]);
-        });
+        counter =1;
+        for(String value:dataList) {
+            excel.setCellData(value, counter, columnIndex);
+            String[] values = value.split(" , ");
+            System.out.println(label + " Name : " + values[0] + "\nRating : " + values[1]);
+            counter++;
+        }
 
         return true;
     }

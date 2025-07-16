@@ -7,6 +7,8 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
+
 import testBase.CucumberBase;
 import testRunner.TestRunner;
 
@@ -18,8 +20,8 @@ public class hooks {
     @Before
     public void setUpScenario(Scenario scenario) {
         try {
-            String os = System.getProperty("os", "windows");
-            String browser = System.getProperty("browser", "chrome");
+            String os = Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("os");
+            String browser = Reporter.getCurrentTestResult().getTestContext().getCurrentXmlTest().getParameter("browser");
 
             CucumberBase.setup(os, browser);
             driver = CucumberBase.getDriver();

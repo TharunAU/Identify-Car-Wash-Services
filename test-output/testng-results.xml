@@ -1,47 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-16T15:43:34 IST" name="CucumberSuite" finished-at="2025-07-16T15:43:55 IST" duration-ms="21806">
+  <suite started-at="2025-07-16T16:58:45 IST" name="CucumberSuite" finished-at="2025-07-16T16:59:29 IST" duration-ms="44297">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@512535ff]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6bbe2511]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-07-16T15:43:34 IST" name="CarWashSearchTest" finished-at="2025-07-16T15:43:55 IST" duration-ms="21806">
+    <test started-at="2025-07-16T16:58:45 IST" name="Chrome Test" finished-at="2025-07-16T16:59:08 IST" duration-ms="22705">
       <class name="testRunner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@512535ff]" started-at="2025-07-16T15:43:34 IST" name="setUpClass" finished-at="2025-07-16T15:43:34 IST" duration-ms="505" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@512535ff]" started-at="2025-07-16T16:58:45 IST" name="setUpClass" finished-at="2025-07-16T16:58:46 IST" duration-ms="504" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5396eeb1]]>
+                <![CDATA[org.testng.TestRunner@17b6ad97]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@512535ff]" started-at="2025-07-16T15:43:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T15:43:55 IST" duration-ms="21212" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@512535ff]" started-at="2025-07-16T16:58:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T16:59:08 IST" duration-ms="22135" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Display the top 5 theaters showing the top movie with filters from Excel"]]>
+                <![CDATA["Display details of top tourist spots using Excel row data"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Display Theaters Showing Top Movies"]]>
+                <![CDATA["Display details of top tourist spots including hotels, restaurants, coffee shops, travel agents, and visiting spots"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@512535ff]" started-at="2025-07-16T15:43:55 IST" name="tearDownClass" finished-at="2025-07-16T15:43:55 IST" duration-ms="40" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@512535ff]" started-at="2025-07-16T16:59:08 IST" name="tearDownClass" finished-at="2025-07-16T16:59:08 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- testRunner.TestRunner -->
-    </test> <!-- CarWashSearchTest -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2025-07-16T16:59:08 IST" name="Edge Test" finished-at="2025-07-16T16:59:29 IST" duration-ms="21567">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@6bbe2511]" started-at="2025-07-16T16:59:08 IST" name="setUpClass" finished-at="2025-07-16T16:59:08 IST" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@44fb6ebd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@6bbe2511]" started-at="2025-07-16T16:59:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-16T16:59:29 IST" duration-ms="21304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Display details of top tourist spots using Excel row data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Display details of top tourist spots including hotels, restaurants, coffee shops, travel agents, and visiting spots"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@6bbe2511]" started-at="2025-07-16T16:59:29 IST" name="tearDownClass" finished-at="2025-07-16T16:59:29 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Edge Test -->
   </suite> <!-- CucumberSuite -->
 </testng-results>

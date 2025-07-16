@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-CucumberSuite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,12 @@
                     <div class="method-list-content passed suite-CucumberSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display the top 5 theaters showing the top movie with filters from Excel&quot;, &quot;Display Theaters Showin...)">runScenario("Display the top 5 theaters showing the top movie with filters from Excel", "Display Theaters Showin...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display details of top tourist spots using Excel row data&quot;, &quot;Display details of top tourist spots i...)">runScenario("Display details of top tourist spots using Excel row data", "Display details of top tourist spots i...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="testRunner.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Display details of top tourist spots using Excel row data&quot;, &quot;Display details of top tourist spots i...)">runScenario("Display details of top tourist spots using Excel row data", "Display details of top tourist spots i...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-CucumberSuite -->
@@ -126,10 +131,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Display the top 5 theaters showing the top movie with filters from Excel&quot;, &quot;Display Theaters Showin...)">
-                  </a> <!-- runScenario("Display the top 5 theaters showing the top movie with filters from Excel", "Display Theaters Showin...) -->
+                  <a name="runScenario(&quot;Display details of top tourist spots using Excel row data&quot;, &quot;Display details of top tourist spots i...)">
+                  </a> <!-- runScenario("Display details of top tourist spots using Excel row data", "Display details of top tourist spots i...) -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Display the top 5 theaters showing the top movie with filters from Excel","Display Theaters Showing Top Movies")</span>
+                  <span class="parameters">("Display details of top tourist spots using Excel row data","Display details of top tourist spots including hotels, restaurants, coffee shops, travel agents, and visiting spots")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Display details of top tourist spots using Excel row data&quot;, &quot;Display details of top tourist spots i...)">
+                  </a> <!-- runScenario("Display details of top tourist spots using Excel row data", "Display details of top tourist spots i...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Display details of top tourist spots using Excel row data","Display details of top tourist spots including hotels, restaurants, coffee shops, travel agents, and visiting spots")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -149,13 +164,20 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;listeners.RetryListerner&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;2&quot; name=&quot;CarWashSearchTest&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Chrome Test&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testRunner.TestRunner&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- CarWashSearchTest --&gt;
+  &lt;/test&gt; &lt;!-- Chrome Test --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Edge Test&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testRunner.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Edge Test --&gt;
 &lt;/suite&gt; &lt;!-- CucumberSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -167,7 +189,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">CarWashSearchTest (1 class)</span>
+                <span class="test-name">Chrome Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Edge Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -201,16 +226,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'testRunner.TestRunner')
-data.setCell(0, 3, 21212);
+data.setCell(0, 3, 22135);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'testRunner.TestRunner')
+data.setCell(1, 3, 21304);
 window.suiteTableData['CucumberSuite']= { tableData: data, tableDiv: 'times-div-CucumberSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
               <div id="times-div-CucumberSuite">
               </div> <!-- times-div-CucumberSuite -->
             </div> <!-- times-div -->
@@ -238,16 +267,28 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testRunner.TestRunner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@5396eeb1)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@17b6ad97)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("Display the top 5 theaters showing the top movie with filters from Excel", "Display Theaters Showin...)</span>
-                <span class="method-start">515 ms</span>
+                <span class="method-name">runScenario("Display details of top tourist spots using Excel row data", "Display details of top tourist spots i...)</span>
+                <span class="method-start">513 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">21741 ms</span>
+                <span class="method-start">22653 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@44fb6ebd)</span>
+                <span class="method-start">22708 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Display details of top tourist spots using Excel row data", "Display details of top tourist spots i...)</span>
+                <span class="method-start">22952 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">44259 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
