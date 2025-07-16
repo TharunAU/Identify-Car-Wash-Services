@@ -1,6 +1,6 @@
 Feature: Display Mobile Recharge Plans from XML
 
-
+	@TC010
   Scenario Outline: Display the top 5 mobile data plans using XML input
     When I scroll down to "Mobile Recharge Options"
     And I click on the "Type" service menu

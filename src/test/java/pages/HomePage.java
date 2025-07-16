@@ -63,7 +63,7 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//div[contains(@class, 'home_billtravel_li_img')]//following-sibling::div[1]")
 	List<WebElement> serviceMenu;
 
-	@FindBy(xpath = "//div[contains(@class, 'jsx-b5cc4760a1cb0f4') and contains(@class, 'dtlboxleft_headbox')]")
+	@FindBy(xpath = "//div[contains(@class, 'jsx-af15f929d7668785') and contains(@class, 'dtlboxleft_headbox')]")
 	WebElement moviesSection;
 
 	// actions

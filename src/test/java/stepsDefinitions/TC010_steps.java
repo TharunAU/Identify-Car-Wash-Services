@@ -23,11 +23,12 @@ public class TC010_steps {
     private final String xmlPath = System.getProperty("user.dir") + "\\testData\\Identify-Car-Wash-Services_TestDataXML.xml";
     private final String excelPath = System.getProperty("user.dir") + "\\testData\\Identify-Car-Wash-Services_TestData.xlsx";
 
-    private final ExcelUtilityClass excel = new ExcelUtilityClass(excelPath, sheetName);
+    private ExcelUtilityClass excel;
     private final HomePage homePage = new HomePage(driver);
     private final SearchPageResultMobileRecharge rechargePage = new SearchPageResultMobileRecharge(driver);
     private HashMap<String, String> xmlRow;
-    private int count = 1;
+    private List<String> planResults;
+    private int rowIndex = 1; // You can extend this if handling multiple <Service> entries
 
     @When("I scroll down to \"Mobile Recharge Options\"")
     public void scrollToRechargeOptions() {
@@ -40,6 +41,7 @@ public class TC010_steps {
 
         if (!xmlData.isEmpty()) {
             xmlRow = xmlData.get(0);
+            excel = new ExcelUtilityClass(excelPath, sheetName);
         } else {
             logger.error("------ No XML data found ------");
             Assert.fail("XML data is missing");
@@ -76,11 +78,12 @@ public class TC010_steps {
 
     @Then("I should see the available recharge plans")
     public void showAvailablePlans() {
-        List<String> plans = rechargePage.getPlanDetails();
+        planResults = rechargePage.getPlanDetails();
+        int writeCol = 3;
 
-        for (String plan : plans) {
-            excel.setCellData(plan, count, 3);
-            count++;
+        for (String plan : planResults) {
+            excel.setCellData(plan, rowIndex, writeCol); // write horizontally across columns
+            writeCol++;
             String[] details = plan.split(" , ");
             System.out.println(details[0] + "\nAmount: " + details[1] + "\n");
         }
@@ -94,16 +97,18 @@ public class TC010_steps {
         boolean withinLimit = amounts.stream().allMatch(amount -> amount <= 1000);
 
         if (withinLimit) {
-            excel.setCellData("Plans Amounts are Lesser Than 1000 Rs", 1, 5);
-            excel.setCellData("Pass", 1, 6);
+            excel.setCellData("Plans Amounts are Lesser Than 1000 Rs", rowIndex, 10);
+            excel.setCellData("Pass", rowIndex, 11);
             logger.info("------ Test Case Passed ------");
+            Assert.assertTrue(true);
         } else {
-            excel.setCellData("Plans Amounts are Greater Than 1000 Rs", 1, 5);
-            excel.setCellData("Fail", 1, 6);
+            excel.setCellData("Plans Amounts are Greater Than 1000 Rs", rowIndex, 10);
+            excel.setCellData("Fail", rowIndex, 11);
             logger.info("------ Test Case Failed ------");
             Assert.fail("One or more plans exceed ₹1000");
         }
 
         logger.info("----------------------------------------------------------------------------------------");
+        excel.closeWorkbook();
     }
 }
