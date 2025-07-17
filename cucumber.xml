@@ -12,7 +12,6 @@
 			<class name="testRunner.TestRunner" />
 		</classes>
 	</test>
-
 	<test name="Edge Test">
 		<parameter name="os" value="windows" />
 		<parameter name="browser" value="edge" />

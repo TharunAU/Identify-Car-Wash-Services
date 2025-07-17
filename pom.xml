@@ -6,6 +6,22 @@
 	<artifactId>justDialByAutoMates</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<properties>
+		<allure.version>2.29.1</allure.version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>io.qameta.allure</groupId>
+				<artifactId>allure-bom</artifactId>
+				<version>${allure.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
 	<build>
 		<!-- To define the plugin version in your parent POM -->
 		<pluginManagement>
@@ -22,10 +38,11 @@
 					<version>3.5.3</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>master.xml</suiteXmlFile>
+							<suiteXmlFile>cucumber.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
+
 			</plugins>
 		</pluginManagement>
 		<!-- To use the plugin goals in your POM or parent POM -->
@@ -148,6 +165,18 @@
 			<groupId>com.googlecode.json-simple</groupId>
 			<artifactId>json-simple</artifactId>
 			<version>1.1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-cucumber7-jvm</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<scope>test</scope>
 		</dependency>
 
 	</dependencies>

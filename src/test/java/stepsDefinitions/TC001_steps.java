@@ -72,7 +72,7 @@ public class TC001_steps {
     @And("I filter the people votings greater than twenty and display the top five services with their names and phone numbers")
     public void displayTopFiveServices() {
         List<String> results = carWash.getSearchResults();
-        int count = 1;
+        int count = rowIndex;
 
         logger.info("------ Displaying top 5 car wash services ------");
         System.out.println("----------------------------------------------------------------------------------------------------");
@@ -80,8 +80,8 @@ public class TC001_steps {
         for (String value : results) {
             String[] values = value.split(" / ");
             System.out.println("\nCar Washing Service: " + values[0] + "\nContact Number: " + values[1]);
-            excel.setCellData(value, rowIndex, 4);  
-            count = count + 1;
+            excel.setCellData(value, count, 4);  
+            count++;
         }
 
         System.out.println("----------------------------------------------------------------------------------------------------");

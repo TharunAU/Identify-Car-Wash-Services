@@ -117,17 +117,4 @@ public class TC004_steps {
         logger.info("--------------------------------------------------------------------------------------------");
     }
 
-//    private HashMap<String, String> loadRow(String rowIndexStr) {
-//        int index = Integer.parseInt(rowIndexStr);
-//        try {
-//            DataReader reader = new DataReader(path, sheetName);
-//            HashMap<String, String> rowData = reader.getRowData(index);
-//            reader.close();
-//            return rowData;
-//        } catch (Exception e) {
-//            logger.error("Failed to load data from row " + rowIndexStr, e);
-//            Assert.fail("Could not read data from Excel for row " + rowIndexStr);
-//            return new HashMap<>();
-//        }
-//    }
 }
