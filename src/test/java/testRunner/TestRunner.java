@@ -15,7 +15,8 @@ import org.testng.annotations.DataProvider;
         "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
         "rerun:target/failed_scenarios.txt"
     },
-    monochrome = true
+    monochrome = true,
+    tags = "@TC001"
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 

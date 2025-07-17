@@ -887,3 +887,31 @@
 2025-07-17 11:40:01 INFO  CucumberBase:46 - Status: PASSED
 2025-07-17 11:40:05 INFO  CucumberBase:60 - Browser closed.
 2025-07-17 11:40:05 INFO  CucumberBase:61 - ----------------------------------------------------------------------------------------
+2025-07-17 12:34:08 INFO  CucumberBase:35 - ----------------------------------------------------------------------------------------
+2025-07-17 12:34:08 INFO  CucumberBase:36 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-17 12:34:08 INFO  CucumberBase:35 - ------ Starting TC001_CarWashServices ------
+2025-07-17 12:34:15 INFO  CucumberBase:42 - ------ Location set to: Saravanampatti ------
+2025-07-17 12:34:15 INFO  CucumberBase:52 - ------ Search term entered: Car Washing Sevices ------
+2025-07-17 12:34:16 INFO  CucumberBase:58 - ------ Search result heading:  ------
+2025-07-17 12:34:17 INFO  CucumberBase:69 - ------ Applied filter: Rating, Rating: 4 ------
+2025-07-17 12:34:19 INFO  CucumberBase:77 - ------ Displaying top 5 car wash services ------
+2025-07-17 12:34:21 INFO  CucumberBase:100 - ------ Test Case Passed ------
+2025-07-17 12:34:21 INFO  CucumberBase:109 - ----------------------------------------------------------------------------------------
+2025-07-17 12:34:21 INFO  CucumberBase:45 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-17 12:34:21 INFO  CucumberBase:46 - Status: PASSED
+2025-07-17 12:34:24 INFO  CucumberBase:60 - Browser closed.
+2025-07-17 12:34:24 INFO  CucumberBase:61 - ----------------------------------------------------------------------------------------
+2025-07-17 12:35:54 INFO  CucumberBase:35 - ----------------------------------------------------------------------------------------
+2025-07-17 12:35:54 INFO  CucumberBase:36 - Starting Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-17 12:35:55 INFO  CucumberBase:35 - ------ Starting TC001_CarWashServices ------
+2025-07-17 12:36:01 INFO  CucumberBase:42 - ------ Location set to: Saravanampatti ------
+2025-07-17 12:36:02 INFO  CucumberBase:52 - ------ Search term entered: Car Washing Sevices ------
+2025-07-17 12:36:02 INFO  CucumberBase:58 - ------ Search result heading:  ------
+2025-07-17 12:36:04 INFO  CucumberBase:69 - ------ Applied filter: Rating, Rating: 4 ------
+2025-07-17 12:36:05 INFO  CucumberBase:77 - ------ Displaying top 5 car wash services ------
+2025-07-17 12:36:07 INFO  CucumberBase:100 - ------ Test Case Passed ------
+2025-07-17 12:36:07 INFO  CucumberBase:109 - ----------------------------------------------------------------------------------------
+2025-07-17 12:36:07 INFO  CucumberBase:45 - Ending Scenario: Display top 5 car washing services near me with high ratings and votes
+2025-07-17 12:36:07 INFO  CucumberBase:46 - Status: PASSED
+2025-07-17 12:36:10 INFO  CucumberBase:60 - Browser closed.
+2025-07-17 12:36:10 INFO  CucumberBase:61 - ----------------------------------------------------------------------------------------
