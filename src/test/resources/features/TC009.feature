@@ -1,4 +1,4 @@
-Feature: Display Theaters Showing Top Movies
+Feature: TC009 - Display Theaters Showing Top Movies
 
 	@TC009
   Scenario Outline: Display the top 6 theaters showing the top movie with filters from Excel

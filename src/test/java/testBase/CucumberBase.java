@@ -89,17 +89,6 @@ public class CucumberBase {
         return util;
     }
 
-//    public static String captureScreen(String tname) throws IOException {
-//        String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-//        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-//        File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
-//
-//        String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tname + "_" + timeStamp + ".png";
-//        File targetFile = new File(targetFilePath);
-//        sourceFile.renameTo(targetFile);
-//
-//        return targetFilePath;
-//    }
 
     private static ChromeOptions getChromeOptions(String os) {
         ChromeOptions options = new ChromeOptions();

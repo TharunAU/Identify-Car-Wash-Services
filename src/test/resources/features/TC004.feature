@@ -1,4 +1,4 @@
-Feature: Find Top 5 Hostels to Stay
+Feature: TC004 - Find Top 5 Hostels to Stay
 
 @TC004
 Scenario Outline: Display top 5 hostels near me which are top rated and JD Verified

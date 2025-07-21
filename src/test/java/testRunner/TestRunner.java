@@ -2,7 +2,14 @@ package testRunner;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
@@ -15,8 +22,7 @@ import org.testng.annotations.DataProvider;
         "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
         "rerun:target/failed_scenarios.txt"
     },
-    monochrome = true,
-    tags = "@TC001"
+    monochrome = true
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
@@ -26,7 +32,6 @@ public class TestRunner extends AbstractTestNGCucumberTests {
         return super.scenarios();
     }
 
-    // Thread-safe WebDriver access for hooks and step definitions
     private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
     public static void setDriver(WebDriver webDriver) {
@@ -39,5 +44,31 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 
     public static void removeDriver() {
         driver.remove();
+    }
+    
+    @BeforeSuite
+    public void cleanAllureResults() {
+        try {
+            File resultsDir = new File("target/allure-results");
+            if (resultsDir.exists()) {
+                FileUtils.deleteDirectory(resultsDir);
+                System.out.println("Cleaned old Allure results.");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    
+    @AfterSuite
+    public void generateAndOpenAllureReport() {
+        try {
+            // Use the full path to allure.cmd from Scoop
+            String allureCmdPath = "C:\\Users\\2403758\\scoop\\shims\\allure.cmd";
+
+            ProcessBuilder builder = new ProcessBuilder(allureCmdPath, "serve", "target/allure-results");
+            builder.start();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

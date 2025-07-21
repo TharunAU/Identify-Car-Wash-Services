@@ -1,4 +1,4 @@
-Feature: Display details of top tourist spots including hotels, restaurants, coffee shops, travel agents, and visiting spots
+Feature: TC007 - Display Details of Top Tourist Spots 
  
   @TC007
   Scenario Outline: Display details of top tourist spots using Excel row data

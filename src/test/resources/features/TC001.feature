@@ -1,4 +1,4 @@
-Feature: Car Wash Services Automation Workflows (Data-Driven via Apache POI)
+Feature: TC001 - Finding Top 5 Car Wash Service
  
  @TC001
   Scenario Outline: Display top 5 car washing services near me with high ratings and votes

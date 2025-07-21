@@ -1,4 +1,4 @@
-Feature: Car Wash
+Feature: TC002 - Invalid Phone Number in Free Listing
  
  @TC002
   Scenario Outline: Register for Free Listing with invalid phone number and capturing the error message

@@ -4,17 +4,17 @@
   <listeners>
     <listener class-name="listeners.RetryListerner"/>
   </listeners>
-  <test thread-count="2" name="CarWashSearchTest(failed)">
+  <test thread-count="2" name="Edge Test(failed)">
     <parameter name="os" value="windows"/>
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="edge"/>
     <classes>
       <class name="testRunner.TestRunner">
         <methods>
           <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="4 8"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="7"/>
         </methods>
       </class> <!-- testRunner.TestRunner -->
     </classes>
-  </test> <!-- CarWashSearchTest(failed) -->
+  </test> <!-- Edge Test(failed) -->
 </suite> <!-- Failed suite [CucumberSuite] -->

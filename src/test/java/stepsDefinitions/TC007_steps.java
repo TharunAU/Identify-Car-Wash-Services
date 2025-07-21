@@ -44,7 +44,7 @@ public class TC007_steps {
 
     @Then("I should see the location page")
     public void i_should_see_location_page() {
-        System.out.println("User navigated to location page: " + location);
+        System.out.println("User navigated to location page...");
     }
 
     @And("I capture the top 5 results in each category: Hotels, Restaurants, Coffee Shops, Travel Agents, and Visiting Spots")

@@ -1,4 +1,4 @@
-Feature: TC008 - Explore City-to-City Bus Options and Apply Travel Filters
+Feature: TC008 - Find TOp 5 Bus Options 
 
 
 	@TC008

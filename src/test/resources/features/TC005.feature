@@ -1,4 +1,4 @@
-Feature: Top 5 Restaurants
+Feature: TC005 - Find Top 5 Restaurants to Eat
 
 @TC005
 Scenario Outline: Display top 5 restaurants near me which are open now with South Indian cuisine and online delivery

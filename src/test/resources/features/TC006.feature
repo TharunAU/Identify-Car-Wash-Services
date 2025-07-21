@@ -1,4 +1,4 @@
-Feature: Popular Categories Search
+Feature: TC006 - Popular Categories Search
 
   @TC006
   Scenario: Find categories listed under search terms from JSON

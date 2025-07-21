@@ -1,4 +1,4 @@
-Feature: Display Mobile Recharge Plans from XML
+Feature: TC010 - Display Mobile Recharge Plans from XML
 
 	@TC010
   Scenario Outline: Display the top 5 mobile data plans using XML input

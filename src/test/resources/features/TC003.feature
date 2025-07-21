@@ -1,4 +1,4 @@
-Feature: Verify Gym/Fitness Submenu Options
+Feature: TC003 - Gym/Fitness Submenu Options
 
 @TC003
 Scenario Outline: Discover submenus of Gym in Fitness Category
