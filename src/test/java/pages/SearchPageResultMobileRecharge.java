@@ -24,6 +24,15 @@ public class SearchPageResultMobileRecharge extends BasePage{
 	@FindBy(id="mobile_plan")
 	WebElement newPlansButton;
 	
+	@FindBy(id = "operator_rc_mob")
+	WebElement provider;
+	
+	@FindBy(xpath = "//li[contains(@id, 'li_opt_rc_mob')]")
+	WebElement providerName;
+	
+	@FindBy(xpath = "//li[@class = 'br_wrap lo_li']")
+	WebElement locationName;
+	
 	@FindBy(xpath="//input[@id='amt_rc_mob']")
 	WebElement rechargeAmount;
 	
@@ -39,6 +48,10 @@ public class SearchPageResultMobileRecharge extends BasePage{
 	//actions
 	public void setMobileNumber(String num) {
 		mobileInput.sendKeys(num);
+		provider.click();
+		providerName.click();
+		locationName.click();
+		
 	}
 	
 	public void clickNewPlansButton() {

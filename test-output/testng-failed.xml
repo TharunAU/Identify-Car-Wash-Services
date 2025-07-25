@@ -4,17 +4,19 @@
   <listeners>
     <listener class-name="listeners.RetryListerner"/>
   </listeners>
-  <test thread-count="2" name="Edge Test(failed)">
+  <test thread-count="2" name="Chrome Test(failed)">
     <parameter name="os" value="windows"/>
-    <parameter name="browser" value="edge"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="testRunner.TestRunner">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="4 8"/>
+          <include name="generateAndOpenAllureReport"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
+          <include name="cleanAllureResults"/>
         </methods>
       </class> <!-- testRunner.TestRunner -->
     </classes>
-  </test> <!-- Edge Test(failed) -->
+  </test> <!-- Chrome Test(failed) -->
 </suite> <!-- Failed suite [CucumberSuite] -->
